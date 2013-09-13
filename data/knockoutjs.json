@@ -1,0 +1,1363 @@
+[
+  {
+    "aggregate": {
+      "line": 2,
+      "complexity": {
+        "sloc": {
+          "physical": 169,
+          "logical": 81
+        },
+        "cyclomatic": 8,
+        "halstead": {
+          "operators": {
+            "distinct": 19,
+            "total": 269,
+            "identifiers": [
+              "()",
+              "function",
+              "var",
+              "=",
+              ".",
+              "{}",
+              ":",
+              "if",
+              "===",
+              "return",
+              "new",
+              "switch",
+              "case",
+              "! (prefix)",
+              "default",
+              "-",
+              ":?",
+              "||",
+              "[]"
+            ]
+          },
+          "operands": {
+            "distinct": 86,
+            "total": 301,
+            "identifiers": [
+              "<anonymous>",
+              "\"use strict\"",
+              "ENTER_KEY",
+              13,
+              "ko",
+              "bindingHandlers",
+              "enterKey",
+              "init",
+              "element",
+              "valueAccessor",
+              "allBindingsAccessor",
+              "data",
+              "wrappedHandler",
+              "newValueAccessor",
+              "event",
+              "keyCode",
+              "this",
+              "call",
+              "keyup",
+              "selectAndFocus",
+              "hasfocus",
+              "\"focus\"",
+              "focus",
+              "utils",
+              "registerEventHandler",
+              "update",
+              "unwrapObservable",
+              0,
+              "setTimeout",
+              "Todo",
+              "title",
+              "completed",
+              "observable",
+              "editing",
+              false,
+              "ViewModel",
+              "todos",
+              "self",
+              "todo",
+              "arrayMap",
+              "observableArray",
+              "current",
+              "showMode",
+              "\"all\"",
+              "filteredTodos",
+              "\"active\"",
+              "filter",
+              "\"completed\"",
+              "computed",
+              "add",
+              "trim",
+              "push",
+              "\"\"",
+              "remove",
+              "removeCompleted",
+              "editItem",
+              "item",
+              true,
+              "stopEditing",
+              "completedCount",
+              "arrayFilter",
+              "length",
+              "remainingCount",
+              "allCompleted",
+              "read",
+              "write",
+              "newValue",
+              "arrayForEach",
+              "getLabel",
+              "count",
+              1,
+              "\"item\"",
+              "\"items\"",
+              "throttle",
+              500,
+              "\"todos-knockoutjs\"",
+              "toJSON",
+              "localStorage",
+              "setItem",
+              "extend",
+              "getItem",
+              "parseJson",
+              "viewModel",
+              "applyBindings",
+              "\"/:filter\"",
+              "Router"
+            ]
+          },
+          "length": 570,
+          "vocabulary": 105,
+          "difficulty": 33.25,
+          "volume": 3827.11994506969,
+          "effort": 127251.7381735672,
+          "bugs": 1.2757066483565633,
+          "time": 7069.541009642622
+        },
+        "params": 25
+      }
+    },
+    "functions": [
+      {
+        "name": "<anonymous>",
+        "line": 2,
+        "complexity": {
+          "sloc": {
+            "physical": 169,
+            "logical": 14
+          },
+          "cyclomatic": 2,
+          "halstead": {
+            "operators": {
+              "distinct": 10,
+              "total": 42,
+              "identifiers": [
+                "var",
+                "=",
+                ".",
+                "{}",
+                ":",
+                "function",
+                "()",
+                "new",
+                "||",
+                "[]"
+              ]
+            },
+            "operands": {
+              "distinct": 23,
+              "total": 41,
+              "identifiers": [
+                "\"use strict\"",
+                "ENTER_KEY",
+                13,
+                "ko",
+                "bindingHandlers",
+                "enterKey",
+                "<anonymous>",
+                "init",
+                "selectAndFocus",
+                "update",
+                "Todo",
+                "ViewModel",
+                "todos",
+                "\"todos-knockoutjs\"",
+                "localStorage",
+                "getItem",
+                "utils",
+                "parseJson",
+                "viewModel",
+                "applyBindings",
+                "\"/:filter\"",
+                "showMode",
+                "Router"
+              ]
+            },
+            "length": 83,
+            "vocabulary": 33,
+            "difficulty": 8.91304347826087,
+            "volume": 418.68471190675166,
+            "effort": 3731.7550409080036,
+            "bugs": 0.1395615706355839,
+            "time": 207.3197244948891
+          },
+          "params": 0
+        }
+      },
+      {
+        "name": "init",
+        "line": 9,
+        "complexity": {
+          "sloc": {
+            "physical": 20,
+            "logical": 5
+          },
+          "cyclomatic": 1,
+          "halstead": {
+            "operators": {
+              "distinct": 5,
+              "total": 9,
+              "identifiers": [
+                "var",
+                "=",
+                "function",
+                "()",
+                "."
+              ]
+            },
+            "operands": {
+              "distinct": 11,
+              "total": 18,
+              "identifiers": [
+                "element",
+                "valueAccessor",
+                "allBindingsAccessor",
+                "data",
+                "wrappedHandler",
+                "newValueAccessor",
+                "<anonymous>",
+                "ko",
+                "bindingHandlers",
+                "event",
+                "init"
+              ]
+            },
+            "length": 27,
+            "vocabulary": 16,
+            "difficulty": 4.090909090909091,
+            "volume": 108,
+            "effort": 441.8181818181818,
+            "bugs": 0.036,
+            "time": 24.545454545454547
+          },
+          "params": 4
+        }
+      },
+      {
+        "name": "<anonymous>",
+        "line": 13,
+        "complexity": {
+          "sloc": {
+            "physical": 5,
+            "logical": 2
+          },
+          "cyclomatic": 2,
+          "halstead": {
+            "operators": {
+              "distinct": 4,
+              "total": 6,
+              "identifiers": [
+                "if",
+                "===",
+                ".",
+                "()"
+              ]
+            },
+            "operands": {
+              "distinct": 7,
+              "total": 10,
+              "identifiers": [
+                "data",
+                "event",
+                "keyCode",
+                "ENTER_KEY",
+                "this",
+                "valueAccessor",
+                "call"
+              ]
+            },
+            "length": 16,
+            "vocabulary": 11,
+            "difficulty": 2.857142857142857,
+            "volume": 55.350905898196764,
+            "effort": 158.14544542341932,
+            "bugs": 0.018450301966065587,
+            "time": 8.785858079078851
+          },
+          "params": 2
+        }
+      },
+      {
+        "name": "<anonymous>",
+        "line": 20,
+        "complexity": {
+          "sloc": {
+            "physical": 5,
+            "logical": 2
+          },
+          "cyclomatic": 1,
+          "halstead": {
+            "operators": {
+              "distinct": 3,
+              "total": 3,
+              "identifiers": [
+                "return",
+                "{}",
+                ":"
+              ]
+            },
+            "operands": {
+              "distinct": 3,
+              "total": 3,
+              "identifiers": [
+                "<anonymous>",
+                "keyup",
+                "wrappedHandler"
+              ]
+            },
+            "length": 6,
+            "vocabulary": 6,
+            "difficulty": 1.5,
+            "volume": 15.509775004326936,
+            "effort": 23.264662506490403,
+            "bugs": 0.005169925001442312,
+            "time": 1.292481250360578
+          },
+          "params": 0
+        }
+      },
+      {
+        "name": "init",
+        "line": 33,
+        "complexity": {
+          "sloc": {
+            "physical": 6,
+            "logical": 2
+          },
+          "cyclomatic": 1,
+          "halstead": {
+            "operators": {
+              "distinct": 3,
+              "total": 8,
+              "identifiers": [
+                "()",
+                ".",
+                "function"
+              ]
+            },
+            "operands": {
+              "distinct": 11,
+              "total": 16,
+              "identifiers": [
+                "element",
+                "valueAccessor",
+                "allBindingsAccessor",
+                "ko",
+                "bindingHandlers",
+                "hasfocus",
+                "init",
+                "\"focus\"",
+                "<anonymous>",
+                "utils",
+                "registerEventHandler"
+              ]
+            },
+            "length": 24,
+            "vocabulary": 14,
+            "difficulty": 2.1818181818181817,
+            "volume": 91.37651812938249,
+            "effort": 199.36694864592542,
+            "bugs": 0.03045883937646083,
+            "time": 11.075941591440301
+          },
+          "params": 3
+        }
+      },
+      {
+        "name": "<anonymous>",
+        "line": 35,
+        "complexity": {
+          "sloc": {
+            "physical": 3,
+            "logical": 1
+          },
+          "cyclomatic": 1,
+          "halstead": {
+            "operators": {
+              "distinct": 2,
+              "total": 2,
+              "identifiers": [
+                "()",
+                "."
+              ]
+            },
+            "operands": {
+              "distinct": 2,
+              "total": 2,
+              "identifiers": [
+                "element",
+                "focus"
+              ]
+            },
+            "length": 4,
+            "vocabulary": 4,
+            "difficulty": 1,
+            "volume": 8,
+            "effort": 8,
+            "bugs": 0.0026666666666666666,
+            "time": 0.4444444444444444
+          },
+          "params": 0
+        }
+      },
+      {
+        "name": "update",
+        "line": 39,
+        "complexity": {
+          "sloc": {
+            "physical": 7,
+            "logical": 2
+          },
+          "cyclomatic": 1,
+          "halstead": {
+            "operators": {
+              "distinct": 3,
+              "total": 6,
+              "identifiers": [
+                "()",
+                ".",
+                "function"
+              ]
+            },
+            "operands": {
+              "distinct": 8,
+              "total": 9,
+              "identifiers": [
+                "element",
+                "valueAccessor",
+                "ko",
+                "utils",
+                "unwrapObservable",
+                "<anonymous>",
+                0,
+                "setTimeout"
+              ]
+            },
+            "length": 15,
+            "vocabulary": 11,
+            "difficulty": 1.6875,
+            "volume": 51.89147427955947,
+            "effort": 87.5668628467566,
+            "bugs": 0.01729715809318649,
+            "time": 4.864825713708701
+          },
+          "params": 2
+        }
+      },
+      {
+        "name": "<anonymous>",
+        "line": 42,
+        "complexity": {
+          "sloc": {
+            "physical": 3,
+            "logical": 1
+          },
+          "cyclomatic": 1,
+          "halstead": {
+            "operators": {
+              "distinct": 2,
+              "total": 4,
+              "identifiers": [
+                "()",
+                "."
+              ]
+            },
+            "operands": {
+              "distinct": 6,
+              "total": 6,
+              "identifiers": [
+                "element",
+                "valueAccessor",
+                "ko",
+                "bindingHandlers",
+                "hasfocus",
+                "update"
+              ]
+            },
+            "length": 10,
+            "vocabulary": 8,
+            "difficulty": 1,
+            "volume": 30,
+            "effort": 30,
+            "bugs": 0.01,
+            "time": 1.6666666666666667
+          },
+          "params": 0
+        }
+      },
+      {
+        "name": "Todo",
+        "line": 49,
+        "complexity": {
+          "sloc": {
+            "physical": 5,
+            "logical": 3
+          },
+          "cyclomatic": 1,
+          "halstead": {
+            "operators": {
+              "distinct": 3,
+              "total": 12,
+              "identifiers": [
+                "=",
+                ".",
+                "()"
+              ]
+            },
+            "operands": {
+              "distinct": 7,
+              "total": 17,
+              "identifiers": [
+                "title",
+                "completed",
+                "this",
+                "ko",
+                "observable",
+                "editing",
+                false
+              ]
+            },
+            "length": 29,
+            "vocabulary": 10,
+            "difficulty": 3.6428571428571423,
+            "volume": 96.33591475173351,
+            "effort": 350.93797516702915,
+            "bugs": 0.03211197158391117,
+            "time": 19.496554175946063
+          },
+          "params": 2
+        }
+      },
+      {
+        "name": "ViewModel",
+        "line": 56,
+        "complexity": {
+          "sloc": {
+            "physical": 103,
+            "logical": 18
+          },
+          "cyclomatic": 1,
+          "halstead": {
+            "operators": {
+              "distinct": 7,
+              "total": 67,
+              "identifiers": [
+                "var",
+                "=",
+                ".",
+                "()",
+                "function",
+                "{}",
+                ":"
+              ]
+            },
+            "operands": {
+              "distinct": 28,
+              "total": 70,
+              "identifiers": [
+                "todos",
+                "self",
+                "this",
+                "<anonymous>",
+                "ko",
+                "utils",
+                "arrayMap",
+                "observableArray",
+                "current",
+                "observable",
+                "showMode",
+                "\"all\"",
+                "filteredTodos",
+                "computed",
+                "add",
+                "remove",
+                "removeCompleted",
+                "editItem",
+                "stopEditing",
+                "completedCount",
+                "remainingCount",
+                "allCompleted",
+                "read",
+                "write",
+                "getLabel",
+                "throttle",
+                500,
+                "extend"
+              ]
+            },
+            "length": 137,
+            "vocabulary": 35,
+            "difficulty": 8.75,
+            "volume": 702.7117733214604,
+            "effort": 6148.728016562779,
+            "bugs": 0.23423725777382015,
+            "time": 341.5960009201544
+          },
+          "params": 1
+        }
+      },
+      {
+        "name": "<anonymous>",
+        "line": 60,
+        "complexity": {
+          "sloc": {
+            "physical": 3,
+            "logical": 1
+          },
+          "cyclomatic": 1,
+          "halstead": {
+            "operators": {
+              "distinct": 3,
+              "total": 4,
+              "identifiers": [
+                "return",
+                "new",
+                "."
+              ]
+            },
+            "operands": {
+              "distinct": 4,
+              "total": 6,
+              "identifiers": [
+                "todo",
+                "title",
+                "completed",
+                "Todo"
+              ]
+            },
+            "length": 10,
+            "vocabulary": 7,
+            "difficulty": 2.25,
+            "volume": 28.07354922057604,
+            "effort": 63.16548574629609,
+            "bugs": 0.009357849740192013,
+            "time": 3.509193652572005
+          },
+          "params": 1
+        }
+      },
+      {
+        "name": "<anonymous>",
+        "line": 69,
+        "complexity": {
+          "sloc": {
+            "physical": 14,
+            "logical": 7
+          },
+          "cyclomatic": 3,
+          "halstead": {
+            "operators": {
+              "distinct": 7,
+              "total": 21,
+              "identifiers": [
+                "switch",
+                "()",
+                ".",
+                "case",
+                "return",
+                "function",
+                "default"
+              ]
+            },
+            "operands": {
+              "distinct": 7,
+              "total": 14,
+              "identifiers": [
+                "self",
+                "showMode",
+                "\"active\"",
+                "<anonymous>",
+                "todos",
+                "filter",
+                "\"completed\""
+              ]
+            },
+            "length": 35,
+            "vocabulary": 14,
+            "difficulty": 7,
+            "volume": 133.25742227201613,
+            "effort": 932.8019559041129,
+            "bugs": 0.04441914075733871,
+            "time": 51.822330883561825
+          },
+          "params": 0
+        }
+      },
+      {
+        "name": "<anonymous>",
+        "line": 72,
+        "complexity": {
+          "sloc": {
+            "physical": 3,
+            "logical": 1
+          },
+          "cyclomatic": 1,
+          "halstead": {
+            "operators": {
+              "distinct": 4,
+              "total": 4,
+              "identifiers": [
+                "return",
+                "! (prefix)",
+                "()",
+                "."
+              ]
+            },
+            "operands": {
+              "distinct": 2,
+              "total": 3,
+              "identifiers": [
+                "todo",
+                "completed"
+              ]
+            },
+            "length": 7,
+            "vocabulary": 6,
+            "difficulty": 3,
+            "volume": 18.094737505048094,
+            "effort": 54.28421251514428,
+            "bugs": 0.006031579168349364,
+            "time": 3.0157895841746822
+          },
+          "params": 1
+        }
+      },
+      {
+        "name": "<anonymous>",
+        "line": 76,
+        "complexity": {
+          "sloc": {
+            "physical": 3,
+            "logical": 1
+          },
+          "cyclomatic": 1,
+          "halstead": {
+            "operators": {
+              "distinct": 3,
+              "total": 3,
+              "identifiers": [
+                "return",
+                "()",
+                "."
+              ]
+            },
+            "operands": {
+              "distinct": 2,
+              "total": 3,
+              "identifiers": [
+                "todo",
+                "completed"
+              ]
+            },
+            "length": 6,
+            "vocabulary": 5,
+            "difficulty": 2.25,
+            "volume": 13.931568569324174,
+            "effort": 31.34602928097939,
+            "bugs": 0.004643856189774725,
+            "time": 1.7414460711655217
+          },
+          "params": 1
+        }
+      },
+      {
+        "name": "self.add",
+        "line": 85,
+        "complexity": {
+          "sloc": {
+            "physical": 7,
+            "logical": 4
+          },
+          "cyclomatic": 2,
+          "halstead": {
+            "operators": {
+              "distinct": 6,
+              "total": 13,
+              "identifiers": [
+                "var",
+                "=",
+                "()",
+                ".",
+                "if",
+                "new"
+              ]
+            },
+            "operands": {
+              "distinct": 7,
+              "total": 13,
+              "identifiers": [
+                "current",
+                "self",
+                "trim",
+                "Todo",
+                "todos",
+                "push",
+                "\"\""
+              ]
+            },
+            "length": 26,
+            "vocabulary": 13,
+            "difficulty": 5.571428571428571,
+            "volume": 96.21143267166839,
+            "effort": 536.0351248850096,
+            "bugs": 0.032070477557222796,
+            "time": 29.77972916027831
+          },
+          "params": 0
+        }
+      },
+      {
+        "name": "self.remove",
+        "line": 94,
+        "complexity": {
+          "sloc": {
+            "physical": 3,
+            "logical": 1
+          },
+          "cyclomatic": 1,
+          "halstead": {
+            "operators": {
+              "distinct": 2,
+              "total": 3,
+              "identifiers": [
+                "()",
+                "."
+              ]
+            },
+            "operands": {
+              "distinct": 4,
+              "total": 5,
+              "identifiers": [
+                "todo",
+                "self",
+                "todos",
+                "remove"
+              ]
+            },
+            "length": 8,
+            "vocabulary": 6,
+            "difficulty": 1.25,
+            "volume": 20.67970000576925,
+            "effort": 25.84962500721156,
+            "bugs": 0.006893233335256416,
+            "time": 1.43609027817842
+          },
+          "params": 1
+        }
+      },
+      {
+        "name": "self.removeCompleted",
+        "line": 99,
+        "complexity": {
+          "sloc": {
+            "physical": 5,
+            "logical": 1
+          },
+          "cyclomatic": 1,
+          "halstead": {
+            "operators": {
+              "distinct": 3,
+              "total": 4,
+              "identifiers": [
+                "()",
+                "function",
+                "."
+              ]
+            },
+            "operands": {
+              "distinct": 4,
+              "total": 4,
+              "identifiers": [
+                "<anonymous>",
+                "self",
+                "todos",
+                "remove"
+              ]
+            },
+            "length": 8,
+            "vocabulary": 7,
+            "difficulty": 1.5,
+            "volume": 22.458839376460833,
+            "effort": 33.68825906469125,
+            "bugs": 0.007486279792153611,
+            "time": 1.871569948038403
+          },
+          "params": 0
+        }
+      },
+      {
+        "name": "<anonymous>",
+        "line": 100,
+        "complexity": {
+          "sloc": {
+            "physical": 3,
+            "logical": 1
+          },
+          "cyclomatic": 1,
+          "halstead": {
+            "operators": {
+              "distinct": 3,
+              "total": 3,
+              "identifiers": [
+                "return",
+                "()",
+                "."
+              ]
+            },
+            "operands": {
+              "distinct": 2,
+              "total": 3,
+              "identifiers": [
+                "todo",
+                "completed"
+              ]
+            },
+            "length": 6,
+            "vocabulary": 5,
+            "difficulty": 2.25,
+            "volume": 13.931568569324174,
+            "effort": 31.34602928097939,
+            "bugs": 0.004643856189774725,
+            "time": 1.7414460711655217
+          },
+          "params": 1
+        }
+      },
+      {
+        "name": "self.editItem",
+        "line": 106,
+        "complexity": {
+          "sloc": {
+            "physical": 3,
+            "logical": 1
+          },
+          "cyclomatic": 1,
+          "halstead": {
+            "operators": {
+              "distinct": 2,
+              "total": 2,
+              "identifiers": [
+                "()",
+                "."
+              ]
+            },
+            "operands": {
+              "distinct": 3,
+              "total": 4,
+              "identifiers": [
+                "item",
+                true,
+                "editing"
+              ]
+            },
+            "length": 6,
+            "vocabulary": 5,
+            "difficulty": 1.3333333333333333,
+            "volume": 13.931568569324174,
+            "effort": 18.575424759098897,
+            "bugs": 0.004643856189774725,
+            "time": 1.0319680421721609
+          },
+          "params": 1
+        }
+      },
+      {
+        "name": "self.stopEditing",
+        "line": 111,
+        "complexity": {
+          "sloc": {
+            "physical": 7,
+            "logical": 3
+          },
+          "cyclomatic": 2,
+          "halstead": {
+            "operators": {
+              "distinct": 4,
+              "total": 10,
+              "identifiers": [
+                "()",
+                ".",
+                "if",
+                "! (prefix)"
+              ]
+            },
+            "operands": {
+              "distinct": 7,
+              "total": 10,
+              "identifiers": [
+                "item",
+                false,
+                "editing",
+                "title",
+                "trim",
+                "self",
+                "remove"
+              ]
+            },
+            "length": 20,
+            "vocabulary": 11,
+            "difficulty": 2.857142857142857,
+            "volume": 69.18863237274596,
+            "effort": 197.68180677927415,
+            "bugs": 0.023062877457581985,
+            "time": 10.982322598848564
+          },
+          "params": 1
+        }
+      },
+      {
+        "name": "<anonymous>",
+        "line": 120,
+        "complexity": {
+          "sloc": {
+            "physical": 5,
+            "logical": 1
+          },
+          "cyclomatic": 1,
+          "halstead": {
+            "operators": {
+              "distinct": 4,
+              "total": 8,
+              "identifiers": [
+                "return",
+                ".",
+                "()",
+                "function"
+              ]
+            },
+            "operands": {
+              "distinct": 7,
+              "total": 7,
+              "identifiers": [
+                "self",
+                "todos",
+                "<anonymous>",
+                "ko",
+                "utils",
+                "arrayFilter",
+                "length"
+              ]
+            },
+            "length": 15,
+            "vocabulary": 11,
+            "difficulty": 2,
+            "volume": 51.89147427955947,
+            "effort": 103.78294855911894,
+            "bugs": 0.01729715809318649,
+            "time": 5.765719364395497
+          },
+          "params": 0
+        }
+      },
+      {
+        "name": "<anonymous>",
+        "line": 121,
+        "complexity": {
+          "sloc": {
+            "physical": 3,
+            "logical": 1
+          },
+          "cyclomatic": 1,
+          "halstead": {
+            "operators": {
+              "distinct": 3,
+              "total": 3,
+              "identifiers": [
+                "return",
+                "()",
+                "."
+              ]
+            },
+            "operands": {
+              "distinct": 2,
+              "total": 3,
+              "identifiers": [
+                "todo",
+                "completed"
+              ]
+            },
+            "length": 6,
+            "vocabulary": 5,
+            "difficulty": 2.25,
+            "volume": 13.931568569324174,
+            "effort": 31.34602928097939,
+            "bugs": 0.004643856189774725,
+            "time": 1.7414460711655217
+          },
+          "params": 1
+        }
+      },
+      {
+        "name": "<anonymous>",
+        "line": 127,
+        "complexity": {
+          "sloc": {
+            "physical": 3,
+            "logical": 1
+          },
+          "cyclomatic": 1,
+          "halstead": {
+            "operators": {
+              "distinct": 4,
+              "total": 7,
+              "identifiers": [
+                "return",
+                "-",
+                ".",
+                "()"
+              ]
+            },
+            "operands": {
+              "distinct": 4,
+              "total": 5,
+              "identifiers": [
+                "self",
+                "todos",
+                "length",
+                "completedCount"
+              ]
+            },
+            "length": 12,
+            "vocabulary": 8,
+            "difficulty": 2.5,
+            "volume": 36,
+            "effort": 90,
+            "bugs": 0.012,
+            "time": 5
+          },
+          "params": 0
+        }
+      },
+      {
+        "name": "read",
+        "line": 134,
+        "complexity": {
+          "sloc": {
+            "physical": 3,
+            "logical": 1
+          },
+          "cyclomatic": 1,
+          "halstead": {
+            "operators": {
+              "distinct": 4,
+              "total": 4,
+              "identifiers": [
+                "return",
+                "! (prefix)",
+                "()",
+                "."
+              ]
+            },
+            "operands": {
+              "distinct": 2,
+              "total": 2,
+              "identifiers": [
+                "self",
+                "remainingCount"
+              ]
+            },
+            "length": 6,
+            "vocabulary": 6,
+            "difficulty": 2,
+            "volume": 15.509775004326936,
+            "effort": 31.019550008653873,
+            "bugs": 0.005169925001442312,
+            "time": 1.723308333814104
+          },
+          "params": 0
+        }
+      },
+      {
+        "name": "write",
+        "line": 138,
+        "complexity": {
+          "sloc": {
+            "physical": 6,
+            "logical": 1
+          },
+          "cyclomatic": 1,
+          "halstead": {
+            "operators": {
+              "distinct": 3,
+              "total": 6,
+              "identifiers": [
+                "()",
+                ".",
+                "function"
+              ]
+            },
+            "operands": {
+              "distinct": 7,
+              "total": 7,
+              "identifiers": [
+                "newValue",
+                "self",
+                "todos",
+                "<anonymous>",
+                "ko",
+                "utils",
+                "arrayForEach"
+              ]
+            },
+            "length": 13,
+            "vocabulary": 10,
+            "difficulty": 1.5,
+            "volume": 43.18506523353572,
+            "effort": 64.77759785030358,
+            "bugs": 0.014395021744511906,
+            "time": 3.5987554361279765
+          },
+          "params": 1
+        }
+      },
+      {
+        "name": "<anonymous>",
+        "line": 139,
+        "complexity": {
+          "sloc": {
+            "physical": 4,
+            "logical": 1
+          },
+          "cyclomatic": 1,
+          "halstead": {
+            "operators": {
+              "distinct": 2,
+              "total": 2,
+              "identifiers": [
+                "()",
+                "."
+              ]
+            },
+            "operands": {
+              "distinct": 3,
+              "total": 4,
+              "identifiers": [
+                "todo",
+                "newValue",
+                "completed"
+              ]
+            },
+            "length": 6,
+            "vocabulary": 5,
+            "difficulty": 1.3333333333333333,
+            "volume": 13.931568569324174,
+            "effort": 18.575424759098897,
+            "bugs": 0.004643856189774725,
+            "time": 1.0319680421721609
+          },
+          "params": 1
+        }
+      },
+      {
+        "name": "self.getLabel",
+        "line": 147,
+        "complexity": {
+          "sloc": {
+            "physical": 3,
+            "logical": 1
+          },
+          "cyclomatic": 2,
+          "halstead": {
+            "operators": {
+              "distinct": 5,
+              "total": 6,
+              "identifiers": [
+                "return",
+                ":?",
+                "===",
+                "()",
+                "."
+              ]
+            },
+            "operands": {
+              "distinct": 7,
+              "total": 8,
+              "identifiers": [
+                "count",
+                "ko",
+                "utils",
+                "unwrapObservable",
+                1,
+                "\"item\"",
+                "\"items\""
+              ]
+            },
+            "length": 14,
+            "vocabulary": 12,
+            "difficulty": 2.8571428571428568,
+            "volume": 50.18947501009619,
+            "effort": 143.39850002884623,
+            "bugs": 0.016729825003365395,
+            "time": 7.966583334935901
+          },
+          "params": 1
+        }
+      },
+      {
+        "name": "<anonymous>",
+        "line": 152,
+        "complexity": {
+          "sloc": {
+            "physical": 4,
+            "logical": 1
+          },
+          "cyclomatic": 1,
+          "halstead": {
+            "operators": {
+              "distinct": 2,
+              "total": 5,
+              "identifiers": [
+                "()",
+                "."
+              ]
+            },
+            "operands": {
+              "distinct": 7,
+              "total": 7,
+              "identifiers": [
+                "\"todos-knockoutjs\"",
+                "self",
+                "todos",
+                "ko",
+                "toJSON",
+                "localStorage",
+                "setItem"
+              ]
+            },
+            "length": 12,
+            "vocabulary": 9,
+            "difficulty": 1,
+            "volume": 38.03910001730775,
+            "effort": 38.03910001730775,
+            "bugs": 0.012679700005769252,
+            "time": 2.1132833342948754
+          },
+          "params": 0
+        }
+      }
+    ],
+    "maintainability": 132.98415716652352,
+    "params": 0.8928571428571429,
+    "module": "/home/ramiro/repos/pub/todomvc-metrics/todomvc/architecture-examples/knockoutjs/js/app.js"
+  }
+]

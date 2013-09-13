@@ -1,0 +1,1480 @@
+[
+  {
+    "aggregate": {
+      "line": 3,
+      "complexity": {
+        "sloc": {
+          "physical": 8,
+          "logical": 2
+        },
+        "cyclomatic": 1,
+        "halstead": {
+          "operators": {
+            "distinct": 5,
+            "total": 5,
+            "identifiers": [
+              "var",
+              "=",
+              "()",
+              "[]",
+              "."
+            ]
+          },
+          "operands": {
+            "distinct": 6,
+            "total": 6,
+            "identifiers": [
+              "\"use strict\"",
+              "todomvc",
+              "\"todomvc\"",
+              "<anonymous>",
+              "angular",
+              "module"
+            ]
+          },
+          "length": 11,
+          "vocabulary": 11,
+          "difficulty": 2.5,
+          "volume": 38.053747805010275,
+          "effort": 95.1343695125257,
+          "bugs": 0.012684582601670092,
+          "time": 5.285242750695872
+        },
+        "params": 0
+      }
+    },
+    "functions": [],
+    "maintainability": 144.19192282096054,
+    "params": 0,
+    "module": "/home/ramiro/repos/pub/todomvc-metrics/todomvc/architecture-examples/angularjs/js/app.js"
+  },
+  {
+    "aggregate": {
+      "line": 2,
+      "complexity": {
+        "sloc": {
+          "physical": 12,
+          "logical": 5
+        },
+        "cyclomatic": 1,
+        "halstead": {
+          "operators": {
+            "distinct": 4,
+            "total": 11,
+            "identifiers": [
+              "()",
+              "function",
+              "return",
+              "."
+            ]
+          },
+          "operands": {
+            "distinct": 12,
+            "total": 17,
+            "identifiers": [
+              "\"use strict\"",
+              "\"todoBlur\"",
+              "<anonymous>",
+              "scope",
+              "elem",
+              "attrs",
+              "\"blur\"",
+              "todoBlur",
+              "$apply",
+              "bind",
+              "todomvc",
+              "directive"
+            ]
+          },
+          "length": 28,
+          "vocabulary": 16,
+          "difficulty": 2.8333333333333335,
+          "volume": 112,
+          "effort": 317.33333333333337,
+          "bugs": 0.037333333333333336,
+          "time": 17.629629629629633
+        },
+        "params": 3
+      }
+    },
+    "functions": [
+      {
+        "name": "<anonymous>",
+        "line": 7,
+        "complexity": {
+          "sloc": {
+            "physical": 7,
+            "logical": 1
+          },
+          "cyclomatic": 1,
+          "halstead": {
+            "operators": {
+              "distinct": 2,
+              "total": 2,
+              "identifiers": [
+                "return",
+                "function"
+              ]
+            },
+            "operands": {
+              "distinct": 1,
+              "total": 1,
+              "identifiers": [
+                "<anonymous>"
+              ]
+            },
+            "length": 3,
+            "vocabulary": 3,
+            "difficulty": 1,
+            "volume": 4.754887502163469,
+            "effort": 4.754887502163469,
+            "bugs": 0.0015849625007211565,
+            "time": 0.2641604167868594
+          },
+          "params": 0
+        }
+      },
+      {
+        "name": "<anonymous>",
+        "line": 8,
+        "complexity": {
+          "sloc": {
+            "physical": 5,
+            "logical": 1
+          },
+          "cyclomatic": 1,
+          "halstead": {
+            "operators": {
+              "distinct": 3,
+              "total": 3,
+              "identifiers": [
+                "()",
+                "function",
+                "."
+              ]
+            },
+            "operands": {
+              "distinct": 6,
+              "total": 7,
+              "identifiers": [
+                "scope",
+                "elem",
+                "attrs",
+                "\"blur\"",
+                "<anonymous>",
+                "bind"
+              ]
+            },
+            "length": 10,
+            "vocabulary": 9,
+            "difficulty": 1.75,
+            "volume": 31.699250014423125,
+            "effort": 55.47368752524047,
+            "bugs": 0.010566416671474375,
+            "time": 3.081871529180026
+          },
+          "params": 3
+        }
+      },
+      {
+        "name": "<anonymous>",
+        "line": 9,
+        "complexity": {
+          "sloc": {
+            "physical": 3,
+            "logical": 1
+          },
+          "cyclomatic": 1,
+          "halstead": {
+            "operators": {
+              "distinct": 2,
+              "total": 3,
+              "identifiers": [
+                "()",
+                "."
+              ]
+            },
+            "operands": {
+              "distinct": 4,
+              "total": 4,
+              "identifiers": [
+                "attrs",
+                "todoBlur",
+                "scope",
+                "$apply"
+              ]
+            },
+            "length": 7,
+            "vocabulary": 6,
+            "difficulty": 1,
+            "volume": 18.094737505048094,
+            "effort": 18.094737505048094,
+            "bugs": 0.006031579168349364,
+            "time": 1.0052631947248942
+          },
+          "params": 0
+        }
+      }
+    ],
+    "maintainability": 159.84316312800541,
+    "params": 1,
+    "module": "/home/ramiro/repos/pub/todomvc-metrics/todomvc/architecture-examples/angularjs/js/directives/todoBlur.js"
+  },
+  {
+    "aggregate": {
+      "line": 2,
+      "complexity": {
+        "sloc": {
+          "physical": 16,
+          "logical": 7
+        },
+        "cyclomatic": 2,
+        "halstead": {
+          "operators": {
+            "distinct": 5,
+            "total": 15,
+            "identifiers": [
+              "()",
+              "function",
+              "return",
+              ".",
+              "if"
+            ]
+          },
+          "operands": {
+            "distinct": 15,
+            "total": 24,
+            "identifiers": [
+              "\"use strict\"",
+              "\"todoFocus\"",
+              "todoFocus",
+              "$timeout",
+              "<anonymous>",
+              "scope",
+              "elem",
+              "attrs",
+              "newVal",
+              0,
+              "focus",
+              false,
+              "$watch",
+              "todomvc",
+              "directive"
+            ]
+          },
+          "length": 39,
+          "vocabulary": 20,
+          "difficulty": 4,
+          "volume": 168.55519570060713,
+          "effort": 674.2207828024285,
+          "bugs": 0.05618506523353571,
+          "time": 37.45671015569047
+        },
+        "params": 5
+      }
+    },
+    "functions": [
+      {
+        "name": "todoFocus",
+        "line": 7,
+        "complexity": {
+          "sloc": {
+            "physical": 11,
+            "logical": 1
+          },
+          "cyclomatic": 1,
+          "halstead": {
+            "operators": {
+              "distinct": 2,
+              "total": 2,
+              "identifiers": [
+                "return",
+                "function"
+              ]
+            },
+            "operands": {
+              "distinct": 2,
+              "total": 2,
+              "identifiers": [
+                "$timeout",
+                "<anonymous>"
+              ]
+            },
+            "length": 4,
+            "vocabulary": 4,
+            "difficulty": 1,
+            "volume": 8,
+            "effort": 8,
+            "bugs": 0.0026666666666666666,
+            "time": 0.4444444444444444
+          },
+          "params": 1
+        }
+      },
+      {
+        "name": "<anonymous>",
+        "line": 8,
+        "complexity": {
+          "sloc": {
+            "physical": 9,
+            "logical": 1
+          },
+          "cyclomatic": 1,
+          "halstead": {
+            "operators": {
+              "distinct": 3,
+              "total": 4,
+              "identifiers": [
+                "()",
+                ".",
+                "function"
+              ]
+            },
+            "operands": {
+              "distinct": 6,
+              "total": 8,
+              "identifiers": [
+                "scope",
+                "elem",
+                "attrs",
+                "todoFocus",
+                "<anonymous>",
+                "$watch"
+              ]
+            },
+            "length": 12,
+            "vocabulary": 9,
+            "difficulty": 2,
+            "volume": 38.03910001730775,
+            "effort": 76.0782000346155,
+            "bugs": 0.012679700005769252,
+            "time": 4.226566668589751
+          },
+          "params": 3
+        }
+      },
+      {
+        "name": "<anonymous>",
+        "line": 9,
+        "complexity": {
+          "sloc": {
+            "physical": 7,
+            "logical": 2
+          },
+          "cyclomatic": 2,
+          "halstead": {
+            "operators": {
+              "distinct": 3,
+              "total": 3,
+              "identifiers": [
+                "if",
+                "()",
+                "function"
+              ]
+            },
+            "operands": {
+              "distinct": 5,
+              "total": 6,
+              "identifiers": [
+                "newVal",
+                "<anonymous>",
+                0,
+                false,
+                "$timeout"
+              ]
+            },
+            "length": 9,
+            "vocabulary": 8,
+            "difficulty": 1.7999999999999998,
+            "volume": 27,
+            "effort": 48.599999999999994,
+            "bugs": 0.009,
+            "time": 2.6999999999999997
+          },
+          "params": 1
+        }
+      },
+      {
+        "name": "<anonymous>",
+        "line": 11,
+        "complexity": {
+          "sloc": {
+            "physical": 3,
+            "logical": 1
+          },
+          "cyclomatic": 1,
+          "halstead": {
+            "operators": {
+              "distinct": 2,
+              "total": 3,
+              "identifiers": [
+                "()",
+                "."
+              ]
+            },
+            "operands": {
+              "distinct": 3,
+              "total": 3,
+              "identifiers": [
+                "elem",
+                0,
+                "focus"
+              ]
+            },
+            "length": 6,
+            "vocabulary": 5,
+            "difficulty": 1,
+            "volume": 13.931568569324174,
+            "effort": 13.931568569324174,
+            "bugs": 0.004643856189774725,
+            "time": 0.7739760316291208
+          },
+          "params": 0
+        }
+      }
+    ],
+    "maintainability": 155.01668964493317,
+    "params": 1.25,
+    "module": "/home/ramiro/repos/pub/todomvc-metrics/todomvc/architecture-examples/angularjs/js/directives/todoFocus.js"
+  },
+  {
+    "aggregate": {
+      "line": 2,
+      "complexity": {
+        "sloc": {
+          "physical": 16,
+          "logical": 7
+        },
+        "cyclomatic": 2,
+        "halstead": {
+          "operators": {
+            "distinct": 8,
+            "total": 16,
+            "identifiers": [
+              "()",
+              "function",
+              "var",
+              "=",
+              "return",
+              "if",
+              "===",
+              "."
+            ]
+          },
+          "operands": {
+            "distinct": 16,
+            "total": 23,
+            "identifiers": [
+              "\"use strict\"",
+              "\"todoEscape\"",
+              "<anonymous>",
+              "ESCAPE_KEY",
+              27,
+              "scope",
+              "elem",
+              "attrs",
+              "\"keydown\"",
+              "event",
+              "keyCode",
+              "todoEscape",
+              "$apply",
+              "bind",
+              "todomvc",
+              "directive"
+            ]
+          },
+          "length": 39,
+          "vocabulary": 24,
+          "difficulty": 5.75,
+          "volume": 178.81353752812512,
+          "effort": 1028.1778407867196,
+          "bugs": 0.05960451250937504,
+          "time": 57.12099115481775
+        },
+        "params": 4
+      }
+    },
+    "functions": [
+      {
+        "name": "<anonymous>",
+        "line": 8,
+        "complexity": {
+          "sloc": {
+            "physical": 10,
+            "logical": 2
+          },
+          "cyclomatic": 1,
+          "halstead": {
+            "operators": {
+              "distinct": 4,
+              "total": 4,
+              "identifiers": [
+                "var",
+                "=",
+                "return",
+                "function"
+              ]
+            },
+            "operands": {
+              "distinct": 3,
+              "total": 3,
+              "identifiers": [
+                "ESCAPE_KEY",
+                27,
+                "<anonymous>"
+              ]
+            },
+            "length": 7,
+            "vocabulary": 7,
+            "difficulty": 2,
+            "volume": 19.651484454403228,
+            "effort": 39.302968908806456,
+            "bugs": 0.00655049481813441,
+            "time": 2.1834982727114696
+          },
+          "params": 0
+        }
+      },
+      {
+        "name": "<anonymous>",
+        "line": 10,
+        "complexity": {
+          "sloc": {
+            "physical": 7,
+            "logical": 1
+          },
+          "cyclomatic": 1,
+          "halstead": {
+            "operators": {
+              "distinct": 3,
+              "total": 3,
+              "identifiers": [
+                "()",
+                "function",
+                "."
+              ]
+            },
+            "operands": {
+              "distinct": 6,
+              "total": 7,
+              "identifiers": [
+                "scope",
+                "elem",
+                "attrs",
+                "\"keydown\"",
+                "<anonymous>",
+                "bind"
+              ]
+            },
+            "length": 10,
+            "vocabulary": 9,
+            "difficulty": 1.75,
+            "volume": 31.699250014423125,
+            "effort": 55.47368752524047,
+            "bugs": 0.010566416671474375,
+            "time": 3.081871529180026
+          },
+          "params": 3
+        }
+      },
+      {
+        "name": "<anonymous>",
+        "line": 11,
+        "complexity": {
+          "sloc": {
+            "physical": 5,
+            "logical": 2
+          },
+          "cyclomatic": 2,
+          "halstead": {
+            "operators": {
+              "distinct": 4,
+              "total": 6,
+              "identifiers": [
+                "if",
+                "===",
+                ".",
+                "()"
+              ]
+            },
+            "operands": {
+              "distinct": 7,
+              "total": 8,
+              "identifiers": [
+                "event",
+                "keyCode",
+                "ESCAPE_KEY",
+                "attrs",
+                "todoEscape",
+                "scope",
+                "$apply"
+              ]
+            },
+            "length": 14,
+            "vocabulary": 11,
+            "difficulty": 2.2857142857142856,
+            "volume": 48.43204266092217,
+            "effort": 110.70181179639353,
+            "bugs": 0.016144014220307392,
+            "time": 6.150100655355196
+          },
+          "params": 1
+        }
+      }
+    ],
+    "maintainability": 148.20304496722275,
+    "params": 1.3333333333333333,
+    "module": "/home/ramiro/repos/pub/todomvc-metrics/todomvc/architecture-examples/angularjs/js/directives/todoEscape.js"
+  },
+  {
+    "aggregate": {
+      "line": 2,
+      "complexity": {
+        "sloc": {
+          "physical": 18,
+          "logical": 8
+        },
+        "cyclomatic": 2,
+        "halstead": {
+          "operators": {
+            "distinct": 9,
+            "total": 21,
+            "identifiers": [
+              "()",
+              "function",
+              "var",
+              "=",
+              "return",
+              "{}",
+              ":",
+              "||",
+              "."
+            ]
+          },
+          "operands": {
+            "distinct": 17,
+            "total": 25,
+            "identifiers": [
+              "\"use strict\"",
+              "\"todoStorage\"",
+              "<anonymous>",
+              "STORAGE_ID",
+              "\"todos-angularjs\"",
+              "get",
+              "localStorage",
+              "getItem",
+              "\"[]\"",
+              "JSON",
+              "parse",
+              "put",
+              "todos",
+              "stringify",
+              "setItem",
+              "todomvc",
+              "factory"
+            ]
+          },
+          "length": 46,
+          "vocabulary": 26,
+          "difficulty": 6.61764705882353,
+          "volume": 216.22022703449025,
+          "effort": 1430.8691494929503,
+          "bugs": 0.07207340901149675,
+          "time": 79.49273052738613
+        },
+        "params": 1
+      }
+    },
+    "functions": [
+      {
+        "name": "<anonymous>",
+        "line": 7,
+        "complexity": {
+          "sloc": {
+            "physical": 13,
+            "logical": 4
+          },
+          "cyclomatic": 1,
+          "halstead": {
+            "operators": {
+              "distinct": 6,
+              "total": 8,
+              "identifiers": [
+                "var",
+                "=",
+                "return",
+                "{}",
+                ":",
+                "function"
+              ]
+            },
+            "operands": {
+              "distinct": 5,
+              "total": 7,
+              "identifiers": [
+                "STORAGE_ID",
+                "\"todos-angularjs\"",
+                "<anonymous>",
+                "get",
+                "put"
+              ]
+            },
+            "length": 15,
+            "vocabulary": 11,
+            "difficulty": 4.199999999999999,
+            "volume": 51.89147427955947,
+            "effort": 217.94419197414973,
+            "bugs": 0.01729715809318649,
+            "time": 12.108010665230541
+          },
+          "params": 0
+        }
+      },
+      {
+        "name": "get",
+        "line": 11,
+        "complexity": {
+          "sloc": {
+            "physical": 3,
+            "logical": 1
+          },
+          "cyclomatic": 2,
+          "halstead": {
+            "operators": {
+              "distinct": 4,
+              "total": 6,
+              "identifiers": [
+                "return",
+                "()",
+                "||",
+                "."
+              ]
+            },
+            "operands": {
+              "distinct": 6,
+              "total": 6,
+              "identifiers": [
+                "STORAGE_ID",
+                "localStorage",
+                "getItem",
+                "\"[]\"",
+                "JSON",
+                "parse"
+              ]
+            },
+            "length": 12,
+            "vocabulary": 10,
+            "difficulty": 2,
+            "volume": 39.863137138648355,
+            "effort": 79.72627427729671,
+            "bugs": 0.013287712379549451,
+            "time": 4.429237459849817
+          },
+          "params": 0
+        }
+      },
+      {
+        "name": "put",
+        "line": 15,
+        "complexity": {
+          "sloc": {
+            "physical": 3,
+            "logical": 1
+          },
+          "cyclomatic": 1,
+          "halstead": {
+            "operators": {
+              "distinct": 2,
+              "total": 4,
+              "identifiers": [
+                "()",
+                "."
+              ]
+            },
+            "operands": {
+              "distinct": 6,
+              "total": 7,
+              "identifiers": [
+                "todos",
+                "STORAGE_ID",
+                "JSON",
+                "stringify",
+                "localStorage",
+                "setItem"
+              ]
+            },
+            "length": 11,
+            "vocabulary": 8,
+            "difficulty": 1.1666666666666667,
+            "volume": 33,
+            "effort": 38.5,
+            "bugs": 0.011,
+            "time": 2.138888888888889
+          },
+          "params": 1
+        }
+      }
+    ],
+    "maintainability": 143.56584799551402,
+    "params": 0.3333333333333333,
+    "module": "/home/ramiro/repos/pub/todomvc-metrics/todomvc/architecture-examples/angularjs/js/services/todoStorage.js"
+  },
+  {
+    "aggregate": {
+      "line": 2,
+      "complexity": {
+        "sloc": {
+          "physical": 84,
+          "logical": 46
+        },
+        "cyclomatic": 7,
+        "halstead": {
+          "operators": {
+            "distinct": 14,
+            "total": 138,
+            "identifiers": [
+              "()",
+              "function",
+              "var",
+              "=",
+              ".",
+              "{}",
+              ":",
+              "-",
+              "! (prefix)",
+              "if",
+              "!==",
+              "===",
+              ":?",
+              "return"
+            ]
+          },
+          "operands": {
+            "distinct": 55,
+            "total": 173,
+            "identifiers": [
+              "\"use strict\"",
+              "\"TodoCtrl\"",
+              "TodoCtrl",
+              "$scope",
+              "$location",
+              "todoStorage",
+              "filterFilter",
+              "todos",
+              "get",
+              "newTodo",
+              "\"\"",
+              "editedTodo",
+              null,
+              "\"todos\"",
+              "<anonymous>",
+              "newValue",
+              "oldValue",
+              "remainingCount",
+              "completed",
+              false,
+              "length",
+              "completedCount",
+              "allChecked",
+              "put",
+              true,
+              "$watch",
+              "path",
+              "\"/\"",
+              "location",
+              "\"location.path()\"",
+              "statusFilter",
+              "\"/active\"",
+              "\"/completed\"",
+              "addTodo",
+              "trim",
+              "title",
+              "push",
+              "editTodo",
+              "todo",
+              "originalTodo",
+              "angular",
+              "extend",
+              "doneEditing",
+              "removeTodo",
+              "revertEditing",
+              "indexOf",
+              1,
+              "splice",
+              "clearCompletedTodos",
+              "val",
+              "filter",
+              "markAll",
+              "forEach",
+              "todomvc",
+              "controller"
+            ]
+          },
+          "length": 311,
+          "vocabulary": 69,
+          "difficulty": 22.01818181818182,
+          "volume": 1899.751106058011,
+          "effort": 41829.0652624773,
+          "bugs": 0.6332503686860036,
+          "time": 2323.8369590265165
+        },
+        "params": 14
+      }
+    },
+    "functions": [
+      {
+        "name": "TodoCtrl",
+        "line": 9,
+        "complexity": {
+          "sloc": {
+            "physical": 77,
+            "logical": 15
+          },
+          "cyclomatic": 2,
+          "halstead": {
+            "operators": {
+              "distinct": 7,
+              "total": 45,
+              "identifiers": [
+                "var",
+                "=",
+                ".",
+                "()",
+                "function",
+                "if",
+                "==="
+              ]
+            },
+            "operands": {
+              "distinct": 25,
+              "total": 54,
+              "identifiers": [
+                "$scope",
+                "$location",
+                "todoStorage",
+                "filterFilter",
+                "todos",
+                "get",
+                "newTodo",
+                "\"\"",
+                "editedTodo",
+                null,
+                "\"todos\"",
+                "<anonymous>",
+                true,
+                "$watch",
+                "path",
+                "\"/\"",
+                "location",
+                "\"location.path()\"",
+                "addTodo",
+                "editTodo",
+                "doneEditing",
+                "revertEditing",
+                "removeTodo",
+                "clearCompletedTodos",
+                "markAll"
+              ]
+            },
+            "length": 99,
+            "vocabulary": 32,
+            "difficulty": 7.5600000000000005,
+            "volume": 495,
+            "effort": 3742.2000000000003,
+            "bugs": 0.165,
+            "time": 207.9
+          },
+          "params": 4
+        }
+      },
+      {
+        "name": "<anonymous>",
+        "line": 15,
+        "complexity": {
+          "sloc": {
+            "physical": 8,
+            "logical": 6
+          },
+          "cyclomatic": 2,
+          "halstead": {
+            "operators": {
+              "distinct": 9,
+              "total": 19,
+              "identifiers": [
+                "=",
+                ".",
+                "()",
+                "{}",
+                ":",
+                "-",
+                "! (prefix)",
+                "if",
+                "!=="
+              ]
+            },
+            "operands": {
+              "distinct": 14,
+              "total": 25,
+              "identifiers": [
+                "newValue",
+                "oldValue",
+                "$scope",
+                "remainingCount",
+                "todos",
+                "<anonymous>",
+                "completed",
+                false,
+                "filterFilter",
+                "length",
+                "completedCount",
+                "allChecked",
+                "todoStorage",
+                "put"
+              ]
+            },
+            "length": 44,
+            "vocabulary": 23,
+            "difficulty": 8.035714285714286,
+            "volume": 199.03672606650858,
+            "effort": 1599.402263034444,
+            "bugs": 0.06634557535550285,
+            "time": 88.85568127969134
+          },
+          "params": 2
+        }
+      },
+      {
+        "name": "<anonymous>",
+        "line": 30,
+        "complexity": {
+          "sloc": {
+            "physical": 5,
+            "logical": 3
+          },
+          "cyclomatic": 3,
+          "halstead": {
+            "operators": {
+              "distinct": 6,
+              "total": 10,
+              "identifiers": [
+                "=",
+                ".",
+                ":?",
+                "===",
+                "{}",
+                ":"
+              ]
+            },
+            "operands": {
+              "distinct": 10,
+              "total": 14,
+              "identifiers": [
+                "path",
+                "$scope",
+                "statusFilter",
+                "\"/active\"",
+                "<anonymous>",
+                "completed",
+                false,
+                "\"/completed\"",
+                true,
+                null
+              ]
+            },
+            "length": 24,
+            "vocabulary": 16,
+            "difficulty": 4.199999999999999,
+            "volume": 96,
+            "effort": 403.19999999999993,
+            "bugs": 0.032,
+            "time": 22.399999999999995
+          },
+          "params": 1
+        }
+      },
+      {
+        "name": "$scope.addTodo",
+        "line": 36,
+        "complexity": {
+          "sloc": {
+            "physical": 13,
+            "logical": 7
+          },
+          "cyclomatic": 2,
+          "halstead": {
+            "operators": {
+              "distinct": 9,
+              "total": 16,
+              "identifiers": [
+                "var",
+                "=",
+                "()",
+                ".",
+                "if",
+                "! (prefix)",
+                "return",
+                "{}",
+                ":"
+              ]
+            },
+            "operands": {
+              "distinct": 11,
+              "total": 16,
+              "identifiers": [
+                "newTodo",
+                "$scope",
+                "trim",
+                "length",
+                "<anonymous>",
+                "title",
+                "completed",
+                false,
+                "todos",
+                "push",
+                "\"\""
+              ]
+            },
+            "length": 32,
+            "vocabulary": 20,
+            "difficulty": 6.545454545454546,
+            "volume": 138.3016990363956,
+            "effort": 905.2474846018622,
+            "bugs": 0.0461005663454652,
+            "time": 50.29152692232568
+          },
+          "params": 0
+        }
+      },
+      {
+        "name": "$scope.editTodo",
+        "line": 50,
+        "complexity": {
+          "sloc": {
+            "physical": 5,
+            "logical": 2
+          },
+          "cyclomatic": 1,
+          "halstead": {
+            "operators": {
+              "distinct": 4,
+              "total": 7,
+              "identifiers": [
+                "=",
+                ".",
+                "()",
+                "{}"
+              ]
+            },
+            "operands": {
+              "distinct": 7,
+              "total": 10,
+              "identifiers": [
+                "todo",
+                "$scope",
+                "editedTodo",
+                "originalTodo",
+                "<anonymous>",
+                "angular",
+                "extend"
+              ]
+            },
+            "length": 17,
+            "vocabulary": 11,
+            "difficulty": 2.857142857142857,
+            "volume": 58.81033751683406,
+            "effort": 168.02953576238303,
+            "bugs": 0.019603445838944685,
+            "time": 9.33497420902128
+          },
+          "params": 1
+        }
+      },
+      {
+        "name": "$scope.doneEditing",
+        "line": 56,
+        "complexity": {
+          "sloc": {
+            "physical": 8,
+            "logical": 4
+          },
+          "cyclomatic": 2,
+          "halstead": {
+            "operators": {
+              "distinct": 5,
+              "total": 12,
+              "identifiers": [
+                "=",
+                ".",
+                "()",
+                "if",
+                "! (prefix)"
+              ]
+            },
+            "operands": {
+              "distinct": 7,
+              "total": 14,
+              "identifiers": [
+                "todo",
+                "$scope",
+                "editedTodo",
+                null,
+                "title",
+                "trim",
+                "removeTodo"
+              ]
+            },
+            "length": 26,
+            "vocabulary": 12,
+            "difficulty": 5,
+            "volume": 93.20902501875007,
+            "effort": 466.04512509375036,
+            "bugs": 0.031069675006250023,
+            "time": 25.891395838541687
+          },
+          "params": 1
+        }
+      },
+      {
+        "name": "$scope.revertEditing",
+        "line": 65,
+        "complexity": {
+          "sloc": {
+            "physical": 4,
+            "logical": 2
+          },
+          "cyclomatic": 1,
+          "halstead": {
+            "operators": {
+              "distinct": 3,
+              "total": 8,
+              "identifiers": [
+                "=",
+                ".",
+                "()"
+              ]
+            },
+            "operands": {
+              "distinct": 6,
+              "total": 11,
+              "identifiers": [
+                "todo",
+                "todos",
+                "indexOf",
+                "$scope",
+                "originalTodo",
+                "doneEditing"
+              ]
+            },
+            "length": 19,
+            "vocabulary": 9,
+            "difficulty": 2.75,
+            "volume": 60.22857502740394,
+            "effort": 165.62858132536084,
+            "bugs": 0.020076191675801314,
+            "time": 9.201587851408936
+          },
+          "params": 1
+        }
+      },
+      {
+        "name": "$scope.removeTodo",
+        "line": 70,
+        "complexity": {
+          "sloc": {
+            "physical": 3,
+            "logical": 1
+          },
+          "cyclomatic": 1,
+          "halstead": {
+            "operators": {
+              "distinct": 2,
+              "total": 4,
+              "identifiers": [
+                "()",
+                "."
+              ]
+            },
+            "operands": {
+              "distinct": 5,
+              "total": 7,
+              "identifiers": [
+                "todo",
+                "todos",
+                "indexOf",
+                1,
+                "splice"
+              ]
+            },
+            "length": 11,
+            "vocabulary": 7,
+            "difficulty": 1.4,
+            "volume": 30.880904142633646,
+            "effort": 43.2332657996871,
+            "bugs": 0.010293634714211216,
+            "time": 2.401848099982617
+          },
+          "params": 1
+        }
+      },
+      {
+        "name": "$scope.clearCompletedTodos",
+        "line": 74,
+        "complexity": {
+          "sloc": {
+            "physical": 5,
+            "logical": 1
+          },
+          "cyclomatic": 1,
+          "halstead": {
+            "operators": {
+              "distinct": 4,
+              "total": 6,
+              "identifiers": [
+                "=",
+                ".",
+                "()",
+                "function"
+              ]
+            },
+            "operands": {
+              "distinct": 4,
+              "total": 6,
+              "identifiers": [
+                "$scope",
+                "todos",
+                "<anonymous>",
+                "filter"
+              ]
+            },
+            "length": 12,
+            "vocabulary": 8,
+            "difficulty": 3,
+            "volume": 36,
+            "effort": 108,
+            "bugs": 0.012,
+            "time": 6
+          },
+          "params": 0
+        }
+      },
+      {
+        "name": "<anonymous>",
+        "line": 75,
+        "complexity": {
+          "sloc": {
+            "physical": 3,
+            "logical": 1
+          },
+          "cyclomatic": 1,
+          "halstead": {
+            "operators": {
+              "distinct": 3,
+              "total": 3,
+              "identifiers": [
+                "return",
+                "! (prefix)",
+                "."
+              ]
+            },
+            "operands": {
+              "distinct": 2,
+              "total": 3,
+              "identifiers": [
+                "val",
+                "completed"
+              ]
+            },
+            "length": 6,
+            "vocabulary": 5,
+            "difficulty": 2.25,
+            "volume": 13.931568569324174,
+            "effort": 31.34602928097939,
+            "bugs": 0.004643856189774725,
+            "time": 1.7414460711655217
+          },
+          "params": 1
+        }
+      },
+      {
+        "name": "$scope.markAll",
+        "line": 80,
+        "complexity": {
+          "sloc": {
+            "physical": 5,
+            "logical": 1
+          },
+          "cyclomatic": 1,
+          "halstead": {
+            "operators": {
+              "distinct": 3,
+              "total": 3,
+              "identifiers": [
+                "()",
+                "function",
+                "."
+              ]
+            },
+            "operands": {
+              "distinct": 4,
+              "total": 4,
+              "identifiers": [
+                "completed",
+                "<anonymous>",
+                "todos",
+                "forEach"
+              ]
+            },
+            "length": 7,
+            "vocabulary": 7,
+            "difficulty": 1.5,
+            "volume": 19.651484454403228,
+            "effort": 29.47722668160484,
+            "bugs": 0.00655049481813441,
+            "time": 1.6376237045336022
+          },
+          "params": 1
+        }
+      },
+      {
+        "name": "<anonymous>",
+        "line": 81,
+        "complexity": {
+          "sloc": {
+            "physical": 3,
+            "logical": 1
+          },
+          "cyclomatic": 1,
+          "halstead": {
+            "operators": {
+              "distinct": 2,
+              "total": 2,
+              "identifiers": [
+                "=",
+                "."
+              ]
+            },
+            "operands": {
+              "distinct": 2,
+              "total": 4,
+              "identifiers": [
+                "todo",
+                "completed"
+              ]
+            },
+            "length": 6,
+            "vocabulary": 4,
+            "difficulty": 2,
+            "volume": 12,
+            "effort": 24,
+            "bugs": 0.004,
+            "time": 1.3333333333333333
+          },
+          "params": 1
+        }
+      }
+    ],
+    "maintainability": 127.75755144895868,
+    "params": 1.1666666666666667,
+    "module": "/home/ramiro/repos/pub/todomvc-metrics/todomvc/architecture-examples/angularjs/js/controllers/todoCtrl.js"
+  }
+]
