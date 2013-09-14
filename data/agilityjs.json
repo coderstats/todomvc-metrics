@@ -1,6 +1,214 @@
 [
   {
     "aggregate": {
+      "line": 2,
+      "complexity": {
+        "sloc": {
+          "physical": 34,
+          "logical": 29
+        },
+        "cyclomatic": 10,
+        "halstead": {
+          "operators": {
+            "distinct": 16,
+            "total": 90,
+            "identifiers": [
+              "()",
+              ".",
+              "function",
+              "=",
+              "var",
+              "+",
+              "||",
+              ":?",
+              "{}",
+              "if",
+              "else",
+              "===",
+              "!==",
+              "typeof (prefix)",
+              "delete (prefix)",
+              "new"
+            ]
+          },
+          "operands": {
+            "distinct": 34,
+            "total": 93,
+            "identifiers": [
+              "window",
+              "agility",
+              "<anonymous>",
+              "$$",
+              "undefined",
+              "\"use strict\"",
+              "adapter",
+              "localStorage",
+              "_params",
+              "storageKey",
+              "this",
+              "_data",
+              "persist",
+              "baseUrl",
+              "\"\"",
+              "collection",
+              "storageStr",
+              "items",
+              "JSON",
+              "parse",
+              "type",
+              "\"GET\"",
+              "id",
+              "\"object\"",
+              "success",
+              "error",
+              "\"DELETE\"",
+              "stringify",
+              "\"PUT\"",
+              "\"POST\"",
+              "Date",
+              "getTime",
+              "data",
+              "complete"
+            ]
+          },
+          "length": 183,
+          "vocabulary": 50,
+          "difficulty": 21.88235294117647,
+          "volume": 1032.8256827287746,
+          "effort": 22600.6561161826,
+          "bugs": 0.3442752275762582,
+          "time": 1255.592006454589
+        },
+        "params": 3
+      }
+    },
+    "functions": [
+      {
+        "name": "<anonymous>",
+        "line": 2,
+        "complexity": {
+          "sloc": {
+            "physical": 34,
+            "logical": 2
+          },
+          "cyclomatic": 1,
+          "halstead": {
+            "operators": {
+              "distinct": 3,
+              "total": 4,
+              "identifiers": [
+                "=",
+                ".",
+                "function"
+              ]
+            },
+            "operands": {
+              "distinct": 6,
+              "total": 7,
+              "identifiers": [
+                "$$",
+                "undefined",
+                "\"use strict\"",
+                "adapter",
+                "localStorage",
+                "<anonymous>"
+              ]
+            },
+            "length": 11,
+            "vocabulary": 9,
+            "difficulty": 1.75,
+            "volume": 34.86917501586544,
+            "effort": 61.021056277764515,
+            "bugs": 0.011623058338621813,
+            "time": 3.3900586820980285
+          },
+          "params": 2
+        }
+      },
+      {
+        "name": "<anonymous>.localStorage",
+        "line": 5,
+        "complexity": {
+          "sloc": {
+            "physical": 30,
+            "logical": 25
+          },
+          "cyclomatic": 10,
+          "halstead": {
+            "operators": {
+              "distinct": 15,
+              "total": 83,
+              "identifiers": [
+                "var",
+                "=",
+                "+",
+                "||",
+                ".",
+                ":?",
+                "()",
+                "{}",
+                "if",
+                "else",
+                "===",
+                "!==",
+                "typeof (prefix)",
+                "delete (prefix)",
+                "new"
+              ]
+            },
+            "operands": {
+              "distinct": 29,
+              "total": 83,
+              "identifiers": [
+                "_params",
+                "storageKey",
+                "this",
+                "_data",
+                "persist",
+                "baseUrl",
+                "\"\"",
+                "collection",
+                "storageStr",
+                "localStorage",
+                "items",
+                "JSON",
+                "parse",
+                "<anonymous>",
+                "type",
+                "\"GET\"",
+                "id",
+                "undefined",
+                "\"object\"",
+                "success",
+                "error",
+                "\"DELETE\"",
+                "stringify",
+                "\"PUT\"",
+                "\"POST\"",
+                "Date",
+                "getTime",
+                "data",
+                "complete"
+              ]
+            },
+            "length": 166,
+            "vocabulary": 44,
+            "difficulty": 21.465517241379313,
+            "volume": 906.2656486937914,
+            "effort": 19453.460907306388,
+            "bugs": 0.30208854956459713,
+            "time": 1080.7478281836882
+          },
+          "params": 1
+        }
+      }
+    ],
+    "maintainability": 97.02901889480617,
+    "params": 1.5,
+    "module": "/home/ramiro/repos/pub/todomvc-metrics/todomvc/architecture-examples/agilityjs/js/localstorage.js"
+  },
+  {
+    "aggregate": {
       "line": 1,
       "complexity": {
         "sloc": {
@@ -1439,213 +1647,5 @@
     "maintainability": 126.8592372862538,
     "params": 0.5357142857142857,
     "module": "/home/ramiro/repos/pub/todomvc-metrics/todomvc/architecture-examples/agilityjs/js/app.js"
-  },
-  {
-    "aggregate": {
-      "line": 2,
-      "complexity": {
-        "sloc": {
-          "physical": 34,
-          "logical": 29
-        },
-        "cyclomatic": 10,
-        "halstead": {
-          "operators": {
-            "distinct": 16,
-            "total": 90,
-            "identifiers": [
-              "()",
-              ".",
-              "function",
-              "=",
-              "var",
-              "+",
-              "||",
-              ":?",
-              "{}",
-              "if",
-              "else",
-              "===",
-              "!==",
-              "typeof (prefix)",
-              "delete (prefix)",
-              "new"
-            ]
-          },
-          "operands": {
-            "distinct": 34,
-            "total": 93,
-            "identifiers": [
-              "window",
-              "agility",
-              "<anonymous>",
-              "$$",
-              "undefined",
-              "\"use strict\"",
-              "adapter",
-              "localStorage",
-              "_params",
-              "storageKey",
-              "this",
-              "_data",
-              "persist",
-              "baseUrl",
-              "\"\"",
-              "collection",
-              "storageStr",
-              "items",
-              "JSON",
-              "parse",
-              "type",
-              "\"GET\"",
-              "id",
-              "\"object\"",
-              "success",
-              "error",
-              "\"DELETE\"",
-              "stringify",
-              "\"PUT\"",
-              "\"POST\"",
-              "Date",
-              "getTime",
-              "data",
-              "complete"
-            ]
-          },
-          "length": 183,
-          "vocabulary": 50,
-          "difficulty": 21.88235294117647,
-          "volume": 1032.8256827287746,
-          "effort": 22600.6561161826,
-          "bugs": 0.3442752275762582,
-          "time": 1255.592006454589
-        },
-        "params": 3
-      }
-    },
-    "functions": [
-      {
-        "name": "<anonymous>",
-        "line": 2,
-        "complexity": {
-          "sloc": {
-            "physical": 34,
-            "logical": 2
-          },
-          "cyclomatic": 1,
-          "halstead": {
-            "operators": {
-              "distinct": 3,
-              "total": 4,
-              "identifiers": [
-                "=",
-                ".",
-                "function"
-              ]
-            },
-            "operands": {
-              "distinct": 6,
-              "total": 7,
-              "identifiers": [
-                "$$",
-                "undefined",
-                "\"use strict\"",
-                "adapter",
-                "localStorage",
-                "<anonymous>"
-              ]
-            },
-            "length": 11,
-            "vocabulary": 9,
-            "difficulty": 1.75,
-            "volume": 34.86917501586544,
-            "effort": 61.021056277764515,
-            "bugs": 0.011623058338621813,
-            "time": 3.3900586820980285
-          },
-          "params": 2
-        }
-      },
-      {
-        "name": "<anonymous>.localStorage",
-        "line": 5,
-        "complexity": {
-          "sloc": {
-            "physical": 30,
-            "logical": 25
-          },
-          "cyclomatic": 10,
-          "halstead": {
-            "operators": {
-              "distinct": 15,
-              "total": 83,
-              "identifiers": [
-                "var",
-                "=",
-                "+",
-                "||",
-                ".",
-                ":?",
-                "()",
-                "{}",
-                "if",
-                "else",
-                "===",
-                "!==",
-                "typeof (prefix)",
-                "delete (prefix)",
-                "new"
-              ]
-            },
-            "operands": {
-              "distinct": 29,
-              "total": 83,
-              "identifiers": [
-                "_params",
-                "storageKey",
-                "this",
-                "_data",
-                "persist",
-                "baseUrl",
-                "\"\"",
-                "collection",
-                "storageStr",
-                "localStorage",
-                "items",
-                "JSON",
-                "parse",
-                "<anonymous>",
-                "type",
-                "\"GET\"",
-                "id",
-                "undefined",
-                "\"object\"",
-                "success",
-                "error",
-                "\"DELETE\"",
-                "stringify",
-                "\"PUT\"",
-                "\"POST\"",
-                "Date",
-                "getTime",
-                "data",
-                "complete"
-              ]
-            },
-            "length": 166,
-            "vocabulary": 44,
-            "difficulty": 21.465517241379313,
-            "volume": 906.2656486937914,
-            "effort": 19453.460907306388,
-            "bugs": 0.30208854956459713,
-            "time": 1080.7478281836882
-          },
-          "params": 1
-        }
-      }
-    ],
-    "maintainability": 97.02901889480617,
-    "params": 1.5,
-    "module": "/home/ramiro/repos/pub/todomvc-metrics/todomvc/architecture-examples/agilityjs/js/localstorage.js"
   }
 ]

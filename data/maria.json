@@ -618,6 +618,268 @@
       "line": 4,
       "complexity": {
         "sloc": {
+          "physical": 33,
+          "logical": 19
+        },
+        "cyclomatic": 4,
+        "halstead": {
+          "operators": {
+            "distinct": 11,
+            "total": 56,
+            "identifiers": [
+              "()",
+              "{}",
+              ":",
+              "function",
+              "if",
+              ".",
+              "var",
+              "=",
+              "! (prefix)",
+              "new",
+              "else"
+            ]
+          },
+          "operands": {
+            "distinct": 30,
+            "total": 52,
+            "identifiers": [
+              "checkit",
+              "\"TodosAppController\"",
+              "<anonymous>",
+              "properties",
+              "onKeyupNewTodo",
+              "evt",
+              "keyCode",
+              "isEnterKeyCode",
+              "view",
+              "this",
+              "getView",
+              "value",
+              "getInputValue",
+              "isBlank",
+              "todo",
+              "TodoModel",
+              "setTitle",
+              "getModel",
+              "add",
+              "clearInput",
+              "onClickToggleAll",
+              "model",
+              "isAllCompleted",
+              "markAllIncompleted",
+              "markAllCompleted",
+              "onClickClearCompleted",
+              "deleteCompleted",
+              "maria",
+              "Controller",
+              "subclass"
+            ]
+          },
+          "length": 108,
+          "vocabulary": 41,
+          "difficulty": 9.533333333333333,
+          "volume": 578.6156164987531,
+          "effort": 5516.135543954779,
+          "bugs": 0.192871872166251,
+          "time": 306.45197466415436
+        },
+        "params": 1
+      }
+    },
+    "functions": [
+      {
+        "name": "onKeyupNewTodo",
+        "line": 6,
+        "complexity": {
+          "sloc": {
+            "physical": 15,
+            "logical": 8
+          },
+          "cyclomatic": 3,
+          "halstead": {
+            "operators": {
+              "distinct": 7,
+              "total": 28,
+              "identifiers": [
+                "if",
+                "()",
+                ".",
+                "var",
+                "=",
+                "! (prefix)",
+                "new"
+              ]
+            },
+            "operands": {
+              "distinct": 16,
+              "total": 26,
+              "identifiers": [
+                "evt",
+                "keyCode",
+                "checkit",
+                "isEnterKeyCode",
+                "view",
+                "this",
+                "getView",
+                "value",
+                "getInputValue",
+                "isBlank",
+                "todo",
+                "TodoModel",
+                "setTitle",
+                "getModel",
+                "add",
+                "clearInput"
+              ]
+            },
+            "length": 54,
+            "vocabulary": 23,
+            "difficulty": 5.6875,
+            "volume": 244.2723456270787,
+            "effort": 1389.2989657540102,
+            "bugs": 0.08142411520902623,
+            "time": 77.18327587522279
+          },
+          "params": 1
+        }
+      },
+      {
+        "name": "onClickToggleAll",
+        "line": 22,
+        "complexity": {
+          "sloc": {
+            "physical": 9,
+            "logical": 5
+          },
+          "cyclomatic": 2,
+          "halstead": {
+            "operators": {
+              "distinct": 6,
+              "total": 12,
+              "identifiers": [
+                "var",
+                "=",
+                "()",
+                ".",
+                "if",
+                "else"
+              ]
+            },
+            "operands": {
+              "distinct": 6,
+              "total": 9,
+              "identifiers": [
+                "model",
+                "this",
+                "getModel",
+                "isAllCompleted",
+                "markAllIncompleted",
+                "markAllCompleted"
+              ]
+            },
+            "length": 21,
+            "vocabulary": 12,
+            "difficulty": 4.5,
+            "volume": 75.28421251514429,
+            "effort": 338.7789563181493,
+            "bugs": 0.025094737505048096,
+            "time": 18.821053128786073
+          },
+          "params": 0
+        }
+      },
+      {
+        "name": "onClickClearCompleted",
+        "line": 32,
+        "complexity": {
+          "sloc": {
+            "physical": 3,
+            "logical": 1
+          },
+          "cyclomatic": 1,
+          "halstead": {
+            "operators": {
+              "distinct": 2,
+              "total": 4,
+              "identifiers": [
+                "()",
+                "."
+              ]
+            },
+            "operands": {
+              "distinct": 3,
+              "total": 3,
+              "identifiers": [
+                "this",
+                "getModel",
+                "deleteCompleted"
+              ]
+            },
+            "length": 7,
+            "vocabulary": 5,
+            "difficulty": 1,
+            "volume": 16.253496664211536,
+            "effort": 16.253496664211536,
+            "bugs": 0.005417832221403845,
+            "time": 0.9029720369006409
+          },
+          "params": 0
+        }
+      }
+    ],
+    "maintainability": 124.11530747165111,
+    "params": 0.3333333333333333,
+    "module": "/home/ramiro/repos/pub/todomvc-metrics/todomvc/architecture-examples/maria/js/controllers/TodosController.js"
+  },
+  {
+    "aggregate": {
+      "line": 3,
+      "complexity": {
+        "sloc": {
+          "physical": 1,
+          "logical": 1
+        },
+        "cyclomatic": 1,
+        "halstead": {
+          "operators": {
+            "distinct": 3,
+            "total": 3,
+            "identifiers": [
+              "var",
+              "=",
+              "{}"
+            ]
+          },
+          "operands": {
+            "distinct": 2,
+            "total": 2,
+            "identifiers": [
+              "checkit",
+              "<anonymous>"
+            ]
+          },
+          "length": 5,
+          "vocabulary": 5,
+          "difficulty": 1.5,
+          "volume": 11.60964047443681,
+          "effort": 17.414460711655217,
+          "bugs": 0.0038698801581456034,
+          "time": 0.9674700395364009
+        },
+        "params": 0
+      }
+    },
+    "functions": [],
+    "maintainability": 161.22803079733745,
+    "params": 0,
+    "module": "/home/ramiro/repos/pub/todomvc-metrics/todomvc/architecture-examples/maria/js/namespace.js"
+  },
+  {
+    "aggregate": {
+      "line": 4,
+      "complexity": {
+        "sloc": {
           "physical": 93,
           "logical": 53
         },
@@ -1865,268 +2127,6 @@
   },
   {
     "aggregate": {
-      "line": 4,
-      "complexity": {
-        "sloc": {
-          "physical": 33,
-          "logical": 19
-        },
-        "cyclomatic": 4,
-        "halstead": {
-          "operators": {
-            "distinct": 11,
-            "total": 56,
-            "identifiers": [
-              "()",
-              "{}",
-              ":",
-              "function",
-              "if",
-              ".",
-              "var",
-              "=",
-              "! (prefix)",
-              "new",
-              "else"
-            ]
-          },
-          "operands": {
-            "distinct": 30,
-            "total": 52,
-            "identifiers": [
-              "checkit",
-              "\"TodosAppController\"",
-              "<anonymous>",
-              "properties",
-              "onKeyupNewTodo",
-              "evt",
-              "keyCode",
-              "isEnterKeyCode",
-              "view",
-              "this",
-              "getView",
-              "value",
-              "getInputValue",
-              "isBlank",
-              "todo",
-              "TodoModel",
-              "setTitle",
-              "getModel",
-              "add",
-              "clearInput",
-              "onClickToggleAll",
-              "model",
-              "isAllCompleted",
-              "markAllIncompleted",
-              "markAllCompleted",
-              "onClickClearCompleted",
-              "deleteCompleted",
-              "maria",
-              "Controller",
-              "subclass"
-            ]
-          },
-          "length": 108,
-          "vocabulary": 41,
-          "difficulty": 9.533333333333333,
-          "volume": 578.6156164987531,
-          "effort": 5516.135543954779,
-          "bugs": 0.192871872166251,
-          "time": 306.45197466415436
-        },
-        "params": 1
-      }
-    },
-    "functions": [
-      {
-        "name": "onKeyupNewTodo",
-        "line": 6,
-        "complexity": {
-          "sloc": {
-            "physical": 15,
-            "logical": 8
-          },
-          "cyclomatic": 3,
-          "halstead": {
-            "operators": {
-              "distinct": 7,
-              "total": 28,
-              "identifiers": [
-                "if",
-                "()",
-                ".",
-                "var",
-                "=",
-                "! (prefix)",
-                "new"
-              ]
-            },
-            "operands": {
-              "distinct": 16,
-              "total": 26,
-              "identifiers": [
-                "evt",
-                "keyCode",
-                "checkit",
-                "isEnterKeyCode",
-                "view",
-                "this",
-                "getView",
-                "value",
-                "getInputValue",
-                "isBlank",
-                "todo",
-                "TodoModel",
-                "setTitle",
-                "getModel",
-                "add",
-                "clearInput"
-              ]
-            },
-            "length": 54,
-            "vocabulary": 23,
-            "difficulty": 5.6875,
-            "volume": 244.2723456270787,
-            "effort": 1389.2989657540102,
-            "bugs": 0.08142411520902623,
-            "time": 77.18327587522279
-          },
-          "params": 1
-        }
-      },
-      {
-        "name": "onClickToggleAll",
-        "line": 22,
-        "complexity": {
-          "sloc": {
-            "physical": 9,
-            "logical": 5
-          },
-          "cyclomatic": 2,
-          "halstead": {
-            "operators": {
-              "distinct": 6,
-              "total": 12,
-              "identifiers": [
-                "var",
-                "=",
-                "()",
-                ".",
-                "if",
-                "else"
-              ]
-            },
-            "operands": {
-              "distinct": 6,
-              "total": 9,
-              "identifiers": [
-                "model",
-                "this",
-                "getModel",
-                "isAllCompleted",
-                "markAllIncompleted",
-                "markAllCompleted"
-              ]
-            },
-            "length": 21,
-            "vocabulary": 12,
-            "difficulty": 4.5,
-            "volume": 75.28421251514429,
-            "effort": 338.7789563181493,
-            "bugs": 0.025094737505048096,
-            "time": 18.821053128786073
-          },
-          "params": 0
-        }
-      },
-      {
-        "name": "onClickClearCompleted",
-        "line": 32,
-        "complexity": {
-          "sloc": {
-            "physical": 3,
-            "logical": 1
-          },
-          "cyclomatic": 1,
-          "halstead": {
-            "operators": {
-              "distinct": 2,
-              "total": 4,
-              "identifiers": [
-                "()",
-                "."
-              ]
-            },
-            "operands": {
-              "distinct": 3,
-              "total": 3,
-              "identifiers": [
-                "this",
-                "getModel",
-                "deleteCompleted"
-              ]
-            },
-            "length": 7,
-            "vocabulary": 5,
-            "difficulty": 1,
-            "volume": 16.253496664211536,
-            "effort": 16.253496664211536,
-            "bugs": 0.005417832221403845,
-            "time": 0.9029720369006409
-          },
-          "params": 0
-        }
-      }
-    ],
-    "maintainability": 124.11530747165111,
-    "params": 0.3333333333333333,
-    "module": "/home/ramiro/repos/pub/todomvc-metrics/todomvc/architecture-examples/maria/js/controllers/TodosController.js"
-  },
-  {
-    "aggregate": {
-      "line": 3,
-      "complexity": {
-        "sloc": {
-          "physical": 1,
-          "logical": 1
-        },
-        "cyclomatic": 1,
-        "halstead": {
-          "operators": {
-            "distinct": 3,
-            "total": 3,
-            "identifiers": [
-              "var",
-              "=",
-              "{}"
-            ]
-          },
-          "operands": {
-            "distinct": 2,
-            "total": 2,
-            "identifiers": [
-              "checkit",
-              "<anonymous>"
-            ]
-          },
-          "length": 5,
-          "vocabulary": 5,
-          "difficulty": 1.5,
-          "volume": 11.60964047443681,
-          "effort": 17.414460711655217,
-          "bugs": 0.0038698801581456034,
-          "time": 0.9674700395364009
-        },
-        "params": 0
-      }
-    },
-    "functions": [],
-    "maintainability": 161.22803079733745,
-    "params": 0,
-    "module": "/home/ramiro/repos/pub/todomvc-metrics/todomvc/architecture-examples/maria/js/namespace.js"
-  },
-  {
-    "aggregate": {
       "line": 11,
       "complexity": {
         "sloc": {
@@ -2175,532 +2175,6 @@
     "maintainability": 155.06842336029302,
     "params": 0,
     "module": "/home/ramiro/repos/pub/todomvc-metrics/todomvc/architecture-examples/maria/js/templates/TodoTemplate.js"
-  },
-  {
-    "aggregate": {
-      "line": 11,
-      "complexity": {
-        "sloc": {
-          "physical": 27,
-          "logical": 1
-        },
-        "cyclomatic": 1,
-        "halstead": {
-          "operators": {
-            "distinct": 3,
-            "total": 27,
-            "identifiers": [
-              "=",
-              ".",
-              "+"
-            ]
-          },
-          "operands": {
-            "distinct": 23,
-            "total": 28,
-            "identifiers": [
-              "checkit",
-              "TodosAppTemplate",
-              "\"<section id=\"todoapp\">\"",
-              "\"<header id=\"header\">\"",
-              "\"<h1>todos</h1>\"",
-              "\"<input id=\"new-todo\" placeholder=\"What needs to be done?\" autofocus>\"",
-              "\"</header>\"",
-              "\"<section id=\"main\">\"",
-              "\"<input id=\"toggle-all\" type=\"checkbox\">\"",
-              "\"<label for=\"toggle-all\">Mark all as completed</label>\"",
-              "\"<ul id=\"todo-list\"></ul>\"",
-              "\"</section>\"",
-              "\"<footer id=\"footer\">\"",
-              "\"<span id=\"todo-count\"></span>\"",
-              "\"<ul id=\"filters\">\"",
-              "\"<li>\"",
-              "\"<a class=\"all-filter\" href=\"#/\">All</a>\"",
-              "\"</li>\"",
-              "\"<a class=\"incompleted-filter\" href=\"#/active\">Active</a>\"",
-              "\"<a class=\"completed-filter\" href=\"#/completed\">Completed</a>\"",
-              "\"</ul>\"",
-              "\"<button id=\"clear-completed\"></button>\"",
-              "\"</footer>\""
-            ]
-          },
-          "length": 55,
-          "vocabulary": 26,
-          "difficulty": 1.8260869565217392,
-          "volume": 258.5241844977601,
-          "effort": 472.0876412567793,
-          "bugs": 0.08617472816592002,
-          "time": 26.227091180932184
-        },
-        "params": 0
-      }
-    },
-    "functions": [],
-    "maintainability": 149.94249690049588,
-    "params": 0,
-    "module": "/home/ramiro/repos/pub/todomvc-metrics/todomvc/architecture-examples/maria/js/templates/TodosTemplate.js"
-  },
-  {
-    "aggregate": {
-      "line": 4,
-      "complexity": {
-        "sloc": {
-          "physical": 67,
-          "logical": 39
-        },
-        "cyclomatic": 6,
-        "halstead": {
-          "operators": {
-            "distinct": 14,
-            "total": 140,
-            "identifiers": [
-              "()",
-              "{}",
-              ":",
-              "function",
-              "var",
-              "=",
-              ".",
-              ":?",
-              ">",
-              "+",
-              "===",
-              "if",
-              "return",
-              "new"
-            ]
-          },
-          "operands": {
-            "distinct": 76,
-            "total": 162,
-            "identifiers": [
-              "checkit",
-              "\"TodosAppView\"",
-              "<anonymous>",
-              "uiActions",
-              "\"keyup #new-todo\"",
-              "\"onKeyupNewTodo\"",
-              "\"click #toggle-all\"",
-              "\"onClickToggleAll\"",
-              "\"click #clear-completed\"",
-              "\"onClickClearCompleted\"",
-              "properties",
-              "buildData",
-              "model",
-              "this",
-              "getModel",
-              "length",
-              "size",
-              "\"#main\"",
-              "find",
-              "style",
-              "display",
-              0,
-              "\"\"",
-              "\"none\"",
-              "\"#footer\"",
-              "checkbox",
-              "\"#toggle-all\"",
-              "checked",
-              "isAllCompleted",
-              "disabled",
-              "isEmpty",
-              "todoList",
-              "\"#todo-list\"",
-              "mode",
-              "aristocrat",
-              "removeClass",
-              "getPossibleModes",
-              "forEach",
-              "getMode",
-              "addClass",
-              "incompletedLength",
-              "getIncompleted",
-              "\"#todo-count\"",
-              "innerHTML",
-              "\"<strong>\"",
-              "\"</strong> \"",
-              1,
-              "\"item\"",
-              "\"items\"",
-              "\" left\"",
-              "selected",
-              "\".selected\"",
-              "\"selected\"",
-              "\".\"",
-              "\"-filter\"",
-              "completedLength",
-              "getCompleted",
-              "clearButton",
-              "\"#clear-completed\"",
-              "\"Clear completed (\"",
-              "\")\"",
-              "update",
-              "evt",
-              "maria",
-              "SetView",
-              "prototype",
-              "call",
-              "getContainerEl",
-              "createChildView",
-              "todoModel",
-              "TodoView",
-              "getInputValue",
-              "\"#new-todo\"",
-              "value",
-              "clearInput",
-              "subclass"
-            ]
-          },
-          "length": 302,
-          "vocabulary": 90,
-          "difficulty": 14.921052631578949,
-          "volume": 1960.5396350915619,
-          "effort": 29253.31508149778,
-          "bugs": 0.6535132116971873,
-          "time": 1625.1841711943212
-        },
-        "params": 3
-      }
-    },
-    "functions": [
-      {
-        "name": "buildData",
-        "line": 12,
-        "complexity": {
-          "sloc": {
-            "physical": 34,
-            "logical": 20
-          },
-          "cyclomatic": 6,
-          "halstead": {
-            "operators": {
-              "distinct": 10,
-              "total": 94,
-              "identifiers": [
-                "var",
-                "=",
-                "()",
-                ".",
-                ":?",
-                ">",
-                "function",
-                "+",
-                "===",
-                "if"
-              ]
-            },
-            "operands": {
-              "distinct": 49,
-              "total": 103,
-              "identifiers": [
-                "model",
-                "this",
-                "getModel",
-                "length",
-                "size",
-                "\"#main\"",
-                "find",
-                "style",
-                "display",
-                0,
-                "\"\"",
-                "\"none\"",
-                "\"#footer\"",
-                "checkbox",
-                "\"#toggle-all\"",
-                "checked",
-                "isAllCompleted",
-                "disabled",
-                "isEmpty",
-                "todoList",
-                "\"#todo-list\"",
-                "<anonymous>",
-                "getPossibleModes",
-                "forEach",
-                "getMode",
-                "aristocrat",
-                "addClass",
-                "incompletedLength",
-                "getIncompleted",
-                "\"#todo-count\"",
-                "innerHTML",
-                "\"<strong>\"",
-                "\"</strong> \"",
-                1,
-                "\"item\"",
-                "\"items\"",
-                "\" left\"",
-                "selected",
-                "\".selected\"",
-                "\"selected\"",
-                "removeClass",
-                "\".\"",
-                "\"-filter\"",
-                "completedLength",
-                "getCompleted",
-                "clearButton",
-                "\"#clear-completed\"",
-                "\"Clear completed (\"",
-                "\")\""
-              ]
-            },
-            "length": 197,
-            "vocabulary": 59,
-            "difficulty": 10.510204081632653,
-            "volume": 1158.8806807242827,
-            "effort": 12180.072460673582,
-            "bugs": 0.3862935602414276,
-            "time": 676.6706922596435
-          },
-          "params": 0
-        }
-      },
-      {
-        "name": "<anonymous>",
-        "line": 24,
-        "complexity": {
-          "sloc": {
-            "physical": 3,
-            "logical": 1
-          },
-          "cyclomatic": 1,
-          "halstead": {
-            "operators": {
-              "distinct": 2,
-              "total": 2,
-              "identifiers": [
-                "()",
-                "."
-              ]
-            },
-            "operands": {
-              "distinct": 4,
-              "total": 5,
-              "identifiers": [
-                "mode",
-                "todoList",
-                "aristocrat",
-                "removeClass"
-              ]
-            },
-            "length": 7,
-            "vocabulary": 6,
-            "difficulty": 1.25,
-            "volume": 18.094737505048094,
-            "effort": 22.61842188131012,
-            "bugs": 0.006031579168349364,
-            "time": 1.2565789934061178
-          },
-          "params": 1
-        }
-      },
-      {
-        "name": "update",
-        "line": 47,
-        "complexity": {
-          "sloc": {
-            "physical": 5,
-            "logical": 2
-          },
-          "cyclomatic": 1,
-          "halstead": {
-            "operators": {
-              "distinct": 2,
-              "total": 7,
-              "identifiers": [
-                "()",
-                "."
-              ]
-            },
-            "operands": {
-              "distinct": 8,
-              "total": 10,
-              "identifiers": [
-                "evt",
-                "this",
-                "maria",
-                "SetView",
-                "prototype",
-                "update",
-                "call",
-                "buildData"
-              ]
-            },
-            "length": 17,
-            "vocabulary": 10,
-            "difficulty": 1.25,
-            "volume": 56.472777613085164,
-            "effort": 70.59097201635646,
-            "bugs": 0.01882425920436172,
-            "time": 3.921720667575359
-          },
-          "params": 1
-        }
-      },
-      {
-        "name": "getContainerEl",
-        "line": 53,
-        "complexity": {
-          "sloc": {
-            "physical": 4,
-            "logical": 1
-          },
-          "cyclomatic": 1,
-          "halstead": {
-            "operators": {
-              "distinct": 3,
-              "total": 3,
-              "identifiers": [
-                "return",
-                "()",
-                "."
-              ]
-            },
-            "operands": {
-              "distinct": 3,
-              "total": 3,
-              "identifiers": [
-                "\"#todo-list\"",
-                "this",
-                "find"
-              ]
-            },
-            "length": 6,
-            "vocabulary": 6,
-            "difficulty": 1.5,
-            "volume": 15.509775004326936,
-            "effort": 23.264662506490403,
-            "bugs": 0.005169925001442312,
-            "time": 1.292481250360578
-          },
-          "params": 0
-        }
-      },
-      {
-        "name": "createChildView",
-        "line": 58,
-        "complexity": {
-          "sloc": {
-            "physical": 3,
-            "logical": 1
-          },
-          "cyclomatic": 1,
-          "halstead": {
-            "operators": {
-              "distinct": 3,
-              "total": 3,
-              "identifiers": [
-                "return",
-                "new",
-                "."
-              ]
-            },
-            "operands": {
-              "distinct": 3,
-              "total": 4,
-              "identifiers": [
-                "todoModel",
-                "checkit",
-                "TodoView"
-              ]
-            },
-            "length": 7,
-            "vocabulary": 6,
-            "difficulty": 2,
-            "volume": 18.094737505048094,
-            "effort": 36.18947501009619,
-            "bugs": 0.006031579168349364,
-            "time": 2.0105263894497885
-          },
-          "params": 1
-        }
-      },
-      {
-        "name": "getInputValue",
-        "line": 62,
-        "complexity": {
-          "sloc": {
-            "physical": 3,
-            "logical": 1
-          },
-          "cyclomatic": 1,
-          "halstead": {
-            "operators": {
-              "distinct": 3,
-              "total": 4,
-              "identifiers": [
-                "return",
-                ".",
-                "()"
-              ]
-            },
-            "operands": {
-              "distinct": 4,
-              "total": 4,
-              "identifiers": [
-                "\"#new-todo\"",
-                "this",
-                "find",
-                "value"
-              ]
-            },
-            "length": 8,
-            "vocabulary": 7,
-            "difficulty": 1.5,
-            "volume": 22.458839376460833,
-            "effort": 33.68825906469125,
-            "bugs": 0.007486279792153611,
-            "time": 1.871569948038403
-          },
-          "params": 0
-        }
-      },
-      {
-        "name": "clearInput",
-        "line": 66,
-        "complexity": {
-          "sloc": {
-            "physical": 3,
-            "logical": 1
-          },
-          "cyclomatic": 1,
-          "halstead": {
-            "operators": {
-              "distinct": 3,
-              "total": 4,
-              "identifiers": [
-                "=",
-                ".",
-                "()"
-              ]
-            },
-            "operands": {
-              "distinct": 5,
-              "total": 5,
-              "identifiers": [
-                "\"#new-todo\"",
-                "this",
-                "find",
-                "value",
-                "\"\""
-              ]
-            },
-            "length": 9,
-            "vocabulary": 8,
-            "difficulty": 1.5,
-            "volume": 27,
-            "effort": 40.5,
-            "bugs": 0.009,
-            "time": 2.25
-          },
-          "params": 0
-        }
-      }
-    ],
-    "maintainability": 123.42527648944932,
-    "params": 0.42857142857142855,
-    "module": "/home/ramiro/repos/pub/todomvc-metrics/todomvc/architecture-examples/maria/js/views/TodosView.js"
   },
   {
     "aggregate": {
@@ -3291,5 +2765,531 @@
     "maintainability": 136.90924237604435,
     "params": 0,
     "module": "/home/ramiro/repos/pub/todomvc-metrics/todomvc/architecture-examples/maria/js/views/TodoView.js"
+  },
+  {
+    "aggregate": {
+      "line": 4,
+      "complexity": {
+        "sloc": {
+          "physical": 67,
+          "logical": 39
+        },
+        "cyclomatic": 6,
+        "halstead": {
+          "operators": {
+            "distinct": 14,
+            "total": 140,
+            "identifiers": [
+              "()",
+              "{}",
+              ":",
+              "function",
+              "var",
+              "=",
+              ".",
+              ":?",
+              ">",
+              "+",
+              "===",
+              "if",
+              "return",
+              "new"
+            ]
+          },
+          "operands": {
+            "distinct": 76,
+            "total": 162,
+            "identifiers": [
+              "checkit",
+              "\"TodosAppView\"",
+              "<anonymous>",
+              "uiActions",
+              "\"keyup #new-todo\"",
+              "\"onKeyupNewTodo\"",
+              "\"click #toggle-all\"",
+              "\"onClickToggleAll\"",
+              "\"click #clear-completed\"",
+              "\"onClickClearCompleted\"",
+              "properties",
+              "buildData",
+              "model",
+              "this",
+              "getModel",
+              "length",
+              "size",
+              "\"#main\"",
+              "find",
+              "style",
+              "display",
+              0,
+              "\"\"",
+              "\"none\"",
+              "\"#footer\"",
+              "checkbox",
+              "\"#toggle-all\"",
+              "checked",
+              "isAllCompleted",
+              "disabled",
+              "isEmpty",
+              "todoList",
+              "\"#todo-list\"",
+              "mode",
+              "aristocrat",
+              "removeClass",
+              "getPossibleModes",
+              "forEach",
+              "getMode",
+              "addClass",
+              "incompletedLength",
+              "getIncompleted",
+              "\"#todo-count\"",
+              "innerHTML",
+              "\"<strong>\"",
+              "\"</strong> \"",
+              1,
+              "\"item\"",
+              "\"items\"",
+              "\" left\"",
+              "selected",
+              "\".selected\"",
+              "\"selected\"",
+              "\".\"",
+              "\"-filter\"",
+              "completedLength",
+              "getCompleted",
+              "clearButton",
+              "\"#clear-completed\"",
+              "\"Clear completed (\"",
+              "\")\"",
+              "update",
+              "evt",
+              "maria",
+              "SetView",
+              "prototype",
+              "call",
+              "getContainerEl",
+              "createChildView",
+              "todoModel",
+              "TodoView",
+              "getInputValue",
+              "\"#new-todo\"",
+              "value",
+              "clearInput",
+              "subclass"
+            ]
+          },
+          "length": 302,
+          "vocabulary": 90,
+          "difficulty": 14.921052631578949,
+          "volume": 1960.5396350915619,
+          "effort": 29253.31508149778,
+          "bugs": 0.6535132116971873,
+          "time": 1625.1841711943212
+        },
+        "params": 3
+      }
+    },
+    "functions": [
+      {
+        "name": "buildData",
+        "line": 12,
+        "complexity": {
+          "sloc": {
+            "physical": 34,
+            "logical": 20
+          },
+          "cyclomatic": 6,
+          "halstead": {
+            "operators": {
+              "distinct": 10,
+              "total": 94,
+              "identifiers": [
+                "var",
+                "=",
+                "()",
+                ".",
+                ":?",
+                ">",
+                "function",
+                "+",
+                "===",
+                "if"
+              ]
+            },
+            "operands": {
+              "distinct": 49,
+              "total": 103,
+              "identifiers": [
+                "model",
+                "this",
+                "getModel",
+                "length",
+                "size",
+                "\"#main\"",
+                "find",
+                "style",
+                "display",
+                0,
+                "\"\"",
+                "\"none\"",
+                "\"#footer\"",
+                "checkbox",
+                "\"#toggle-all\"",
+                "checked",
+                "isAllCompleted",
+                "disabled",
+                "isEmpty",
+                "todoList",
+                "\"#todo-list\"",
+                "<anonymous>",
+                "getPossibleModes",
+                "forEach",
+                "getMode",
+                "aristocrat",
+                "addClass",
+                "incompletedLength",
+                "getIncompleted",
+                "\"#todo-count\"",
+                "innerHTML",
+                "\"<strong>\"",
+                "\"</strong> \"",
+                1,
+                "\"item\"",
+                "\"items\"",
+                "\" left\"",
+                "selected",
+                "\".selected\"",
+                "\"selected\"",
+                "removeClass",
+                "\".\"",
+                "\"-filter\"",
+                "completedLength",
+                "getCompleted",
+                "clearButton",
+                "\"#clear-completed\"",
+                "\"Clear completed (\"",
+                "\")\""
+              ]
+            },
+            "length": 197,
+            "vocabulary": 59,
+            "difficulty": 10.510204081632653,
+            "volume": 1158.8806807242827,
+            "effort": 12180.072460673582,
+            "bugs": 0.3862935602414276,
+            "time": 676.6706922596435
+          },
+          "params": 0
+        }
+      },
+      {
+        "name": "<anonymous>",
+        "line": 24,
+        "complexity": {
+          "sloc": {
+            "physical": 3,
+            "logical": 1
+          },
+          "cyclomatic": 1,
+          "halstead": {
+            "operators": {
+              "distinct": 2,
+              "total": 2,
+              "identifiers": [
+                "()",
+                "."
+              ]
+            },
+            "operands": {
+              "distinct": 4,
+              "total": 5,
+              "identifiers": [
+                "mode",
+                "todoList",
+                "aristocrat",
+                "removeClass"
+              ]
+            },
+            "length": 7,
+            "vocabulary": 6,
+            "difficulty": 1.25,
+            "volume": 18.094737505048094,
+            "effort": 22.61842188131012,
+            "bugs": 0.006031579168349364,
+            "time": 1.2565789934061178
+          },
+          "params": 1
+        }
+      },
+      {
+        "name": "update",
+        "line": 47,
+        "complexity": {
+          "sloc": {
+            "physical": 5,
+            "logical": 2
+          },
+          "cyclomatic": 1,
+          "halstead": {
+            "operators": {
+              "distinct": 2,
+              "total": 7,
+              "identifiers": [
+                "()",
+                "."
+              ]
+            },
+            "operands": {
+              "distinct": 8,
+              "total": 10,
+              "identifiers": [
+                "evt",
+                "this",
+                "maria",
+                "SetView",
+                "prototype",
+                "update",
+                "call",
+                "buildData"
+              ]
+            },
+            "length": 17,
+            "vocabulary": 10,
+            "difficulty": 1.25,
+            "volume": 56.472777613085164,
+            "effort": 70.59097201635646,
+            "bugs": 0.01882425920436172,
+            "time": 3.921720667575359
+          },
+          "params": 1
+        }
+      },
+      {
+        "name": "getContainerEl",
+        "line": 53,
+        "complexity": {
+          "sloc": {
+            "physical": 4,
+            "logical": 1
+          },
+          "cyclomatic": 1,
+          "halstead": {
+            "operators": {
+              "distinct": 3,
+              "total": 3,
+              "identifiers": [
+                "return",
+                "()",
+                "."
+              ]
+            },
+            "operands": {
+              "distinct": 3,
+              "total": 3,
+              "identifiers": [
+                "\"#todo-list\"",
+                "this",
+                "find"
+              ]
+            },
+            "length": 6,
+            "vocabulary": 6,
+            "difficulty": 1.5,
+            "volume": 15.509775004326936,
+            "effort": 23.264662506490403,
+            "bugs": 0.005169925001442312,
+            "time": 1.292481250360578
+          },
+          "params": 0
+        }
+      },
+      {
+        "name": "createChildView",
+        "line": 58,
+        "complexity": {
+          "sloc": {
+            "physical": 3,
+            "logical": 1
+          },
+          "cyclomatic": 1,
+          "halstead": {
+            "operators": {
+              "distinct": 3,
+              "total": 3,
+              "identifiers": [
+                "return",
+                "new",
+                "."
+              ]
+            },
+            "operands": {
+              "distinct": 3,
+              "total": 4,
+              "identifiers": [
+                "todoModel",
+                "checkit",
+                "TodoView"
+              ]
+            },
+            "length": 7,
+            "vocabulary": 6,
+            "difficulty": 2,
+            "volume": 18.094737505048094,
+            "effort": 36.18947501009619,
+            "bugs": 0.006031579168349364,
+            "time": 2.0105263894497885
+          },
+          "params": 1
+        }
+      },
+      {
+        "name": "getInputValue",
+        "line": 62,
+        "complexity": {
+          "sloc": {
+            "physical": 3,
+            "logical": 1
+          },
+          "cyclomatic": 1,
+          "halstead": {
+            "operators": {
+              "distinct": 3,
+              "total": 4,
+              "identifiers": [
+                "return",
+                ".",
+                "()"
+              ]
+            },
+            "operands": {
+              "distinct": 4,
+              "total": 4,
+              "identifiers": [
+                "\"#new-todo\"",
+                "this",
+                "find",
+                "value"
+              ]
+            },
+            "length": 8,
+            "vocabulary": 7,
+            "difficulty": 1.5,
+            "volume": 22.458839376460833,
+            "effort": 33.68825906469125,
+            "bugs": 0.007486279792153611,
+            "time": 1.871569948038403
+          },
+          "params": 0
+        }
+      },
+      {
+        "name": "clearInput",
+        "line": 66,
+        "complexity": {
+          "sloc": {
+            "physical": 3,
+            "logical": 1
+          },
+          "cyclomatic": 1,
+          "halstead": {
+            "operators": {
+              "distinct": 3,
+              "total": 4,
+              "identifiers": [
+                "=",
+                ".",
+                "()"
+              ]
+            },
+            "operands": {
+              "distinct": 5,
+              "total": 5,
+              "identifiers": [
+                "\"#new-todo\"",
+                "this",
+                "find",
+                "value",
+                "\"\""
+              ]
+            },
+            "length": 9,
+            "vocabulary": 8,
+            "difficulty": 1.5,
+            "volume": 27,
+            "effort": 40.5,
+            "bugs": 0.009,
+            "time": 2.25
+          },
+          "params": 0
+        }
+      }
+    ],
+    "maintainability": 123.42527648944932,
+    "params": 0.42857142857142855,
+    "module": "/home/ramiro/repos/pub/todomvc-metrics/todomvc/architecture-examples/maria/js/views/TodosView.js"
+  },
+  {
+    "aggregate": {
+      "line": 11,
+      "complexity": {
+        "sloc": {
+          "physical": 27,
+          "logical": 1
+        },
+        "cyclomatic": 1,
+        "halstead": {
+          "operators": {
+            "distinct": 3,
+            "total": 27,
+            "identifiers": [
+              "=",
+              ".",
+              "+"
+            ]
+          },
+          "operands": {
+            "distinct": 23,
+            "total": 28,
+            "identifiers": [
+              "checkit",
+              "TodosAppTemplate",
+              "\"<section id=\"todoapp\">\"",
+              "\"<header id=\"header\">\"",
+              "\"<h1>todos</h1>\"",
+              "\"<input id=\"new-todo\" placeholder=\"What needs to be done?\" autofocus>\"",
+              "\"</header>\"",
+              "\"<section id=\"main\">\"",
+              "\"<input id=\"toggle-all\" type=\"checkbox\">\"",
+              "\"<label for=\"toggle-all\">Mark all as completed</label>\"",
+              "\"<ul id=\"todo-list\"></ul>\"",
+              "\"</section>\"",
+              "\"<footer id=\"footer\">\"",
+              "\"<span id=\"todo-count\"></span>\"",
+              "\"<ul id=\"filters\">\"",
+              "\"<li>\"",
+              "\"<a class=\"all-filter\" href=\"#/\">All</a>\"",
+              "\"</li>\"",
+              "\"<a class=\"incompleted-filter\" href=\"#/active\">Active</a>\"",
+              "\"<a class=\"completed-filter\" href=\"#/completed\">Completed</a>\"",
+              "\"</ul>\"",
+              "\"<button id=\"clear-completed\"></button>\"",
+              "\"</footer>\""
+            ]
+          },
+          "length": 55,
+          "vocabulary": 26,
+          "difficulty": 1.8260869565217392,
+          "volume": 258.5241844977601,
+          "effort": 472.0876412567793,
+          "bugs": 0.08617472816592002,
+          "time": 26.227091180932184
+        },
+        "params": 0
+      }
+    },
+    "functions": [],
+    "maintainability": 149.94249690049588,
+    "params": 0,
+    "module": "/home/ramiro/repos/pub/todomvc-metrics/todomvc/architecture-examples/maria/js/templates/TodosTemplate.js"
   }
 ]
