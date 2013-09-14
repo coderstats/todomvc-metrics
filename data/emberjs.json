@@ -50,6 +50,156 @@
       "line": 2,
       "complexity": {
         "sloc": {
+          "physical": 16,
+          "logical": 9
+        },
+        "cyclomatic": 1,
+        "halstead": {
+          "operators": {
+            "distinct": 7,
+            "total": 23,
+            "identifiers": [
+              "=",
+              ".",
+              "()",
+              "{}",
+              ":",
+              "function",
+              "var"
+            ]
+          },
+          "operands": {
+            "distinct": 21,
+            "total": 27,
+            "identifiers": [
+              "\"use strict\"",
+              "Todos",
+              "TodoController",
+              "<anonymous>",
+              "isEditing",
+              false,
+              "editTodo",
+              "\"isEditing\"",
+              true,
+              "this",
+              "set",
+              "removeTodo",
+              "todo",
+              "\"model\"",
+              "get",
+              "deleteRecord",
+              "\"store\"",
+              "commit",
+              "Ember",
+              "ObjectController",
+              "extend"
+            ]
+          },
+          "length": 50,
+          "vocabulary": 28,
+          "difficulty": 4.5,
+          "volume": 240.36774610288018,
+          "effort": 1081.6548574629608,
+          "bugs": 0.08012258203429339,
+          "time": 60.091936525720044
+        },
+        "params": 0
+      }
+    },
+    "functions": [
+      {
+        "name": "editTodo",
+        "line": 7,
+        "complexity": {
+          "sloc": {
+            "physical": 3,
+            "logical": 1
+          },
+          "cyclomatic": 1,
+          "halstead": {
+            "operators": {
+              "distinct": 2,
+              "total": 2,
+              "identifiers": [
+                "()",
+                "."
+              ]
+            },
+            "operands": {
+              "distinct": 4,
+              "total": 4,
+              "identifiers": [
+                "\"isEditing\"",
+                true,
+                "this",
+                "set"
+              ]
+            },
+            "length": 6,
+            "vocabulary": 6,
+            "difficulty": 1,
+            "volume": 15.509775004326936,
+            "effort": 15.509775004326936,
+            "bugs": 0.005169925001442312,
+            "time": 0.861654166907052
+          },
+          "params": 0
+        }
+      },
+      {
+        "name": "removeTodo",
+        "line": 11,
+        "complexity": {
+          "sloc": {
+            "physical": 6,
+            "logical": 3
+          },
+          "cyclomatic": 1,
+          "halstead": {
+            "operators": {
+              "distinct": 4,
+              "total": 10,
+              "identifiers": [
+                "var",
+                "=",
+                "()",
+                "."
+              ]
+            },
+            "operands": {
+              "distinct": 7,
+              "total": 10,
+              "identifiers": [
+                "todo",
+                "\"model\"",
+                "this",
+                "get",
+                "deleteRecord",
+                "\"store\"",
+                "commit"
+              ]
+            },
+            "length": 20,
+            "vocabulary": 11,
+            "difficulty": 2.857142857142857,
+            "volume": 69.18863237274596,
+            "effort": 197.68180677927415,
+            "bugs": 0.023062877457581985,
+            "time": 10.982322598848564
+          },
+          "params": 0
+        }
+      }
+    ],
+    "maintainability": 143.80288510640338,
+    "params": 0,
+    "module": "/home/ramiro/repos/pub/todomvc-metrics/todomvc/architecture-examples/emberjs/js/controllers/todo_controller.js"
+  },
+  {
+    "aggregate": {
+      "line": 2,
+      "complexity": {
+        "sloc": {
           "physical": 58,
           "logical": 36
         },
@@ -478,304 +628,6 @@
     "maintainability": 131.7538490806256,
     "params": 0.2857142857142857,
     "module": "/home/ramiro/repos/pub/todomvc-metrics/todomvc/architecture-examples/emberjs/js/controllers/todos_controller.js"
-  },
-  {
-    "aggregate": {
-      "line": 2,
-      "complexity": {
-        "sloc": {
-          "physical": 16,
-          "logical": 9
-        },
-        "cyclomatic": 1,
-        "halstead": {
-          "operators": {
-            "distinct": 7,
-            "total": 23,
-            "identifiers": [
-              "=",
-              ".",
-              "()",
-              "{}",
-              ":",
-              "function",
-              "var"
-            ]
-          },
-          "operands": {
-            "distinct": 21,
-            "total": 27,
-            "identifiers": [
-              "\"use strict\"",
-              "Todos",
-              "TodoController",
-              "<anonymous>",
-              "isEditing",
-              false,
-              "editTodo",
-              "\"isEditing\"",
-              true,
-              "this",
-              "set",
-              "removeTodo",
-              "todo",
-              "\"model\"",
-              "get",
-              "deleteRecord",
-              "\"store\"",
-              "commit",
-              "Ember",
-              "ObjectController",
-              "extend"
-            ]
-          },
-          "length": 50,
-          "vocabulary": 28,
-          "difficulty": 4.5,
-          "volume": 240.36774610288018,
-          "effort": 1081.6548574629608,
-          "bugs": 0.08012258203429339,
-          "time": 60.091936525720044
-        },
-        "params": 0
-      }
-    },
-    "functions": [
-      {
-        "name": "editTodo",
-        "line": 7,
-        "complexity": {
-          "sloc": {
-            "physical": 3,
-            "logical": 1
-          },
-          "cyclomatic": 1,
-          "halstead": {
-            "operators": {
-              "distinct": 2,
-              "total": 2,
-              "identifiers": [
-                "()",
-                "."
-              ]
-            },
-            "operands": {
-              "distinct": 4,
-              "total": 4,
-              "identifiers": [
-                "\"isEditing\"",
-                true,
-                "this",
-                "set"
-              ]
-            },
-            "length": 6,
-            "vocabulary": 6,
-            "difficulty": 1,
-            "volume": 15.509775004326936,
-            "effort": 15.509775004326936,
-            "bugs": 0.005169925001442312,
-            "time": 0.861654166907052
-          },
-          "params": 0
-        }
-      },
-      {
-        "name": "removeTodo",
-        "line": 11,
-        "complexity": {
-          "sloc": {
-            "physical": 6,
-            "logical": 3
-          },
-          "cyclomatic": 1,
-          "halstead": {
-            "operators": {
-              "distinct": 4,
-              "total": 10,
-              "identifiers": [
-                "var",
-                "=",
-                "()",
-                "."
-              ]
-            },
-            "operands": {
-              "distinct": 7,
-              "total": 10,
-              "identifiers": [
-                "todo",
-                "\"model\"",
-                "this",
-                "get",
-                "deleteRecord",
-                "\"store\"",
-                "commit"
-              ]
-            },
-            "length": 20,
-            "vocabulary": 11,
-            "difficulty": 2.857142857142857,
-            "volume": 69.18863237274596,
-            "effort": 197.68180677927415,
-            "bugs": 0.023062877457581985,
-            "time": 10.982322598848564
-          },
-          "params": 0
-        }
-      }
-    ],
-    "maintainability": 143.80288510640338,
-    "params": 0,
-    "module": "/home/ramiro/repos/pub/todomvc-metrics/todomvc/architecture-examples/emberjs/js/controllers/todo_controller.js"
-  },
-  {
-    "aggregate": {
-      "line": 2,
-      "complexity": {
-        "sloc": {
-          "physical": 12,
-          "logical": 8
-        },
-        "cyclomatic": 1,
-        "halstead": {
-          "operators": {
-            "distinct": 6,
-            "total": 24,
-            "identifiers": [
-              "=",
-              ".",
-              "()",
-              "{}",
-              ":",
-              "function"
-            ]
-          },
-          "operands": {
-            "distinct": 23,
-            "total": 29,
-            "identifiers": [
-              "\"use strict\"",
-              "Todos",
-              "Todo",
-              "<anonymous>",
-              "title",
-              "\"string\"",
-              "DS",
-              "attr",
-              "isCompleted",
-              "\"boolean\"",
-              "todoDidChange",
-              "\"isCompleted\"",
-              "\"title\"",
-              "this",
-              "\"store\"",
-              "get",
-              "commit",
-              "Ember",
-              "run",
-              "once",
-              "observes",
-              "Model",
-              "extend"
-            ]
-          },
-          "length": 53,
-          "vocabulary": 29,
-          "difficulty": 3.782608695652174,
-          "volume": 257.47299274176135,
-          "effort": 973.9195812405756,
-          "bugs": 0.08582433091392044,
-          "time": 54.1066434022542
-        },
-        "params": 0
-      }
-    },
-    "functions": [
-      {
-        "name": "<anonymous>",
-        "line": 8,
-        "complexity": {
-          "sloc": {
-            "physical": 5,
-            "logical": 1
-          },
-          "cyclomatic": 1,
-          "halstead": {
-            "operators": {
-              "distinct": 3,
-              "total": 4,
-              "identifiers": [
-                "()",
-                "function",
-                "."
-              ]
-            },
-            "operands": {
-              "distinct": 5,
-              "total": 5,
-              "identifiers": [
-                "this",
-                "<anonymous>",
-                "Ember",
-                "run",
-                "once"
-              ]
-            },
-            "length": 9,
-            "vocabulary": 8,
-            "difficulty": 1.5,
-            "volume": 27,
-            "effort": 40.5,
-            "bugs": 0.009,
-            "time": 2.25
-          },
-          "params": 0
-        }
-      },
-      {
-        "name": "<anonymous>",
-        "line": 9,
-        "complexity": {
-          "sloc": {
-            "physical": 3,
-            "logical": 1
-          },
-          "cyclomatic": 1,
-          "halstead": {
-            "operators": {
-              "distinct": 2,
-              "total": 4,
-              "identifiers": [
-                "()",
-                "."
-              ]
-            },
-            "operands": {
-              "distinct": 4,
-              "total": 4,
-              "identifiers": [
-                "\"store\"",
-                "this",
-                "get",
-                "commit"
-              ]
-            },
-            "length": 8,
-            "vocabulary": 6,
-            "difficulty": 1,
-            "volume": 20.67970000576925,
-            "effort": 20.67970000576925,
-            "bugs": 0.006893233335256416,
-            "time": 1.1488722225427361
-          },
-          "params": 0
-        }
-      }
-    ],
-    "maintainability": 159.30131456898812,
-    "params": 0,
-    "module": "/home/ramiro/repos/pub/todomvc-metrics/todomvc/architecture-examples/emberjs/js/models/todo.js"
   },
   {
     "aggregate": {
@@ -1261,6 +1113,154 @@
     "maintainability": 144.38827963773278,
     "params": 0.25,
     "module": "/home/ramiro/repos/pub/todomvc-metrics/todomvc/architecture-examples/emberjs/js/router.js"
+  },
+  {
+    "aggregate": {
+      "line": 2,
+      "complexity": {
+        "sloc": {
+          "physical": 12,
+          "logical": 8
+        },
+        "cyclomatic": 1,
+        "halstead": {
+          "operators": {
+            "distinct": 6,
+            "total": 24,
+            "identifiers": [
+              "=",
+              ".",
+              "()",
+              "{}",
+              ":",
+              "function"
+            ]
+          },
+          "operands": {
+            "distinct": 23,
+            "total": 29,
+            "identifiers": [
+              "\"use strict\"",
+              "Todos",
+              "Todo",
+              "<anonymous>",
+              "title",
+              "\"string\"",
+              "DS",
+              "attr",
+              "isCompleted",
+              "\"boolean\"",
+              "todoDidChange",
+              "\"isCompleted\"",
+              "\"title\"",
+              "this",
+              "\"store\"",
+              "get",
+              "commit",
+              "Ember",
+              "run",
+              "once",
+              "observes",
+              "Model",
+              "extend"
+            ]
+          },
+          "length": 53,
+          "vocabulary": 29,
+          "difficulty": 3.782608695652174,
+          "volume": 257.47299274176135,
+          "effort": 973.9195812405756,
+          "bugs": 0.08582433091392044,
+          "time": 54.1066434022542
+        },
+        "params": 0
+      }
+    },
+    "functions": [
+      {
+        "name": "<anonymous>",
+        "line": 8,
+        "complexity": {
+          "sloc": {
+            "physical": 5,
+            "logical": 1
+          },
+          "cyclomatic": 1,
+          "halstead": {
+            "operators": {
+              "distinct": 3,
+              "total": 4,
+              "identifiers": [
+                "()",
+                "function",
+                "."
+              ]
+            },
+            "operands": {
+              "distinct": 5,
+              "total": 5,
+              "identifiers": [
+                "this",
+                "<anonymous>",
+                "Ember",
+                "run",
+                "once"
+              ]
+            },
+            "length": 9,
+            "vocabulary": 8,
+            "difficulty": 1.5,
+            "volume": 27,
+            "effort": 40.5,
+            "bugs": 0.009,
+            "time": 2.25
+          },
+          "params": 0
+        }
+      },
+      {
+        "name": "<anonymous>",
+        "line": 9,
+        "complexity": {
+          "sloc": {
+            "physical": 3,
+            "logical": 1
+          },
+          "cyclomatic": 1,
+          "halstead": {
+            "operators": {
+              "distinct": 2,
+              "total": 4,
+              "identifiers": [
+                "()",
+                "."
+              ]
+            },
+            "operands": {
+              "distinct": 4,
+              "total": 4,
+              "identifiers": [
+                "\"store\"",
+                "this",
+                "get",
+                "commit"
+              ]
+            },
+            "length": 8,
+            "vocabulary": 6,
+            "difficulty": 1,
+            "volume": 20.67970000576925,
+            "effort": 20.67970000576925,
+            "bugs": 0.006893233335256416,
+            "time": 1.1488722225427361
+          },
+          "params": 0
+        }
+      }
+    ],
+    "maintainability": 159.30131456898812,
+    "params": 0,
+    "module": "/home/ramiro/repos/pub/todomvc-metrics/todomvc/architecture-examples/emberjs/js/models/todo.js"
   },
   {
     "aggregate": {

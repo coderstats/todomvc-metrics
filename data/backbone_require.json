@@ -349,124 +349,6 @@
       "line": 2,
       "complexity": {
         "sloc": {
-          "physical": 44,
-          "logical": 21
-        },
-        "cyclomatic": 1,
-        "halstead": {
-          "operators": {
-            "distinct": 7,
-            "total": 33,
-            "identifiers": [
-              "()",
-              "{}",
-              ":",
-              "[]",
-              ".",
-              "function",
-              "new"
-            ]
-          },
-          "operands": {
-            "distinct": 31,
-            "total": 51,
-            "identifiers": [
-              "\"use strict\"",
-              "<anonymous>",
-              "shim",
-              "underscore",
-              "exports",
-              "\"_\"",
-              "backbone",
-              "deps",
-              "\"underscore\"",
-              "\"jquery\"",
-              "\"Backbone\"",
-              "backboneLocalstorage",
-              "\"backbone\"",
-              "\"Store\"",
-              "paths",
-              "jquery",
-              "\"../bower_components/jquery/jquery\"",
-              "\"../bower_components/underscore/underscore\"",
-              "\"../bower_components/backbone/backbone\"",
-              "\"../bower_components/backbone.localStorage/backbone.localStorage\"",
-              "text",
-              "\"../bower_components/requirejs-text/text\"",
-              "require",
-              "config",
-              "\"views/app\"",
-              "\"routers/router\"",
-              "Backbone",
-              "AppView",
-              "Workspace",
-              "history",
-              "start"
-            ]
-          },
-          "length": 84,
-          "vocabulary": 38,
-          "difficulty": 5.758064516129033,
-          "volume": 440.82591112926116,
-          "effort": 2538.304036663649,
-          "bugs": 0.14694197037642037,
-          "time": 141.01689092575828
-        },
-        "params": 3
-      }
-    },
-    "functions": [
-      {
-        "name": "<anonymous>",
-        "line": 37,
-        "complexity": {
-          "sloc": {
-            "physical": 9,
-            "logical": 3
-          },
-          "cyclomatic": 1,
-          "halstead": {
-            "operators": {
-              "distinct": 3,
-              "total": 5,
-              "identifiers": [
-                "new",
-                "()",
-                "."
-              ]
-            },
-            "operands": {
-              "distinct": 5,
-              "total": 8,
-              "identifiers": [
-                "Backbone",
-                "AppView",
-                "Workspace",
-                "history",
-                "start"
-              ]
-            },
-            "length": 13,
-            "vocabulary": 8,
-            "difficulty": 2.4000000000000004,
-            "volume": 39,
-            "effort": 93.60000000000001,
-            "bugs": 0.013,
-            "time": 5.2
-          },
-          "params": 3
-        }
-      }
-    ],
-    "maintainability": 137.6789970120629,
-    "params": 3,
-    "module": "/home/ramiro/repos/pub/todomvc-metrics/todomvc/dependency-examples/backbone_require/js/main.js"
-  },
-  {
-    "aggregate": {
-      "line": 2,
-      "complexity": {
-        "sloc": {
           "physical": 11,
           "logical": 5
         },
@@ -554,173 +436,6 @@
     "maintainability": 140.5440281721119,
     "params": 0,
     "module": "/home/ramiro/repos/pub/todomvc-metrics/todomvc/dependency-examples/backbone_require/js/common.js"
-  },
-  {
-    "aggregate": {
-      "line": 2,
-      "complexity": {
-        "sloc": {
-          "physical": 24,
-          "logical": 10
-        },
-        "cyclomatic": 1,
-        "halstead": {
-          "operators": {
-            "distinct": 10,
-            "total": 23,
-            "identifiers": [
-              "()",
-              "[]",
-              "function",
-              "var",
-              "=",
-              "{}",
-              ":",
-              "! (prefix)",
-              ".",
-              "return"
-            ]
-          },
-          "operands": {
-            "distinct": 20,
-            "total": 29,
-            "identifiers": [
-              "<anonymous>",
-              "\"underscore\"",
-              "\"backbone\"",
-              "_",
-              "Backbone",
-              "\"use strict\"",
-              "TodoModel",
-              "defaults",
-              "title",
-              "\"\"",
-              "completed",
-              false,
-              "toggle",
-              "\"completed\"",
-              "this",
-              "get",
-              "save",
-              "Model",
-              "extend",
-              "define"
-            ]
-          },
-          "length": 52,
-          "vocabulary": 30,
-          "difficulty": 7.25,
-          "volume": 255.15831097164298,
-          "effort": 1849.8977545444116,
-          "bugs": 0.08505277032388099,
-          "time": 102.77209747468953
-        },
-        "params": 2
-      }
-    },
-    "functions": [
-      {
-        "name": "<anonymous>",
-        "line": 5,
-        "complexity": {
-          "sloc": {
-            "physical": 21,
-            "logical": 7
-          },
-          "cyclomatic": 1,
-          "halstead": {
-            "operators": {
-              "distinct": 8,
-              "total": 13,
-              "identifiers": [
-                "var",
-                "=",
-                "()",
-                "{}",
-                ":",
-                "function",
-                ".",
-                "return"
-              ]
-            },
-            "operands": {
-              "distinct": 13,
-              "total": 17,
-              "identifiers": [
-                "_",
-                "Backbone",
-                "\"use strict\"",
-                "TodoModel",
-                "<anonymous>",
-                "defaults",
-                "title",
-                "\"\"",
-                "completed",
-                false,
-                "toggle",
-                "Model",
-                "extend"
-              ]
-            },
-            "length": 30,
-            "vocabulary": 21,
-            "difficulty": 5.230769230769231,
-            "volume": 131.76952268336282,
-            "effort": 689.2559648052825,
-            "bugs": 0.04392317422778761,
-            "time": 38.291998044737916
-          },
-          "params": 2
-        }
-      },
-      {
-        "name": "toggle",
-        "line": 17,
-        "complexity": {
-          "sloc": {
-            "physical": 5,
-            "logical": 2
-          },
-          "cyclomatic": 1,
-          "halstead": {
-            "operators": {
-              "distinct": 5,
-              "total": 7,
-              "identifiers": [
-                "()",
-                "{}",
-                ":",
-                "! (prefix)",
-                "."
-              ]
-            },
-            "operands": {
-              "distinct": 6,
-              "total": 7,
-              "identifiers": [
-                "<anonymous>",
-                "completed",
-                "\"completed\"",
-                "this",
-                "get",
-                "save"
-              ]
-            },
-            "length": 14,
-            "vocabulary": 11,
-            "difficulty": 2.916666666666667,
-            "volume": 48.43204266092217,
-            "effort": 141.26012442768968,
-            "bugs": 0.016144014220307392,
-            "time": 7.847784690427204
-          },
-          "params": 0
-        }
-      }
-    ],
-    "maintainability": 126.01510775753793,
-    "params": 1,
-    "module": "/home/ramiro/repos/pub/todomvc-metrics/todomvc/dependency-examples/backbone_require/js/models/todo.js"
   },
   {
     "aggregate": {
@@ -893,6 +608,173 @@
     "maintainability": 127.97794788276752,
     "params": 2.5,
     "module": "/home/ramiro/repos/pub/todomvc-metrics/todomvc/dependency-examples/backbone_require/js/routers/router.js"
+  },
+  {
+    "aggregate": {
+      "line": 2,
+      "complexity": {
+        "sloc": {
+          "physical": 24,
+          "logical": 10
+        },
+        "cyclomatic": 1,
+        "halstead": {
+          "operators": {
+            "distinct": 10,
+            "total": 23,
+            "identifiers": [
+              "()",
+              "[]",
+              "function",
+              "var",
+              "=",
+              "{}",
+              ":",
+              "! (prefix)",
+              ".",
+              "return"
+            ]
+          },
+          "operands": {
+            "distinct": 20,
+            "total": 29,
+            "identifiers": [
+              "<anonymous>",
+              "\"underscore\"",
+              "\"backbone\"",
+              "_",
+              "Backbone",
+              "\"use strict\"",
+              "TodoModel",
+              "defaults",
+              "title",
+              "\"\"",
+              "completed",
+              false,
+              "toggle",
+              "\"completed\"",
+              "this",
+              "get",
+              "save",
+              "Model",
+              "extend",
+              "define"
+            ]
+          },
+          "length": 52,
+          "vocabulary": 30,
+          "difficulty": 7.25,
+          "volume": 255.15831097164298,
+          "effort": 1849.8977545444116,
+          "bugs": 0.08505277032388099,
+          "time": 102.77209747468953
+        },
+        "params": 2
+      }
+    },
+    "functions": [
+      {
+        "name": "<anonymous>",
+        "line": 5,
+        "complexity": {
+          "sloc": {
+            "physical": 21,
+            "logical": 7
+          },
+          "cyclomatic": 1,
+          "halstead": {
+            "operators": {
+              "distinct": 8,
+              "total": 13,
+              "identifiers": [
+                "var",
+                "=",
+                "()",
+                "{}",
+                ":",
+                "function",
+                ".",
+                "return"
+              ]
+            },
+            "operands": {
+              "distinct": 13,
+              "total": 17,
+              "identifiers": [
+                "_",
+                "Backbone",
+                "\"use strict\"",
+                "TodoModel",
+                "<anonymous>",
+                "defaults",
+                "title",
+                "\"\"",
+                "completed",
+                false,
+                "toggle",
+                "Model",
+                "extend"
+              ]
+            },
+            "length": 30,
+            "vocabulary": 21,
+            "difficulty": 5.230769230769231,
+            "volume": 131.76952268336282,
+            "effort": 689.2559648052825,
+            "bugs": 0.04392317422778761,
+            "time": 38.291998044737916
+          },
+          "params": 2
+        }
+      },
+      {
+        "name": "toggle",
+        "line": 17,
+        "complexity": {
+          "sloc": {
+            "physical": 5,
+            "logical": 2
+          },
+          "cyclomatic": 1,
+          "halstead": {
+            "operators": {
+              "distinct": 5,
+              "total": 7,
+              "identifiers": [
+                "()",
+                "{}",
+                ":",
+                "! (prefix)",
+                "."
+              ]
+            },
+            "operands": {
+              "distinct": 6,
+              "total": 7,
+              "identifiers": [
+                "<anonymous>",
+                "completed",
+                "\"completed\"",
+                "this",
+                "get",
+                "save"
+              ]
+            },
+            "length": 14,
+            "vocabulary": 11,
+            "difficulty": 2.916666666666667,
+            "volume": 48.43204266092217,
+            "effort": 141.26012442768968,
+            "bugs": 0.016144014220307392,
+            "time": 7.847784690427204
+          },
+          "params": 0
+        }
+      }
+    ],
+    "maintainability": 126.01510775753793,
+    "params": 1,
+    "module": "/home/ramiro/repos/pub/todomvc-metrics/todomvc/dependency-examples/backbone_require/js/models/todo.js"
   },
   {
     "aggregate": {
@@ -1645,6 +1527,124 @@
     "maintainability": 120.66180292880657,
     "params": 0.9166666666666666,
     "module": "/home/ramiro/repos/pub/todomvc-metrics/todomvc/dependency-examples/backbone_require/js/views/app.js"
+  },
+  {
+    "aggregate": {
+      "line": 2,
+      "complexity": {
+        "sloc": {
+          "physical": 44,
+          "logical": 21
+        },
+        "cyclomatic": 1,
+        "halstead": {
+          "operators": {
+            "distinct": 7,
+            "total": 33,
+            "identifiers": [
+              "()",
+              "{}",
+              ":",
+              "[]",
+              ".",
+              "function",
+              "new"
+            ]
+          },
+          "operands": {
+            "distinct": 31,
+            "total": 51,
+            "identifiers": [
+              "\"use strict\"",
+              "<anonymous>",
+              "shim",
+              "underscore",
+              "exports",
+              "\"_\"",
+              "backbone",
+              "deps",
+              "\"underscore\"",
+              "\"jquery\"",
+              "\"Backbone\"",
+              "backboneLocalstorage",
+              "\"backbone\"",
+              "\"Store\"",
+              "paths",
+              "jquery",
+              "\"../bower_components/jquery/jquery\"",
+              "\"../bower_components/underscore/underscore\"",
+              "\"../bower_components/backbone/backbone\"",
+              "\"../bower_components/backbone.localStorage/backbone.localStorage\"",
+              "text",
+              "\"../bower_components/requirejs-text/text\"",
+              "require",
+              "config",
+              "\"views/app\"",
+              "\"routers/router\"",
+              "Backbone",
+              "AppView",
+              "Workspace",
+              "history",
+              "start"
+            ]
+          },
+          "length": 84,
+          "vocabulary": 38,
+          "difficulty": 5.758064516129033,
+          "volume": 440.82591112926116,
+          "effort": 2538.304036663649,
+          "bugs": 0.14694197037642037,
+          "time": 141.01689092575828
+        },
+        "params": 3
+      }
+    },
+    "functions": [
+      {
+        "name": "<anonymous>",
+        "line": 37,
+        "complexity": {
+          "sloc": {
+            "physical": 9,
+            "logical": 3
+          },
+          "cyclomatic": 1,
+          "halstead": {
+            "operators": {
+              "distinct": 3,
+              "total": 5,
+              "identifiers": [
+                "new",
+                "()",
+                "."
+              ]
+            },
+            "operands": {
+              "distinct": 5,
+              "total": 8,
+              "identifiers": [
+                "Backbone",
+                "AppView",
+                "Workspace",
+                "history",
+                "start"
+              ]
+            },
+            "length": 13,
+            "vocabulary": 8,
+            "difficulty": 2.4000000000000004,
+            "volume": 39,
+            "effort": 93.60000000000001,
+            "bugs": 0.013,
+            "time": 5.2
+          },
+          "params": 3
+        }
+      }
+    ],
+    "maintainability": 137.6789970120629,
+    "params": 3,
+    "module": "/home/ramiro/repos/pub/todomvc-metrics/todomvc/dependency-examples/backbone_require/js/main.js"
   },
   {
     "aggregate": {

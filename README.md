@@ -1,5 +1,7 @@
 ## Stats to calculate
 
+## Todo's Dojo needs better cleanup or omit it
+
 ### Project Rankings
 
 * files per project

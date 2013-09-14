@@ -4,346 +4,6 @@
       "line": 1,
       "complexity": {
         "sloc": {
-          "physical": 74,
-          "logical": 17
-        },
-        "cyclomatic": 3,
-        "halstead": {
-          "operators": {
-            "distinct": 6,
-            "total": 62,
-            "identifiers": [
-              "()",
-              ".",
-              "=",
-              "function",
-              "||",
-              "return"
-            ]
-          },
-          "operands": {
-            "distinct": 25,
-            "total": 75,
-            "identifiers": [
-              "\"todomvc.model.ToDoItem\"",
-              "goog",
-              "provide",
-              "todomvc",
-              "model",
-              "ToDoItem",
-              "<anonymous>",
-              "note",
-              "opt_done",
-              "opt_id",
-              "this",
-              "note_",
-              "done_",
-              false,
-              "id_",
-              0,
-              "prototype",
-              "getNote",
-              "isDone",
-              "getId",
-              "setNote",
-              "setDone",
-              "done",
-              "setId",
-              "id"
-            ]
-          },
-          "length": 137,
-          "vocabulary": 31,
-          "difficulty": 9,
-          "volume": 678.724894523002,
-          "effort": 6108.524050707018,
-          "bugs": 0.22624163150766735,
-          "time": 339.362447261501
-        },
-        "params": 6
-      }
-    },
-    "functions": [
-      {
-        "name": "<anonymous>.ToDoItem",
-        "line": 11,
-        "complexity": {
-          "sloc": {
-            "physical": 22,
-            "logical": 3
-          },
-          "cyclomatic": 3,
-          "halstead": {
-            "operators": {
-              "distinct": 3,
-              "total": 8,
-              "identifiers": [
-                "=",
-                ".",
-                "||"
-              ]
-            },
-            "operands": {
-              "distinct": 9,
-              "total": 14,
-              "identifiers": [
-                "note",
-                "opt_done",
-                "opt_id",
-                "this",
-                "note_",
-                "done_",
-                false,
-                "id_",
-                0
-              ]
-            },
-            "length": 22,
-            "vocabulary": 12,
-            "difficulty": 2.3333333333333335,
-            "volume": 78.86917501586544,
-            "effort": 184.02807503701936,
-            "bugs": 0.026289725005288478,
-            "time": 10.223781946501076
-          },
-          "params": 3
-        }
-      },
-      {
-        "name": "<anonymous>.getNote",
-        "line": 37,
-        "complexity": {
-          "sloc": {
-            "physical": 3,
-            "logical": 1
-          },
-          "cyclomatic": 1,
-          "halstead": {
-            "operators": {
-              "distinct": 2,
-              "total": 2,
-              "identifiers": [
-                "return",
-                "."
-              ]
-            },
-            "operands": {
-              "distinct": 2,
-              "total": 2,
-              "identifiers": [
-                "this",
-                "note_"
-              ]
-            },
-            "length": 4,
-            "vocabulary": 4,
-            "difficulty": 1,
-            "volume": 8,
-            "effort": 8,
-            "bugs": 0.0026666666666666666,
-            "time": 0.4444444444444444
-          },
-          "params": 0
-        }
-      },
-      {
-        "name": "<anonymous>.isDone",
-        "line": 44,
-        "complexity": {
-          "sloc": {
-            "physical": 3,
-            "logical": 1
-          },
-          "cyclomatic": 1,
-          "halstead": {
-            "operators": {
-              "distinct": 2,
-              "total": 2,
-              "identifiers": [
-                "return",
-                "."
-              ]
-            },
-            "operands": {
-              "distinct": 2,
-              "total": 2,
-              "identifiers": [
-                "this",
-                "done_"
-              ]
-            },
-            "length": 4,
-            "vocabulary": 4,
-            "difficulty": 1,
-            "volume": 8,
-            "effort": 8,
-            "bugs": 0.0026666666666666666,
-            "time": 0.4444444444444444
-          },
-          "params": 0
-        }
-      },
-      {
-        "name": "<anonymous>.getId",
-        "line": 51,
-        "complexity": {
-          "sloc": {
-            "physical": 3,
-            "logical": 1
-          },
-          "cyclomatic": 1,
-          "halstead": {
-            "operators": {
-              "distinct": 2,
-              "total": 2,
-              "identifiers": [
-                "return",
-                "."
-              ]
-            },
-            "operands": {
-              "distinct": 2,
-              "total": 2,
-              "identifiers": [
-                "this",
-                "id_"
-              ]
-            },
-            "length": 4,
-            "vocabulary": 4,
-            "difficulty": 1,
-            "volume": 8,
-            "effort": 8,
-            "bugs": 0.0026666666666666666,
-            "time": 0.4444444444444444
-          },
-          "params": 0
-        }
-      },
-      {
-        "name": "<anonymous>.setNote",
-        "line": 58,
-        "complexity": {
-          "sloc": {
-            "physical": 3,
-            "logical": 1
-          },
-          "cyclomatic": 1,
-          "halstead": {
-            "operators": {
-              "distinct": 2,
-              "total": 2,
-              "identifiers": [
-                "=",
-                "."
-              ]
-            },
-            "operands": {
-              "distinct": 3,
-              "total": 4,
-              "identifiers": [
-                "note",
-                "this",
-                "note_"
-              ]
-            },
-            "length": 6,
-            "vocabulary": 5,
-            "difficulty": 1.3333333333333333,
-            "volume": 13.931568569324174,
-            "effort": 18.575424759098897,
-            "bugs": 0.004643856189774725,
-            "time": 1.0319680421721609
-          },
-          "params": 1
-        }
-      },
-      {
-        "name": "<anonymous>.setDone",
-        "line": 65,
-        "complexity": {
-          "sloc": {
-            "physical": 3,
-            "logical": 1
-          },
-          "cyclomatic": 1,
-          "halstead": {
-            "operators": {
-              "distinct": 2,
-              "total": 2,
-              "identifiers": [
-                "=",
-                "."
-              ]
-            },
-            "operands": {
-              "distinct": 3,
-              "total": 4,
-              "identifiers": [
-                "done",
-                "this",
-                "done_"
-              ]
-            },
-            "length": 6,
-            "vocabulary": 5,
-            "difficulty": 1.3333333333333333,
-            "volume": 13.931568569324174,
-            "effort": 18.575424759098897,
-            "bugs": 0.004643856189774725,
-            "time": 1.0319680421721609
-          },
-          "params": 1
-        }
-      },
-      {
-        "name": "<anonymous>.setId",
-        "line": 72,
-        "complexity": {
-          "sloc": {
-            "physical": 3,
-            "logical": 1
-          },
-          "cyclomatic": 1,
-          "halstead": {
-            "operators": {
-              "distinct": 2,
-              "total": 2,
-              "identifiers": [
-                "=",
-                "."
-              ]
-            },
-            "operands": {
-              "distinct": 3,
-              "total": 4,
-              "identifiers": [
-                "id",
-                "this",
-                "id_"
-              ]
-            },
-            "length": 6,
-            "vocabulary": 5,
-            "difficulty": 1.3333333333333333,
-            "volume": 13.931568569324174,
-            "effort": 18.575424759098897,
-            "bugs": 0.004643856189774725,
-            "time": 1.0319680421721609
-          },
-          "params": 1
-        }
-      }
-    ],
-    "maintainability": 154.4593544948001,
-    "params": 0.8571428571428571,
-    "module": "/home/ramiro/repos/pub/todomvc-metrics/todomvc/architecture-examples/closure/js/todomvc/model/ToDoItem.js"
-  },
-  {
-    "aggregate": {
-      "line": 1,
-      "complexity": {
-        "sloc": {
           "physical": 245,
           "logical": 103
         },
@@ -1156,1700 +816,114 @@
       "line": 1,
       "complexity": {
         "sloc": {
-          "physical": 67,
-          "logical": 23
+          "physical": 74,
+          "logical": 17
         },
-        "cyclomatic": 2,
+        "cyclomatic": 3,
         "halstead": {
           "operators": {
-            "distinct": 9,
-            "total": 82,
+            "distinct": 6,
+            "total": 62,
             "identifiers": [
               "()",
               ".",
               "=",
               "function",
-              "var",
-              "{}",
-              ":",
-              "return",
-              "if"
+              "||",
+              "return"
             ]
           },
           "operands": {
-            "distinct": 39,
-            "total": 101,
+            "distinct": 25,
+            "total": 75,
             "identifiers": [
-              "\"todomvc.view.ItemCountControlRenderer\"",
+              "\"todomvc.model.ToDoItem\"",
               "goog",
               "provide",
-              "\"goog.dom\"",
-              "require",
-              "\"goog.ui.Component.State\"",
-              "\"goog.ui.ControlRenderer\"",
               "todomvc",
-              "view",
-              "ItemCountControlRenderer",
+              "model",
+              "ToDoItem",
               "<anonymous>",
+              "note",
+              "opt_done",
+              "opt_id",
               "this",
-              "ui",
-              "ControlRenderer",
-              "call",
-              "inherits",
-              "addSingletonGetter",
-              "prototype",
-              "createDom",
-              "control",
-              "html",
-              "number",
-              "getContent",
-              "itemCount",
-              "element",
-              "dom",
-              "htmlToDocumentFragment",
-              "setAriaStates",
-              "canDecorate",
+              "note_",
+              "done_",
               false,
-              "setContent",
-              "content",
-              "innerHTML",
-              "itemCountInner",
-              "setState",
-              "state",
-              "enable",
-              "getElement",
-              "updateAriaState"
-            ]
-          },
-          "length": 183,
-          "vocabulary": 48,
-          "difficulty": 11.653846153846155,
-          "volume": 1022.0481376319717,
-          "effort": 11910.79175778798,
-          "bugs": 0.3406827125439906,
-          "time": 661.7106532104433
-        },
-        "params": 7
-      }
-    },
-    "functions": [
-      {
-        "name": "<anonymous>.ItemCountControlRenderer",
-        "line": 13,
-        "complexity": {
-          "sloc": {
-            "physical": 3,
-            "logical": 1
-          },
-          "cyclomatic": 1,
-          "halstead": {
-            "operators": {
-              "distinct": 2,
-              "total": 4,
-              "identifiers": [
-                "()",
-                "."
-              ]
-            },
-            "operands": {
-              "distinct": 5,
-              "total": 5,
-              "identifiers": [
-                "this",
-                "goog",
-                "ui",
-                "ControlRenderer",
-                "call"
-              ]
-            },
-            "length": 9,
-            "vocabulary": 7,
-            "difficulty": 1,
-            "volume": 25.26619429851844,
-            "effort": 25.26619429851844,
-            "bugs": 0.008422064766172813,
-            "time": 1.403677461028802
-          },
-          "params": 0
-        }
-      },
-      {
-        "name": "<anonymous>.createDom",
-        "line": 25,
-        "complexity": {
-          "sloc": {
-            "physical": 8,
-            "logical": 5
-          },
-          "cyclomatic": 1,
-          "halstead": {
-            "operators": {
-              "distinct": 7,
-              "total": 17,
-              "identifiers": [
-                "var",
-                "=",
-                "()",
-                "{}",
-                ":",
-                ".",
-                "return"
-              ]
-            },
-            "operands": {
-              "distinct": 14,
-              "total": 19,
-              "identifiers": [
-                "control",
-                "html",
-                "<anonymous>",
-                "number",
-                "getContent",
-                "todomvc",
-                "view",
-                "itemCount",
-                "element",
-                "goog",
-                "dom",
-                "htmlToDocumentFragment",
-                "this",
-                "setAriaStates"
-              ]
-            },
-            "length": 36,
-            "vocabulary": 21,
-            "difficulty": 4.75,
-            "volume": 158.12342722003538,
-            "effort": 751.0862792951681,
-            "bugs": 0.05270780907334513,
-            "time": 41.727015516398225
-          },
-          "params": 1
-        }
-      },
-      {
-        "name": "<anonymous>.canDecorate",
-        "line": 39,
-        "complexity": {
-          "sloc": {
-            "physical": 3,
-            "logical": 1
-          },
-          "cyclomatic": 1,
-          "halstead": {
-            "operators": {
-              "distinct": 1,
-              "total": 1,
-              "identifiers": [
-                "return"
-              ]
-            },
-            "operands": {
-              "distinct": 2,
-              "total": 2,
-              "identifiers": [
-                "element",
-                false
-              ]
-            },
-            "length": 3,
-            "vocabulary": 3,
-            "difficulty": 0.5,
-            "volume": 4.754887502163469,
-            "effort": 2.3774437510817346,
-            "bugs": 0.0015849625007211565,
-            "time": 0.1320802083934297
-          },
-          "params": 1
-        }
-      },
-      {
-        "name": "<anonymous>.setContent",
-        "line": 48,
-        "complexity": {
-          "sloc": {
-            "physical": 5,
-            "logical": 2
-          },
-          "cyclomatic": 1,
-          "halstead": {
-            "operators": {
-              "distinct": 5,
-              "total": 7,
-              "identifiers": [
-                "=",
-                ".",
-                "()",
-                "{}",
-                ":"
-              ]
-            },
-            "operands": {
-              "distinct": 8,
-              "total": 10,
-              "identifiers": [
-                "element",
-                "content",
-                "innerHTML",
-                "<anonymous>",
-                "number",
-                "todomvc",
-                "view",
-                "itemCountInner"
-              ]
-            },
-            "length": 17,
-            "vocabulary": 13,
-            "difficulty": 3.125,
-            "volume": 62.907475208398566,
-            "effort": 196.5858600262455,
-            "bugs": 0.02096915840279952,
-            "time": 10.92143666812475
-          },
-          "params": 2
-        }
-      },
-      {
-        "name": "<anonymous>.setState",
-        "line": 62,
-        "complexity": {
-          "sloc": {
-            "physical": 6,
-            "logical": 3
-          },
-          "cyclomatic": 2,
-          "halstead": {
-            "operators": {
-              "distinct": 5,
-              "total": 7,
-              "identifiers": [
-                "var",
-                "=",
-                "()",
-                ".",
-                "if"
-              ]
-            },
-            "operands": {
-              "distinct": 7,
-              "total": 12,
-              "identifiers": [
-                "control",
-                "state",
-                "enable",
-                "element",
-                "getElement",
-                "this",
-                "updateAriaState"
-              ]
-            },
-            "length": 19,
-            "vocabulary": 12,
-            "difficulty": 4.285714285714286,
-            "volume": 68.11428751370197,
-            "effort": 291.9183750587227,
-            "bugs": 0.022704762504567322,
-            "time": 16.217687503262372
-          },
-          "params": 3
-        }
-      }
-    ],
-    "maintainability": 137.84524561379445,
-    "params": 1.4,
-    "module": "/home/ramiro/repos/pub/todomvc-metrics/todomvc/architecture-examples/closure/js/todomvc/view/ItemCountControlRenderer.js"
-  },
-  {
-    "aggregate": {
-      "line": 1,
-      "complexity": {
-        "sloc": {
-          "physical": 69,
-          "logical": 23
-        },
-        "cyclomatic": 2,
-        "halstead": {
-          "operators": {
-            "distinct": 9,
-            "total": 82,
-            "identifiers": [
-              "()",
-              ".",
-              "=",
-              "function",
-              "var",
-              "{}",
-              ":",
-              "return",
-              "if"
-            ]
-          },
-          "operands": {
-            "distinct": 39,
-            "total": 101,
-            "identifiers": [
-              "\"todomvc.view.ClearCompletedControlRenderer\"",
-              "goog",
-              "provide",
-              "\"goog.dom\"",
-              "require",
-              "\"goog.ui.Component.State\"",
-              "\"goog.ui.ControlRenderer\"",
-              "todomvc",
-              "view",
-              "ClearCompletedControlRenderer",
-              "<anonymous>",
-              "this",
-              "ui",
-              "ControlRenderer",
-              "call",
-              "inherits",
-              "addSingletonGetter",
-              "prototype",
-              "createDom",
-              "control",
-              "html",
-              "number",
-              "getContent",
-              "clearCompleted",
-              "element",
-              "dom",
-              "htmlToDocumentFragment",
-              "setAriaStates",
-              "canDecorate",
-              false,
-              "setContent",
-              "content",
-              "innerHTML",
-              "clearCompletedInner",
-              "setState",
-              "state",
-              "enable",
-              "getElement",
-              "updateAriaState"
-            ]
-          },
-          "length": 183,
-          "vocabulary": 48,
-          "difficulty": 11.653846153846155,
-          "volume": 1022.0481376319717,
-          "effort": 11910.79175778798,
-          "bugs": 0.3406827125439906,
-          "time": 661.7106532104433
-        },
-        "params": 7
-      }
-    },
-    "functions": [
-      {
-        "name": "<anonymous>.ClearCompletedControlRenderer",
-        "line": 13,
-        "complexity": {
-          "sloc": {
-            "physical": 3,
-            "logical": 1
-          },
-          "cyclomatic": 1,
-          "halstead": {
-            "operators": {
-              "distinct": 2,
-              "total": 4,
-              "identifiers": [
-                "()",
-                "."
-              ]
-            },
-            "operands": {
-              "distinct": 5,
-              "total": 5,
-              "identifiers": [
-                "this",
-                "goog",
-                "ui",
-                "ControlRenderer",
-                "call"
-              ]
-            },
-            "length": 9,
-            "vocabulary": 7,
-            "difficulty": 1,
-            "volume": 25.26619429851844,
-            "effort": 25.26619429851844,
-            "bugs": 0.008422064766172813,
-            "time": 1.403677461028802
-          },
-          "params": 0
-        }
-      },
-      {
-        "name": "<anonymous>.createDom",
-        "line": 27,
-        "complexity": {
-          "sloc": {
-            "physical": 8,
-            "logical": 5
-          },
-          "cyclomatic": 1,
-          "halstead": {
-            "operators": {
-              "distinct": 7,
-              "total": 17,
-              "identifiers": [
-                "var",
-                "=",
-                "()",
-                "{}",
-                ":",
-                ".",
-                "return"
-              ]
-            },
-            "operands": {
-              "distinct": 14,
-              "total": 19,
-              "identifiers": [
-                "control",
-                "html",
-                "<anonymous>",
-                "number",
-                "getContent",
-                "todomvc",
-                "view",
-                "clearCompleted",
-                "element",
-                "goog",
-                "dom",
-                "htmlToDocumentFragment",
-                "this",
-                "setAriaStates"
-              ]
-            },
-            "length": 36,
-            "vocabulary": 21,
-            "difficulty": 4.75,
-            "volume": 158.12342722003538,
-            "effort": 751.0862792951681,
-            "bugs": 0.05270780907334513,
-            "time": 41.727015516398225
-          },
-          "params": 1
-        }
-      },
-      {
-        "name": "<anonymous>.canDecorate",
-        "line": 41,
-        "complexity": {
-          "sloc": {
-            "physical": 3,
-            "logical": 1
-          },
-          "cyclomatic": 1,
-          "halstead": {
-            "operators": {
-              "distinct": 1,
-              "total": 1,
-              "identifiers": [
-                "return"
-              ]
-            },
-            "operands": {
-              "distinct": 2,
-              "total": 2,
-              "identifiers": [
-                "element",
-                false
-              ]
-            },
-            "length": 3,
-            "vocabulary": 3,
-            "difficulty": 0.5,
-            "volume": 4.754887502163469,
-            "effort": 2.3774437510817346,
-            "bugs": 0.0015849625007211565,
-            "time": 0.1320802083934297
-          },
-          "params": 1
-        }
-      },
-      {
-        "name": "<anonymous>.setContent",
-        "line": 50,
-        "complexity": {
-          "sloc": {
-            "physical": 5,
-            "logical": 2
-          },
-          "cyclomatic": 1,
-          "halstead": {
-            "operators": {
-              "distinct": 5,
-              "total": 7,
-              "identifiers": [
-                "=",
-                ".",
-                "()",
-                "{}",
-                ":"
-              ]
-            },
-            "operands": {
-              "distinct": 8,
-              "total": 10,
-              "identifiers": [
-                "element",
-                "content",
-                "innerHTML",
-                "<anonymous>",
-                "number",
-                "todomvc",
-                "view",
-                "clearCompletedInner"
-              ]
-            },
-            "length": 17,
-            "vocabulary": 13,
-            "difficulty": 3.125,
-            "volume": 62.907475208398566,
-            "effort": 196.5858600262455,
-            "bugs": 0.02096915840279952,
-            "time": 10.92143666812475
-          },
-          "params": 2
-        }
-      },
-      {
-        "name": "<anonymous>.setState",
-        "line": 64,
-        "complexity": {
-          "sloc": {
-            "physical": 6,
-            "logical": 3
-          },
-          "cyclomatic": 2,
-          "halstead": {
-            "operators": {
-              "distinct": 5,
-              "total": 7,
-              "identifiers": [
-                "var",
-                "=",
-                "()",
-                ".",
-                "if"
-              ]
-            },
-            "operands": {
-              "distinct": 7,
-              "total": 12,
-              "identifiers": [
-                "control",
-                "state",
-                "enable",
-                "element",
-                "getElement",
-                "this",
-                "updateAriaState"
-              ]
-            },
-            "length": 19,
-            "vocabulary": 12,
-            "difficulty": 4.285714285714286,
-            "volume": 68.11428751370197,
-            "effort": 291.9183750587227,
-            "bugs": 0.022704762504567322,
-            "time": 16.217687503262372
-          },
-          "params": 3
-        }
-      }
-    ],
-    "maintainability": 137.84524561379445,
-    "params": 1.4,
-    "module": "/home/ramiro/repos/pub/todomvc-metrics/todomvc/architecture-examples/closure/js/todomvc/view/ClearCompletedControlRenderer.js"
-  },
-  {
-    "aggregate": {
-      "line": 1,
-      "complexity": {
-        "sloc": {
-          "physical": 133,
-          "logical": 38
-        },
-        "cyclomatic": 9,
-        "halstead": {
-          "operators": {
-            "distinct": 13,
-            "total": 153,
-            "identifiers": [
-              "()",
-              ".",
-              "=",
-              "function",
-              "var",
-              "{}",
-              ":",
-              "return",
-              "if",
-              "switch",
-              "case",
-              "break",
-              ":?"
-            ]
-          },
-          "operands": {
-            "distinct": 53,
-            "total": 181,
-            "identifiers": [
-              "\"todomvc.view.ToDoItemControlRenderer\"",
-              "goog",
-              "provide",
-              "\"goog.ui.Component.State\"",
-              "require",
-              "\"goog.ui.ControlRenderer\"",
-              "todomvc",
-              "view",
-              "ToDoItemControlRenderer",
-              "<anonymous>",
-              "this",
-              "ui",
-              "ControlRenderer",
-              "call",
-              "inherits",
-              "addSingletonGetter",
-              "prototype",
-              "createDom",
-              "control",
-              "html",
-              "content",
-              "getContent",
-              "checked",
-              "isChecked",
-              "toDoItem",
-              "element",
-              "dom",
-              "htmlToDocumentFragment",
-              "setAriaStates",
-              "getState",
-              true,
-              "setState",
-              "state",
-              "enable",
-              "getElement",
-              "Component",
-              "State",
-              "CHECKED",
-              "getCheckboxElement",
-              "SELECTED",
-              "\"editing\"",
-              "enableClassName",
-              "updateAriaState",
-              "getKeyEventTarget",
-              "getInputElement",
-              "getDisplayElement",
-              "childNodes",
+              "id_",
               0,
-              null,
-              "getContentElement",
-              1,
-              "getDestroyElement",
-              2
-            ]
-          },
-          "length": 334,
-          "vocabulary": 66,
-          "difficulty": 22.19811320754717,
-          "volume": 2018.8276358657233,
-          "effort": 44814.16440747214,
-          "bugs": 0.6729425452885744,
-          "time": 2489.675800415119
-        },
-        "params": 10
-      }
-    },
-    "functions": [
-      {
-        "name": "<anonymous>.ToDoItemControlRenderer",
-        "line": 13,
-        "complexity": {
-          "sloc": {
-            "physical": 3,
-            "logical": 1
-          },
-          "cyclomatic": 1,
-          "halstead": {
-            "operators": {
-              "distinct": 2,
-              "total": 4,
-              "identifiers": [
-                "()",
-                "."
-              ]
-            },
-            "operands": {
-              "distinct": 5,
-              "total": 5,
-              "identifiers": [
-                "this",
-                "goog",
-                "ui",
-                "ControlRenderer",
-                "call"
-              ]
-            },
-            "length": 9,
-            "vocabulary": 7,
-            "difficulty": 1,
-            "volume": 25.26619429851844,
-            "effort": 25.26619429851844,
-            "bugs": 0.008422064766172813,
-            "time": 1.403677461028802
-          },
-          "params": 0
-        }
-      },
-      {
-        "name": "<anonymous>.createDom",
-        "line": 25,
-        "complexity": {
-          "sloc": {
-            "physical": 11,
-            "logical": 7
-          },
-          "cyclomatic": 1,
-          "halstead": {
-            "operators": {
-              "distinct": 7,
-              "total": 24,
-              "identifiers": [
-                "var",
-                "=",
-                "()",
-                "{}",
-                ":",
-                ".",
-                "return"
-              ]
-            },
-            "operands": {
-              "distinct": 19,
-              "total": 28,
-              "identifiers": [
-                "control",
-                "html",
-                "<anonymous>",
-                "content",
-                "getContent",
-                "checked",
-                "isChecked",
-                "todomvc",
-                "view",
-                "toDoItem",
-                "element",
-                "goog",
-                "dom",
-                "htmlToDocumentFragment",
-                "this",
-                "setAriaStates",
-                "getState",
-                true,
-                "setState"
-              ]
-            },
-            "length": 52,
-            "vocabulary": 26,
-            "difficulty": 5.157894736842105,
-            "volume": 244.4228653433368,
-            "effort": 1260.7074107182636,
-            "bugs": 0.08147428844777893,
-            "time": 70.0393005954591
-          },
-          "params": 1
-        }
-      },
-      {
-        "name": "<anonymous>.setState",
-        "line": 45,
-        "complexity": {
-          "sloc": {
-            "physical": 15,
-            "logical": 10
-          },
-          "cyclomatic": 4,
-          "halstead": {
-            "operators": {
-              "distinct": 8,
-              "total": 26,
-              "identifiers": [
-                "var",
-                "=",
-                "()",
-                ".",
-                "if",
-                "switch",
-                "case",
-                "break"
-              ]
-            },
-            "operands": {
-              "distinct": 17,
-              "total": 33,
-              "identifiers": [
-                "control",
-                "state",
-                "enable",
-                "element",
-                "getElement",
-                "goog",
-                "ui",
-                "Component",
-                "State",
-                "CHECKED",
-                "this",
-                "getCheckboxElement",
-                "checked",
-                "SELECTED",
-                "\"editing\"",
-                "enableClassName",
-                "updateAriaState"
-              ]
-            },
-            "length": 59,
-            "vocabulary": 25,
-            "difficulty": 7.764705882352941,
-            "volume": 273.9875151967087,
-            "effort": 2127.43247093915,
-            "bugs": 0.09132917173223624,
-            "time": 118.19069282995277
-          },
-          "params": 3
-        }
-      },
-      {
-        "name": "<anonymous>.getKeyEventTarget",
-        "line": 70,
-        "complexity": {
-          "sloc": {
-            "physical": 3,
-            "logical": 1
-          },
-          "cyclomatic": 1,
-          "halstead": {
-            "operators": {
-              "distinct": 3,
-              "total": 5,
-              "identifiers": [
-                "return",
-                "()",
-                "."
-              ]
-            },
-            "operands": {
-              "distinct": 4,
-              "total": 5,
-              "identifiers": [
-                "control",
-                "getElement",
-                "this",
-                "getInputElement"
-              ]
-            },
-            "length": 10,
-            "vocabulary": 7,
-            "difficulty": 1.875,
-            "volume": 28.07354922057604,
-            "effort": 52.63790478858007,
-            "bugs": 0.009357849740192013,
-            "time": 2.924328043810004
-          },
-          "params": 1
-        }
-      },
-      {
-        "name": "<anonymous>.getDisplayElement",
-        "line": 81,
-        "complexity": {
-          "sloc": {
-            "physical": 4,
-            "logical": 1
-          },
-          "cyclomatic": 2,
-          "halstead": {
-            "operators": {
-              "distinct": 3,
-              "total": 4,
-              "identifiers": [
-                "return",
-                ":?",
-                "."
-              ]
-            },
-            "operands": {
-              "distinct": 4,
-              "total": 6,
-              "identifiers": [
-                "element",
-                "childNodes",
-                0,
-                null
-              ]
-            },
-            "length": 10,
-            "vocabulary": 7,
-            "difficulty": 2.25,
-            "volume": 28.07354922057604,
-            "effort": 63.16548574629609,
-            "bugs": 0.009357849740192013,
-            "time": 3.509193652572005
-          },
-          "params": 1
-        }
-      },
-      {
-        "name": "<anonymous>.getContentElement",
-        "line": 94,
-        "complexity": {
-          "sloc": {
-            "physical": 4,
-            "logical": 1
-          },
-          "cyclomatic": 2,
-          "halstead": {
-            "operators": {
-              "distinct": 4,
-              "total": 6,
-              "identifiers": [
-                "return",
-                ":?",
-                ".",
-                "()"
-              ]
-            },
-            "operands": {
-              "distinct": 6,
-              "total": 8,
-              "identifiers": [
-                "element",
-                "this",
-                "getDisplayElement",
-                "childNodes",
-                1,
-                null
-              ]
-            },
-            "length": 14,
-            "vocabulary": 10,
-            "difficulty": 2.6666666666666665,
-            "volume": 46.50699332842308,
-            "effort": 124.01864887579487,
-            "bugs": 0.01550233110947436,
-            "time": 6.889924937544159
-          },
-          "params": 1
-        }
-      },
-      {
-        "name": "<anonymous>.getCheckboxElement",
-        "line": 106,
-        "complexity": {
-          "sloc": {
-            "physical": 4,
-            "logical": 1
-          },
-          "cyclomatic": 2,
-          "halstead": {
-            "operators": {
-              "distinct": 4,
-              "total": 6,
-              "identifiers": [
-                "return",
-                ":?",
-                ".",
-                "()"
-              ]
-            },
-            "operands": {
-              "distinct": 6,
-              "total": 8,
-              "identifiers": [
-                "element",
-                "this",
-                "getDisplayElement",
-                "childNodes",
-                0,
-                null
-              ]
-            },
-            "length": 14,
-            "vocabulary": 10,
-            "difficulty": 2.6666666666666665,
-            "volume": 46.50699332842308,
-            "effort": 124.01864887579487,
-            "bugs": 0.01550233110947436,
-            "time": 6.889924937544159
-          },
-          "params": 1
-        }
-      },
-      {
-        "name": "<anonymous>.getDestroyElement",
-        "line": 118,
-        "complexity": {
-          "sloc": {
-            "physical": 4,
-            "logical": 1
-          },
-          "cyclomatic": 2,
-          "halstead": {
-            "operators": {
-              "distinct": 4,
-              "total": 6,
-              "identifiers": [
-                "return",
-                ":?",
-                ".",
-                "()"
-              ]
-            },
-            "operands": {
-              "distinct": 6,
-              "total": 8,
-              "identifiers": [
-                "element",
-                "this",
-                "getDisplayElement",
-                "childNodes",
-                2,
-                null
-              ]
-            },
-            "length": 14,
-            "vocabulary": 10,
-            "difficulty": 2.6666666666666665,
-            "volume": 46.50699332842308,
-            "effort": 124.01864887579487,
-            "bugs": 0.01550233110947436,
-            "time": 6.889924937544159
-          },
-          "params": 1
-        }
-      },
-      {
-        "name": "<anonymous>.getInputElement",
-        "line": 130,
-        "complexity": {
-          "sloc": {
-            "physical": 4,
-            "logical": 1
-          },
-          "cyclomatic": 2,
-          "halstead": {
-            "operators": {
-              "distinct": 3,
-              "total": 4,
-              "identifiers": [
-                "return",
-                ":?",
-                "."
-              ]
-            },
-            "operands": {
-              "distinct": 4,
-              "total": 6,
-              "identifiers": [
-                "element",
-                "childNodes",
-                1,
-                null
-              ]
-            },
-            "length": 10,
-            "vocabulary": 7,
-            "difficulty": 2.25,
-            "volume": 28.07354922057604,
-            "effort": 63.16548574629609,
-            "bugs": 0.009357849740192013,
-            "time": 3.509193652572005
-          },
-          "params": 1
-        }
-      }
-    ],
-    "maintainability": 134.14369457271138,
-    "params": 1.1111111111111112,
-    "module": "/home/ramiro/repos/pub/todomvc-metrics/todomvc/architecture-examples/closure/js/todomvc/view/ToDoItemControlRenderer.js"
-  },
-  {
-    "aggregate": {
-      "line": 1,
-      "complexity": {
-        "sloc": {
-          "physical": 44,
-          "logical": 15
-        },
-        "cyclomatic": 2,
-        "halstead": {
-          "operators": {
-            "distinct": 8,
-            "total": 54,
-            "identifiers": [
-              "()",
-              ".",
-              "=",
-              "function",
-              "return",
-              "==",
-              "var",
-              "if"
-            ]
-          },
-          "operands": {
-            "distinct": 31,
-            "total": 64,
-            "identifiers": [
-              "\"todomvc.view.ToDoListContainerRenderer\"",
-              "goog",
-              "provide",
-              "\"goog.ui.Component.State\"",
-              "require",
-              "\"goog.ui.Container\"",
-              "\"goog.ui.ContainerRenderer\"",
-              "todomvc",
-              "view",
-              "ToDoListContainerRenderer",
-              "<anonymous>",
-              "this",
-              "ui",
-              "ContainerRenderer",
-              "call",
-              "inherits",
-              "addSingletonGetter",
               "prototype",
-              "canDecorate",
-              "element",
-              "tagName",
-              "\"UL\"",
-              "initializeDom",
-              "container",
-              "elem",
-              "getElement",
-              "ariaRole",
-              "getAriaRole",
-              "dom",
-              "a11y",
-              "setRole"
+              "getNote",
+              "isDone",
+              "getId",
+              "setNote",
+              "setDone",
+              "done",
+              "setId",
+              "id"
             ]
           },
-          "length": 118,
-          "vocabulary": 39,
-          "difficulty": 8.258064516129032,
-          "volume": 623.6774618257454,
-          "effort": 5150.368717012607,
-          "bugs": 0.20789248727524845,
-          "time": 286.1315953895893
+          "length": 137,
+          "vocabulary": 31,
+          "difficulty": 9,
+          "volume": 678.724894523002,
+          "effort": 6108.524050707018,
+          "bugs": 0.22624163150766735,
+          "time": 339.362447261501
         },
-        "params": 2
+        "params": 6
       }
     },
     "functions": [
       {
-        "name": "<anonymous>.ToDoListContainerRenderer",
-        "line": 13,
+        "name": "<anonymous>.ToDoItem",
+        "line": 11,
         "complexity": {
           "sloc": {
-            "physical": 3,
-            "logical": 1
+            "physical": 22,
+            "logical": 3
           },
-          "cyclomatic": 1,
-          "halstead": {
-            "operators": {
-              "distinct": 2,
-              "total": 4,
-              "identifiers": [
-                "()",
-                "."
-              ]
-            },
-            "operands": {
-              "distinct": 5,
-              "total": 5,
-              "identifiers": [
-                "this",
-                "goog",
-                "ui",
-                "ContainerRenderer",
-                "call"
-              ]
-            },
-            "length": 9,
-            "vocabulary": 7,
-            "difficulty": 1,
-            "volume": 25.26619429851844,
-            "effort": 25.26619429851844,
-            "bugs": 0.008422064766172813,
-            "time": 1.403677461028802
-          },
-          "params": 0
-        }
-      },
-      {
-        "name": "<anonymous>.canDecorate",
-        "line": 25,
-        "complexity": {
-          "sloc": {
-            "physical": 3,
-            "logical": 1
-          },
-          "cyclomatic": 1,
+          "cyclomatic": 3,
           "halstead": {
             "operators": {
               "distinct": 3,
-              "total": 3,
+              "total": 8,
               "identifiers": [
-                "return",
-                "==",
-                "."
-              ]
-            },
-            "operands": {
-              "distinct": 3,
-              "total": 4,
-              "identifiers": [
-                "element",
-                "tagName",
-                "\"UL\""
-              ]
-            },
-            "length": 7,
-            "vocabulary": 6,
-            "difficulty": 2,
-            "volume": 18.094737505048094,
-            "effort": 36.18947501009619,
-            "bugs": 0.006031579168349364,
-            "time": 2.0105263894497885
-          },
-          "params": 1
-        }
-      },
-      {
-        "name": "<anonymous>.initializeDom",
-        "line": 36,
-        "complexity": {
-          "sloc": {
-            "physical": 9,
-            "logical": 4
-          },
-          "cyclomatic": 2,
-          "halstead": {
-            "operators": {
-              "distinct": 5,
-              "total": 13,
-              "identifiers": [
-                "var",
                 "=",
-                "()",
                 ".",
-                "if"
+                "||"
               ]
             },
             "operands": {
-              "distinct": 10,
+              "distinct": 9,
               "total": 14,
               "identifiers": [
-                "container",
-                "elem",
-                "getElement",
-                "ariaRole",
+                "note",
+                "opt_done",
+                "opt_id",
                 "this",
-                "getAriaRole",
-                "goog",
-                "dom",
-                "a11y",
-                "setRole"
-              ]
-            },
-            "length": 27,
-            "vocabulary": 15,
-            "difficulty": 3.5,
-            "volume": 105.48604608143,
-            "effort": 369.201161285005,
-            "bugs": 0.03516201536047667,
-            "time": 20.511175626944723
-          },
-          "params": 1
-        }
-      }
-    ],
-    "maintainability": 142.71873730318717,
-    "params": 0.6666666666666666,
-    "module": "/home/ramiro/repos/pub/todomvc-metrics/todomvc/architecture-examples/closure/js/todomvc/view/ToDoListContainerRenderer.js"
-  },
-  {
-    "aggregate": {
-      "line": 1,
-      "complexity": {
-        "sloc": {
-          "physical": 150,
-          "logical": 58
-        },
-        "cyclomatic": 8,
-        "halstead": {
-          "operators": {
-            "distinct": 13,
-            "total": 267,
-            "identifiers": [
-              "()",
-              ".",
-              "=",
-              "function",
-              "{}",
-              ":",
-              "var",
-              "if",
-              "===",
-              "return",
-              "else",
-              "! (prefix)",
-              "&&"
-            ]
-          },
-          "operands": {
-            "distinct": 78,
-            "total": 297,
-            "identifiers": [
-              "\"todomvc.view.ToDoItemControl\"",
-              "goog",
-              "provide",
-              "\"goog.dom\"",
-              "require",
-              "\"goog.events\"",
-              "\"goog.events.KeyCodes\"",
-              "\"goog.string\"",
-              "\"goog.ui.Component.State\"",
-              "\"goog.ui.Control\"",
-              "\"todomvc.view.ToDoItemControlRenderer\"",
-              "todomvc",
-              "view",
-              "ToDoItemControl",
-              "<anonymous>",
-              "opt_domHelper",
-              "this",
-              "\"\"",
-              "ToDoItemControlRenderer",
-              "getInstance",
-              "ui",
-              "Control",
-              "call",
-              "Component",
-              "State",
-              "CHECKED",
-              true,
-              "setSupportedState",
-              "SELECTED",
-              false,
-              "setAutoStates",
-              "setAllowTextSelection",
-              "inherits",
-              "EventType",
-              "EDIT",
-              "\"edit\"",
-              "DESTROY",
-              "\"destroy\"",
-              "prototype",
-              "enterDocument",
-              "superClass_",
-              "getElement",
-              "events",
-              "CLICK",
-              "e",
-              "preventDefault",
-              "getHandler",
-              "listen",
-              "DBLCLICK",
-              "setSelected",
-              "inputElement",
-              "getRenderer",
-              "getInputElement",
-              "KEYUP",
-              "be",
-              "getBrowserEvent",
-              "keyCode",
-              "KeyCodes",
-              "ENTER",
-              "setFocused",
-              "renderer_",
-              "handleMouseUp",
-              "isEnabled",
-              "target",
-              "getCheckboxElement",
-              "isChecked",
-              "setChecked",
-              "dispatchEvent",
-              "getDestroyElement",
-              "focused",
-              "isSelected",
-              "value",
-              "string",
-              "trim",
-              "setContent",
-              "selected",
-              "getContent",
-              "focus"
-            ]
-          },
-          "length": 564,
-          "vocabulary": 91,
-          "difficulty": 24.75,
-          "volume": 3670.396177072065,
-          "effort": 90842.30538253361,
-          "bugs": 1.2234653923573549,
-          "time": 5046.794743474089
-        },
-        "params": 7
-      }
-    },
-    "functions": [
-      {
-        "name": "<anonymous>.ToDoItemControl",
-        "line": 21,
-        "complexity": {
-          "sloc": {
-            "physical": 15,
-            "logical": 6
-          },
-          "cyclomatic": 1,
-          "halstead": {
-            "operators": {
-              "distinct": 2,
-              "total": 34,
-              "identifiers": [
-                "()",
-                "."
-              ]
-            },
-            "operands": {
-              "distinct": 20,
-              "total": 47,
-              "identifiers": [
-                "opt_domHelper",
-                "this",
-                "\"\"",
-                "todomvc",
-                "view",
-                "ToDoItemControlRenderer",
-                "getInstance",
-                "goog",
-                "ui",
-                "Control",
-                "call",
-                "Component",
-                "State",
-                "CHECKED",
-                true,
-                "setSupportedState",
-                "SELECTED",
+                "note_",
+                "done_",
                 false,
-                "setAutoStates",
-                "setAllowTextSelection"
+                "id_",
+                0
               ]
             },
-            "length": 81,
-            "vocabulary": 22,
-            "difficulty": 2.35,
-            "volume": 361.2139611096211,
-            "effort": 848.8528086076096,
-            "bugs": 0.12040465370320703,
-            "time": 47.15848936708942
+            "length": 22,
+            "vocabulary": 12,
+            "difficulty": 2.3333333333333335,
+            "volume": 78.86917501586544,
+            "effort": 184.02807503701936,
+            "bugs": 0.026289725005288478,
+            "time": 10.223781946501076
           },
-          "params": 1
+          "params": 3
         }
       },
       {
-        "name": "<anonymous>.enterDocument",
-        "line": 53,
-        "complexity": {
-          "sloc": {
-            "physical": 26,
-            "logical": 5
-          },
-          "cyclomatic": 1,
-          "halstead": {
-            "operators": {
-              "distinct": 5,
-              "total": 42,
-              "identifiers": [
-                "()",
-                ".",
-                "function",
-                "var",
-                "="
-              ]
-            },
-            "operands": {
-              "distinct": 20,
-              "total": 42,
-              "identifiers": [
-                "this",
-                "todomvc",
-                "view",
-                "ToDoItemControl",
-                "superClass_",
-                "enterDocument",
-                "call",
-                "getElement",
-                "goog",
-                "events",
-                "EventType",
-                "CLICK",
-                "<anonymous>",
-                "getHandler",
-                "listen",
-                "DBLCLICK",
-                "inputElement",
-                "getRenderer",
-                "getInputElement",
-                "KEYUP"
-              ]
-            },
-            "length": 84,
-            "vocabulary": 25,
-            "difficulty": 5.25,
-            "volume": 390.08391994107683,
-            "effort": 2047.9405796906533,
-            "bugs": 0.13002797331369229,
-            "time": 113.77447664948073
-          },
-          "params": 0
-        }
-      },
-      {
-        "name": "<anonymous>",
-        "line": 59,
-        "complexity": {
-          "sloc": {
-            "physical": 3,
-            "logical": 1
-          },
-          "cyclomatic": 1,
-          "halstead": {
-            "operators": {
-              "distinct": 2,
-              "total": 2,
-              "identifiers": [
-                "()",
-                "."
-              ]
-            },
-            "operands": {
-              "distinct": 2,
-              "total": 3,
-              "identifiers": [
-                "e",
-                "preventDefault"
-              ]
-            },
-            "length": 5,
-            "vocabulary": 4,
-            "difficulty": 1.5,
-            "volume": 10,
-            "effort": 15,
-            "bugs": 0.0033333333333333335,
-            "time": 0.8333333333333334
-          },
-          "params": 1
-        }
-      },
-      {
-        "name": "<anonymous>",
-        "line": 63,
-        "complexity": {
-          "sloc": {
-            "physical": 3,
-            "logical": 1
-          },
-          "cyclomatic": 1,
-          "halstead": {
-            "operators": {
-              "distinct": 2,
-              "total": 2,
-              "identifiers": [
-                "()",
-                "."
-              ]
-            },
-            "operands": {
-              "distinct": 4,
-              "total": 4,
-              "identifiers": [
-                "e",
-                true,
-                "this",
-                "setSelected"
-              ]
-            },
-            "length": 6,
-            "vocabulary": 6,
-            "difficulty": 1,
-            "volume": 15.509775004326936,
-            "effort": 15.509775004326936,
-            "bugs": 0.005169925001442312,
-            "time": 0.861654166907052
-          },
-          "params": 1
-        }
-      },
-      {
-        "name": "<anonymous>",
-        "line": 72,
-        "complexity": {
-          "sloc": {
-            "physical": 6,
-            "logical": 3
-          },
-          "cyclomatic": 2,
-          "halstead": {
-            "operators": {
-              "distinct": 6,
-              "total": 12,
-              "identifiers": [
-                "var",
-                "=",
-                "()",
-                ".",
-                "if",
-                "==="
-              ]
-            },
-            "operands": {
-              "distinct": 11,
-              "total": 13,
-              "identifiers": [
-                "e",
-                "be",
-                "getBrowserEvent",
-                "keyCode",
-                "goog",
-                "events",
-                "KeyCodes",
-                "ENTER",
-                false,
-                "this",
-                "setFocused"
-              ]
-            },
-            "length": 25,
-            "vocabulary": 17,
-            "difficulty": 3.545454545454546,
-            "volume": 102.1865710312585,
-            "effort": 362.29784274718924,
-            "bugs": 0.03406219034375283,
-            "time": 20.1276579303994
-          },
-          "params": 1
-        }
-      },
-      {
-        "name": "<anonymous>.getRenderer",
-        "line": 87,
+        "name": "<anonymous>.getNote",
+        "line": 37,
         "complexity": {
           "sloc": {
             "physical": 3,
@@ -2870,7 +944,7 @@
               "total": 2,
               "identifiers": [
                 "this",
-                "renderer_"
+                "note_"
               ]
             },
             "length": 4,
@@ -2885,353 +959,197 @@
         }
       },
       {
-        "name": "<anonymous>.handleMouseUp",
-        "line": 97,
+        "name": "<anonymous>.isDone",
+        "line": 44,
         "complexity": {
           "sloc": {
-            "physical": 13,
-            "logical": 8
-          },
-          "cyclomatic": 4,
-          "halstead": {
-            "operators": {
-              "distinct": 6,
-              "total": 45,
-              "identifiers": [
-                "()",
-                ".",
-                "if",
-                "else",
-                "===",
-                "! (prefix)"
-              ]
-            },
-            "operands": {
-              "distinct": 20,
-              "total": 43,
-              "identifiers": [
-                "e",
-                "this",
-                "todomvc",
-                "view",
-                "ToDoItemControl",
-                "superClass_",
-                "handleMouseUp",
-                "call",
-                "isEnabled",
-                "target",
-                "getElement",
-                "getRenderer",
-                "getCheckboxElement",
-                "isChecked",
-                "setChecked",
-                "EventType",
-                "EDIT",
-                "dispatchEvent",
-                "getDestroyElement",
-                "DESTROY"
-              ]
-            },
-            "length": 88,
-            "vocabulary": 26,
-            "difficulty": 6.449999999999999,
-            "volume": 413.63869519641617,
-            "effort": 2667.969584016884,
-            "bugs": 0.13787956506547205,
-            "time": 148.22053244538245
-          },
-          "params": 1
-        }
-      },
-      {
-        "name": "<anonymous>.setFocused",
-        "line": 115,
-        "complexity": {
-          "sloc": {
-            "physical": 18,
-            "logical": 10
-          },
-          "cyclomatic": 3,
-          "halstead": {
-            "operators": {
-              "distinct": 9,
-              "total": 44,
-              "identifiers": [
-                "()",
-                ".",
-                "if",
-                "&&",
-                "! (prefix)",
-                "var",
-                "=",
-                "else",
-                "==="
-              ]
-            },
-            "operands": {
-              "distinct": 25,
-              "total": 46,
-              "identifiers": [
-                "focused",
-                "this",
-                "todomvc",
-                "view",
-                "ToDoItemControl",
-                "superClass_",
-                "setFocused",
-                "call",
-                "isSelected",
-                "inputElement",
-                "getElement",
-                "getRenderer",
-                "getInputElement",
-                "value",
-                "goog",
-                "string",
-                "trim",
-                "\"\"",
-                "EventType",
-                "DESTROY",
-                "dispatchEvent",
-                "setContent",
-                false,
-                "setSelected",
-                "EDIT"
-              ]
-            },
-            "length": 90,
-            "vocabulary": 34,
-            "difficulty": 8.280000000000001,
-            "volume": 457.8716557125306,
-            "effort": 3791.1773092997537,
-            "bugs": 0.1526238852375102,
-            "time": 210.6209616277641
-          },
-          "params": 1
-        }
-      },
-      {
-        "name": "<anonymous>.setSelected",
-        "line": 138,
-        "complexity": {
-          "sloc": {
-            "physical": 13,
-            "logical": 5
-          },
-          "cyclomatic": 2,
-          "halstead": {
-            "operators": {
-              "distinct": 5,
-              "total": 21,
-              "identifiers": [
-                "()",
-                ".",
-                "if",
-                "var",
-                "="
-              ]
-            },
-            "operands": {
-              "distinct": 15,
-              "total": 22,
-              "identifiers": [
-                "selected",
-                "this",
-                "todomvc",
-                "view",
-                "ToDoItemControl",
-                "superClass_",
-                "setSelected",
-                "call",
-                "inputElement",
-                "getElement",
-                "getRenderer",
-                "getInputElement",
-                "value",
-                "getContent",
-                "focus"
-              ]
-            },
-            "length": 43,
-            "vocabulary": 20,
-            "difficulty": 3.6666666666666665,
-            "volume": 185.8429080801566,
-            "effort": 681.4239962939075,
-            "bugs": 0.06194763602671887,
-            "time": 37.856888682994864
-          },
-          "params": 1
-        }
-      }
-    ],
-    "maintainability": 122.57133668545441,
-    "params": 0.7777777777777778,
-    "module": "/home/ramiro/repos/pub/todomvc-metrics/todomvc/architecture-examples/closure/js/todomvc/view/ToDoItemControl.js"
-  },
-  {
-    "aggregate": {
-      "line": 1,
-      "complexity": {
-        "sloc": {
-          "physical": 37,
-          "logical": 11
-        },
-        "cyclomatic": 2,
-        "halstead": {
-          "operators": {
-            "distinct": 5,
-            "total": 42,
-            "identifiers": [
-              "()",
-              ".",
-              "=",
-              "function",
-              "if"
-            ]
-          },
-          "operands": {
-            "distinct": 29,
-            "total": 55,
-            "identifiers": [
-              "\"todomvc.view.ToDoListContainer\"",
-              "goog",
-              "provide",
-              "\"goog.ui.Container\"",
-              "require",
-              "\"todomvc.view.ToDoListContainerRenderer\"",
-              "todomvc",
-              "view",
-              "ToDoListContainer",
-              "<anonymous>",
-              "opt_domHelper",
-              "this",
-              "ui",
-              "Container",
-              "Orientation",
-              "VERTICAL",
-              "ToDoListContainerRenderer",
-              "getInstance",
-              "call",
-              false,
-              "setFocusable",
-              true,
-              "setFocusableChildrenAllowed",
-              "inherits",
-              "prototype",
-              "handleMouseDown",
-              "e",
-              "enabled_",
-              "setMouseButtonPressed"
-            ]
-          },
-          "length": 97,
-          "vocabulary": 34,
-          "difficulty": 4.741379310344827,
-          "volume": 493.483895601283,
-          "effort": 2339.79433259229,
-          "bugs": 0.16449463186709434,
-          "time": 129.988574032905
-        },
-        "params": 2
-      }
-    },
-    "functions": [
-      {
-        "name": "<anonymous>.ToDoListContainer",
-        "line": 16,
-        "complexity": {
-          "sloc": {
-            "physical": 10,
-            "logical": 3
+            "physical": 3,
+            "logical": 1
           },
           "cyclomatic": 1,
           "halstead": {
             "operators": {
               "distinct": 2,
-              "total": 16,
+              "total": 2,
               "identifiers": [
-                "()",
+                "return",
                 "."
               ]
             },
             "operands": {
-              "distinct": 16,
-              "total": 22,
+              "distinct": 2,
+              "total": 2,
               "identifiers": [
-                "opt_domHelper",
                 "this",
-                "goog",
-                "ui",
-                "Container",
-                "Orientation",
-                "VERTICAL",
-                "todomvc",
-                "view",
-                "ToDoListContainerRenderer",
-                "getInstance",
-                "call",
-                false,
-                "setFocusable",
-                true,
-                "setFocusableChildrenAllowed"
+                "done_"
               ]
             },
-            "length": 38,
-            "vocabulary": 18,
-            "difficulty": 1.375,
-            "volume": 158.45715005480787,
-            "effort": 217.8785813253608,
-            "bugs": 0.05281905001826929,
-            "time": 12.104365629186711
+            "length": 4,
+            "vocabulary": 4,
+            "difficulty": 1,
+            "volume": 8,
+            "effort": 8,
+            "bugs": 0.0026666666666666666,
+            "time": 0.4444444444444444
+          },
+          "params": 0
+        }
+      },
+      {
+        "name": "<anonymous>.getId",
+        "line": 51,
+        "complexity": {
+          "sloc": {
+            "physical": 3,
+            "logical": 1
+          },
+          "cyclomatic": 1,
+          "halstead": {
+            "operators": {
+              "distinct": 2,
+              "total": 2,
+              "identifiers": [
+                "return",
+                "."
+              ]
+            },
+            "operands": {
+              "distinct": 2,
+              "total": 2,
+              "identifiers": [
+                "this",
+                "id_"
+              ]
+            },
+            "length": 4,
+            "vocabulary": 4,
+            "difficulty": 1,
+            "volume": 8,
+            "effort": 8,
+            "bugs": 0.0026666666666666666,
+            "time": 0.4444444444444444
+          },
+          "params": 0
+        }
+      },
+      {
+        "name": "<anonymous>.setNote",
+        "line": 58,
+        "complexity": {
+          "sloc": {
+            "physical": 3,
+            "logical": 1
+          },
+          "cyclomatic": 1,
+          "halstead": {
+            "operators": {
+              "distinct": 2,
+              "total": 2,
+              "identifiers": [
+                "=",
+                "."
+              ]
+            },
+            "operands": {
+              "distinct": 3,
+              "total": 4,
+              "identifiers": [
+                "note",
+                "this",
+                "note_"
+              ]
+            },
+            "length": 6,
+            "vocabulary": 5,
+            "difficulty": 1.3333333333333333,
+            "volume": 13.931568569324174,
+            "effort": 18.575424759098897,
+            "bugs": 0.004643856189774725,
+            "time": 1.0319680421721609
           },
           "params": 1
         }
       },
       {
-        "name": "<anonymous>.handleMouseDown",
-        "line": 33,
+        "name": "<anonymous>.setDone",
+        "line": 65,
         "complexity": {
           "sloc": {
-            "physical": 5,
-            "logical": 2
+            "physical": 3,
+            "logical": 1
           },
-          "cyclomatic": 2,
+          "cyclomatic": 1,
           "halstead": {
             "operators": {
-              "distinct": 3,
-              "total": 4,
+              "distinct": 2,
+              "total": 2,
               "identifiers": [
-                "if",
-                ".",
-                "()"
+                "=",
+                "."
               ]
             },
             "operands": {
-              "distinct": 5,
-              "total": 6,
+              "distinct": 3,
+              "total": 4,
               "identifiers": [
-                "e",
+                "done",
                 "this",
-                "enabled_",
-                true,
-                "setMouseButtonPressed"
+                "done_"
               ]
             },
-            "length": 10,
-            "vocabulary": 8,
-            "difficulty": 1.7999999999999998,
-            "volume": 30,
-            "effort": 53.99999999999999,
-            "bugs": 0.01,
-            "time": 2.9999999999999996
+            "length": 6,
+            "vocabulary": 5,
+            "difficulty": 1.3333333333333333,
+            "volume": 13.931568569324174,
+            "effort": 18.575424759098897,
+            "bugs": 0.004643856189774725,
+            "time": 1.0319680421721609
+          },
+          "params": 1
+        }
+      },
+      {
+        "name": "<anonymous>.setId",
+        "line": 72,
+        "complexity": {
+          "sloc": {
+            "physical": 3,
+            "logical": 1
+          },
+          "cyclomatic": 1,
+          "halstead": {
+            "operators": {
+              "distinct": 2,
+              "total": 2,
+              "identifiers": [
+                "=",
+                "."
+              ]
+            },
+            "operands": {
+              "distinct": 3,
+              "total": 4,
+              "identifiers": [
+                "id",
+                "this",
+                "id_"
+              ]
+            },
+            "length": 6,
+            "vocabulary": 5,
+            "difficulty": 1.3333333333333333,
+            "volume": 13.931568569324174,
+            "effort": 18.575424759098897,
+            "bugs": 0.004643856189774725,
+            "time": 1.0319680421721609
           },
           "params": 1
         }
       }
     ],
-    "maintainability": 139.2630804616795,
-    "params": 1,
-    "module": "/home/ramiro/repos/pub/todomvc-metrics/todomvc/architecture-examples/closure/js/todomvc/view/ToDoListContainer.js"
+    "maintainability": 154.4593544948001,
+    "params": 0.8571428571428571,
+    "module": "/home/ramiro/repos/pub/todomvc-metrics/todomvc/architecture-examples/closure/js/todomvc/model/ToDoItem.js"
   },
   {
     "aggregate": {
@@ -3934,5 +1852,2087 @@
     "maintainability": 127.46947312736049,
     "params": 0.6666666666666666,
     "module": "/home/ramiro/repos/pub/todomvc-metrics/todomvc/architecture-examples/closure/js/todomvc/model/ToDoItemStore.js"
+  },
+  {
+    "aggregate": {
+      "line": 1,
+      "complexity": {
+        "sloc": {
+          "physical": 67,
+          "logical": 23
+        },
+        "cyclomatic": 2,
+        "halstead": {
+          "operators": {
+            "distinct": 9,
+            "total": 82,
+            "identifiers": [
+              "()",
+              ".",
+              "=",
+              "function",
+              "var",
+              "{}",
+              ":",
+              "return",
+              "if"
+            ]
+          },
+          "operands": {
+            "distinct": 39,
+            "total": 101,
+            "identifiers": [
+              "\"todomvc.view.ItemCountControlRenderer\"",
+              "goog",
+              "provide",
+              "\"goog.dom\"",
+              "require",
+              "\"goog.ui.Component.State\"",
+              "\"goog.ui.ControlRenderer\"",
+              "todomvc",
+              "view",
+              "ItemCountControlRenderer",
+              "<anonymous>",
+              "this",
+              "ui",
+              "ControlRenderer",
+              "call",
+              "inherits",
+              "addSingletonGetter",
+              "prototype",
+              "createDom",
+              "control",
+              "html",
+              "number",
+              "getContent",
+              "itemCount",
+              "element",
+              "dom",
+              "htmlToDocumentFragment",
+              "setAriaStates",
+              "canDecorate",
+              false,
+              "setContent",
+              "content",
+              "innerHTML",
+              "itemCountInner",
+              "setState",
+              "state",
+              "enable",
+              "getElement",
+              "updateAriaState"
+            ]
+          },
+          "length": 183,
+          "vocabulary": 48,
+          "difficulty": 11.653846153846155,
+          "volume": 1022.0481376319717,
+          "effort": 11910.79175778798,
+          "bugs": 0.3406827125439906,
+          "time": 661.7106532104433
+        },
+        "params": 7
+      }
+    },
+    "functions": [
+      {
+        "name": "<anonymous>.ItemCountControlRenderer",
+        "line": 13,
+        "complexity": {
+          "sloc": {
+            "physical": 3,
+            "logical": 1
+          },
+          "cyclomatic": 1,
+          "halstead": {
+            "operators": {
+              "distinct": 2,
+              "total": 4,
+              "identifiers": [
+                "()",
+                "."
+              ]
+            },
+            "operands": {
+              "distinct": 5,
+              "total": 5,
+              "identifiers": [
+                "this",
+                "goog",
+                "ui",
+                "ControlRenderer",
+                "call"
+              ]
+            },
+            "length": 9,
+            "vocabulary": 7,
+            "difficulty": 1,
+            "volume": 25.26619429851844,
+            "effort": 25.26619429851844,
+            "bugs": 0.008422064766172813,
+            "time": 1.403677461028802
+          },
+          "params": 0
+        }
+      },
+      {
+        "name": "<anonymous>.createDom",
+        "line": 25,
+        "complexity": {
+          "sloc": {
+            "physical": 8,
+            "logical": 5
+          },
+          "cyclomatic": 1,
+          "halstead": {
+            "operators": {
+              "distinct": 7,
+              "total": 17,
+              "identifiers": [
+                "var",
+                "=",
+                "()",
+                "{}",
+                ":",
+                ".",
+                "return"
+              ]
+            },
+            "operands": {
+              "distinct": 14,
+              "total": 19,
+              "identifiers": [
+                "control",
+                "html",
+                "<anonymous>",
+                "number",
+                "getContent",
+                "todomvc",
+                "view",
+                "itemCount",
+                "element",
+                "goog",
+                "dom",
+                "htmlToDocumentFragment",
+                "this",
+                "setAriaStates"
+              ]
+            },
+            "length": 36,
+            "vocabulary": 21,
+            "difficulty": 4.75,
+            "volume": 158.12342722003538,
+            "effort": 751.0862792951681,
+            "bugs": 0.05270780907334513,
+            "time": 41.727015516398225
+          },
+          "params": 1
+        }
+      },
+      {
+        "name": "<anonymous>.canDecorate",
+        "line": 39,
+        "complexity": {
+          "sloc": {
+            "physical": 3,
+            "logical": 1
+          },
+          "cyclomatic": 1,
+          "halstead": {
+            "operators": {
+              "distinct": 1,
+              "total": 1,
+              "identifiers": [
+                "return"
+              ]
+            },
+            "operands": {
+              "distinct": 2,
+              "total": 2,
+              "identifiers": [
+                "element",
+                false
+              ]
+            },
+            "length": 3,
+            "vocabulary": 3,
+            "difficulty": 0.5,
+            "volume": 4.754887502163469,
+            "effort": 2.3774437510817346,
+            "bugs": 0.0015849625007211565,
+            "time": 0.1320802083934297
+          },
+          "params": 1
+        }
+      },
+      {
+        "name": "<anonymous>.setContent",
+        "line": 48,
+        "complexity": {
+          "sloc": {
+            "physical": 5,
+            "logical": 2
+          },
+          "cyclomatic": 1,
+          "halstead": {
+            "operators": {
+              "distinct": 5,
+              "total": 7,
+              "identifiers": [
+                "=",
+                ".",
+                "()",
+                "{}",
+                ":"
+              ]
+            },
+            "operands": {
+              "distinct": 8,
+              "total": 10,
+              "identifiers": [
+                "element",
+                "content",
+                "innerHTML",
+                "<anonymous>",
+                "number",
+                "todomvc",
+                "view",
+                "itemCountInner"
+              ]
+            },
+            "length": 17,
+            "vocabulary": 13,
+            "difficulty": 3.125,
+            "volume": 62.907475208398566,
+            "effort": 196.5858600262455,
+            "bugs": 0.02096915840279952,
+            "time": 10.92143666812475
+          },
+          "params": 2
+        }
+      },
+      {
+        "name": "<anonymous>.setState",
+        "line": 62,
+        "complexity": {
+          "sloc": {
+            "physical": 6,
+            "logical": 3
+          },
+          "cyclomatic": 2,
+          "halstead": {
+            "operators": {
+              "distinct": 5,
+              "total": 7,
+              "identifiers": [
+                "var",
+                "=",
+                "()",
+                ".",
+                "if"
+              ]
+            },
+            "operands": {
+              "distinct": 7,
+              "total": 12,
+              "identifiers": [
+                "control",
+                "state",
+                "enable",
+                "element",
+                "getElement",
+                "this",
+                "updateAriaState"
+              ]
+            },
+            "length": 19,
+            "vocabulary": 12,
+            "difficulty": 4.285714285714286,
+            "volume": 68.11428751370197,
+            "effort": 291.9183750587227,
+            "bugs": 0.022704762504567322,
+            "time": 16.217687503262372
+          },
+          "params": 3
+        }
+      }
+    ],
+    "maintainability": 137.84524561379445,
+    "params": 1.4,
+    "module": "/home/ramiro/repos/pub/todomvc-metrics/todomvc/architecture-examples/closure/js/todomvc/view/ItemCountControlRenderer.js"
+  },
+  {
+    "aggregate": {
+      "line": 1,
+      "complexity": {
+        "sloc": {
+          "physical": 69,
+          "logical": 23
+        },
+        "cyclomatic": 2,
+        "halstead": {
+          "operators": {
+            "distinct": 9,
+            "total": 82,
+            "identifiers": [
+              "()",
+              ".",
+              "=",
+              "function",
+              "var",
+              "{}",
+              ":",
+              "return",
+              "if"
+            ]
+          },
+          "operands": {
+            "distinct": 39,
+            "total": 101,
+            "identifiers": [
+              "\"todomvc.view.ClearCompletedControlRenderer\"",
+              "goog",
+              "provide",
+              "\"goog.dom\"",
+              "require",
+              "\"goog.ui.Component.State\"",
+              "\"goog.ui.ControlRenderer\"",
+              "todomvc",
+              "view",
+              "ClearCompletedControlRenderer",
+              "<anonymous>",
+              "this",
+              "ui",
+              "ControlRenderer",
+              "call",
+              "inherits",
+              "addSingletonGetter",
+              "prototype",
+              "createDom",
+              "control",
+              "html",
+              "number",
+              "getContent",
+              "clearCompleted",
+              "element",
+              "dom",
+              "htmlToDocumentFragment",
+              "setAriaStates",
+              "canDecorate",
+              false,
+              "setContent",
+              "content",
+              "innerHTML",
+              "clearCompletedInner",
+              "setState",
+              "state",
+              "enable",
+              "getElement",
+              "updateAriaState"
+            ]
+          },
+          "length": 183,
+          "vocabulary": 48,
+          "difficulty": 11.653846153846155,
+          "volume": 1022.0481376319717,
+          "effort": 11910.79175778798,
+          "bugs": 0.3406827125439906,
+          "time": 661.7106532104433
+        },
+        "params": 7
+      }
+    },
+    "functions": [
+      {
+        "name": "<anonymous>.ClearCompletedControlRenderer",
+        "line": 13,
+        "complexity": {
+          "sloc": {
+            "physical": 3,
+            "logical": 1
+          },
+          "cyclomatic": 1,
+          "halstead": {
+            "operators": {
+              "distinct": 2,
+              "total": 4,
+              "identifiers": [
+                "()",
+                "."
+              ]
+            },
+            "operands": {
+              "distinct": 5,
+              "total": 5,
+              "identifiers": [
+                "this",
+                "goog",
+                "ui",
+                "ControlRenderer",
+                "call"
+              ]
+            },
+            "length": 9,
+            "vocabulary": 7,
+            "difficulty": 1,
+            "volume": 25.26619429851844,
+            "effort": 25.26619429851844,
+            "bugs": 0.008422064766172813,
+            "time": 1.403677461028802
+          },
+          "params": 0
+        }
+      },
+      {
+        "name": "<anonymous>.createDom",
+        "line": 27,
+        "complexity": {
+          "sloc": {
+            "physical": 8,
+            "logical": 5
+          },
+          "cyclomatic": 1,
+          "halstead": {
+            "operators": {
+              "distinct": 7,
+              "total": 17,
+              "identifiers": [
+                "var",
+                "=",
+                "()",
+                "{}",
+                ":",
+                ".",
+                "return"
+              ]
+            },
+            "operands": {
+              "distinct": 14,
+              "total": 19,
+              "identifiers": [
+                "control",
+                "html",
+                "<anonymous>",
+                "number",
+                "getContent",
+                "todomvc",
+                "view",
+                "clearCompleted",
+                "element",
+                "goog",
+                "dom",
+                "htmlToDocumentFragment",
+                "this",
+                "setAriaStates"
+              ]
+            },
+            "length": 36,
+            "vocabulary": 21,
+            "difficulty": 4.75,
+            "volume": 158.12342722003538,
+            "effort": 751.0862792951681,
+            "bugs": 0.05270780907334513,
+            "time": 41.727015516398225
+          },
+          "params": 1
+        }
+      },
+      {
+        "name": "<anonymous>.canDecorate",
+        "line": 41,
+        "complexity": {
+          "sloc": {
+            "physical": 3,
+            "logical": 1
+          },
+          "cyclomatic": 1,
+          "halstead": {
+            "operators": {
+              "distinct": 1,
+              "total": 1,
+              "identifiers": [
+                "return"
+              ]
+            },
+            "operands": {
+              "distinct": 2,
+              "total": 2,
+              "identifiers": [
+                "element",
+                false
+              ]
+            },
+            "length": 3,
+            "vocabulary": 3,
+            "difficulty": 0.5,
+            "volume": 4.754887502163469,
+            "effort": 2.3774437510817346,
+            "bugs": 0.0015849625007211565,
+            "time": 0.1320802083934297
+          },
+          "params": 1
+        }
+      },
+      {
+        "name": "<anonymous>.setContent",
+        "line": 50,
+        "complexity": {
+          "sloc": {
+            "physical": 5,
+            "logical": 2
+          },
+          "cyclomatic": 1,
+          "halstead": {
+            "operators": {
+              "distinct": 5,
+              "total": 7,
+              "identifiers": [
+                "=",
+                ".",
+                "()",
+                "{}",
+                ":"
+              ]
+            },
+            "operands": {
+              "distinct": 8,
+              "total": 10,
+              "identifiers": [
+                "element",
+                "content",
+                "innerHTML",
+                "<anonymous>",
+                "number",
+                "todomvc",
+                "view",
+                "clearCompletedInner"
+              ]
+            },
+            "length": 17,
+            "vocabulary": 13,
+            "difficulty": 3.125,
+            "volume": 62.907475208398566,
+            "effort": 196.5858600262455,
+            "bugs": 0.02096915840279952,
+            "time": 10.92143666812475
+          },
+          "params": 2
+        }
+      },
+      {
+        "name": "<anonymous>.setState",
+        "line": 64,
+        "complexity": {
+          "sloc": {
+            "physical": 6,
+            "logical": 3
+          },
+          "cyclomatic": 2,
+          "halstead": {
+            "operators": {
+              "distinct": 5,
+              "total": 7,
+              "identifiers": [
+                "var",
+                "=",
+                "()",
+                ".",
+                "if"
+              ]
+            },
+            "operands": {
+              "distinct": 7,
+              "total": 12,
+              "identifiers": [
+                "control",
+                "state",
+                "enable",
+                "element",
+                "getElement",
+                "this",
+                "updateAriaState"
+              ]
+            },
+            "length": 19,
+            "vocabulary": 12,
+            "difficulty": 4.285714285714286,
+            "volume": 68.11428751370197,
+            "effort": 291.9183750587227,
+            "bugs": 0.022704762504567322,
+            "time": 16.217687503262372
+          },
+          "params": 3
+        }
+      }
+    ],
+    "maintainability": 137.84524561379445,
+    "params": 1.4,
+    "module": "/home/ramiro/repos/pub/todomvc-metrics/todomvc/architecture-examples/closure/js/todomvc/view/ClearCompletedControlRenderer.js"
+  },
+  {
+    "aggregate": {
+      "line": 1,
+      "complexity": {
+        "sloc": {
+          "physical": 150,
+          "logical": 58
+        },
+        "cyclomatic": 8,
+        "halstead": {
+          "operators": {
+            "distinct": 13,
+            "total": 267,
+            "identifiers": [
+              "()",
+              ".",
+              "=",
+              "function",
+              "{}",
+              ":",
+              "var",
+              "if",
+              "===",
+              "return",
+              "else",
+              "! (prefix)",
+              "&&"
+            ]
+          },
+          "operands": {
+            "distinct": 78,
+            "total": 297,
+            "identifiers": [
+              "\"todomvc.view.ToDoItemControl\"",
+              "goog",
+              "provide",
+              "\"goog.dom\"",
+              "require",
+              "\"goog.events\"",
+              "\"goog.events.KeyCodes\"",
+              "\"goog.string\"",
+              "\"goog.ui.Component.State\"",
+              "\"goog.ui.Control\"",
+              "\"todomvc.view.ToDoItemControlRenderer\"",
+              "todomvc",
+              "view",
+              "ToDoItemControl",
+              "<anonymous>",
+              "opt_domHelper",
+              "this",
+              "\"\"",
+              "ToDoItemControlRenderer",
+              "getInstance",
+              "ui",
+              "Control",
+              "call",
+              "Component",
+              "State",
+              "CHECKED",
+              true,
+              "setSupportedState",
+              "SELECTED",
+              false,
+              "setAutoStates",
+              "setAllowTextSelection",
+              "inherits",
+              "EventType",
+              "EDIT",
+              "\"edit\"",
+              "DESTROY",
+              "\"destroy\"",
+              "prototype",
+              "enterDocument",
+              "superClass_",
+              "getElement",
+              "events",
+              "CLICK",
+              "e",
+              "preventDefault",
+              "getHandler",
+              "listen",
+              "DBLCLICK",
+              "setSelected",
+              "inputElement",
+              "getRenderer",
+              "getInputElement",
+              "KEYUP",
+              "be",
+              "getBrowserEvent",
+              "keyCode",
+              "KeyCodes",
+              "ENTER",
+              "setFocused",
+              "renderer_",
+              "handleMouseUp",
+              "isEnabled",
+              "target",
+              "getCheckboxElement",
+              "isChecked",
+              "setChecked",
+              "dispatchEvent",
+              "getDestroyElement",
+              "focused",
+              "isSelected",
+              "value",
+              "string",
+              "trim",
+              "setContent",
+              "selected",
+              "getContent",
+              "focus"
+            ]
+          },
+          "length": 564,
+          "vocabulary": 91,
+          "difficulty": 24.75,
+          "volume": 3670.396177072065,
+          "effort": 90842.30538253361,
+          "bugs": 1.2234653923573549,
+          "time": 5046.794743474089
+        },
+        "params": 7
+      }
+    },
+    "functions": [
+      {
+        "name": "<anonymous>.ToDoItemControl",
+        "line": 21,
+        "complexity": {
+          "sloc": {
+            "physical": 15,
+            "logical": 6
+          },
+          "cyclomatic": 1,
+          "halstead": {
+            "operators": {
+              "distinct": 2,
+              "total": 34,
+              "identifiers": [
+                "()",
+                "."
+              ]
+            },
+            "operands": {
+              "distinct": 20,
+              "total": 47,
+              "identifiers": [
+                "opt_domHelper",
+                "this",
+                "\"\"",
+                "todomvc",
+                "view",
+                "ToDoItemControlRenderer",
+                "getInstance",
+                "goog",
+                "ui",
+                "Control",
+                "call",
+                "Component",
+                "State",
+                "CHECKED",
+                true,
+                "setSupportedState",
+                "SELECTED",
+                false,
+                "setAutoStates",
+                "setAllowTextSelection"
+              ]
+            },
+            "length": 81,
+            "vocabulary": 22,
+            "difficulty": 2.35,
+            "volume": 361.2139611096211,
+            "effort": 848.8528086076096,
+            "bugs": 0.12040465370320703,
+            "time": 47.15848936708942
+          },
+          "params": 1
+        }
+      },
+      {
+        "name": "<anonymous>.enterDocument",
+        "line": 53,
+        "complexity": {
+          "sloc": {
+            "physical": 26,
+            "logical": 5
+          },
+          "cyclomatic": 1,
+          "halstead": {
+            "operators": {
+              "distinct": 5,
+              "total": 42,
+              "identifiers": [
+                "()",
+                ".",
+                "function",
+                "var",
+                "="
+              ]
+            },
+            "operands": {
+              "distinct": 20,
+              "total": 42,
+              "identifiers": [
+                "this",
+                "todomvc",
+                "view",
+                "ToDoItemControl",
+                "superClass_",
+                "enterDocument",
+                "call",
+                "getElement",
+                "goog",
+                "events",
+                "EventType",
+                "CLICK",
+                "<anonymous>",
+                "getHandler",
+                "listen",
+                "DBLCLICK",
+                "inputElement",
+                "getRenderer",
+                "getInputElement",
+                "KEYUP"
+              ]
+            },
+            "length": 84,
+            "vocabulary": 25,
+            "difficulty": 5.25,
+            "volume": 390.08391994107683,
+            "effort": 2047.9405796906533,
+            "bugs": 0.13002797331369229,
+            "time": 113.77447664948073
+          },
+          "params": 0
+        }
+      },
+      {
+        "name": "<anonymous>",
+        "line": 59,
+        "complexity": {
+          "sloc": {
+            "physical": 3,
+            "logical": 1
+          },
+          "cyclomatic": 1,
+          "halstead": {
+            "operators": {
+              "distinct": 2,
+              "total": 2,
+              "identifiers": [
+                "()",
+                "."
+              ]
+            },
+            "operands": {
+              "distinct": 2,
+              "total": 3,
+              "identifiers": [
+                "e",
+                "preventDefault"
+              ]
+            },
+            "length": 5,
+            "vocabulary": 4,
+            "difficulty": 1.5,
+            "volume": 10,
+            "effort": 15,
+            "bugs": 0.0033333333333333335,
+            "time": 0.8333333333333334
+          },
+          "params": 1
+        }
+      },
+      {
+        "name": "<anonymous>",
+        "line": 63,
+        "complexity": {
+          "sloc": {
+            "physical": 3,
+            "logical": 1
+          },
+          "cyclomatic": 1,
+          "halstead": {
+            "operators": {
+              "distinct": 2,
+              "total": 2,
+              "identifiers": [
+                "()",
+                "."
+              ]
+            },
+            "operands": {
+              "distinct": 4,
+              "total": 4,
+              "identifiers": [
+                "e",
+                true,
+                "this",
+                "setSelected"
+              ]
+            },
+            "length": 6,
+            "vocabulary": 6,
+            "difficulty": 1,
+            "volume": 15.509775004326936,
+            "effort": 15.509775004326936,
+            "bugs": 0.005169925001442312,
+            "time": 0.861654166907052
+          },
+          "params": 1
+        }
+      },
+      {
+        "name": "<anonymous>",
+        "line": 72,
+        "complexity": {
+          "sloc": {
+            "physical": 6,
+            "logical": 3
+          },
+          "cyclomatic": 2,
+          "halstead": {
+            "operators": {
+              "distinct": 6,
+              "total": 12,
+              "identifiers": [
+                "var",
+                "=",
+                "()",
+                ".",
+                "if",
+                "==="
+              ]
+            },
+            "operands": {
+              "distinct": 11,
+              "total": 13,
+              "identifiers": [
+                "e",
+                "be",
+                "getBrowserEvent",
+                "keyCode",
+                "goog",
+                "events",
+                "KeyCodes",
+                "ENTER",
+                false,
+                "this",
+                "setFocused"
+              ]
+            },
+            "length": 25,
+            "vocabulary": 17,
+            "difficulty": 3.545454545454546,
+            "volume": 102.1865710312585,
+            "effort": 362.29784274718924,
+            "bugs": 0.03406219034375283,
+            "time": 20.1276579303994
+          },
+          "params": 1
+        }
+      },
+      {
+        "name": "<anonymous>.getRenderer",
+        "line": 87,
+        "complexity": {
+          "sloc": {
+            "physical": 3,
+            "logical": 1
+          },
+          "cyclomatic": 1,
+          "halstead": {
+            "operators": {
+              "distinct": 2,
+              "total": 2,
+              "identifiers": [
+                "return",
+                "."
+              ]
+            },
+            "operands": {
+              "distinct": 2,
+              "total": 2,
+              "identifiers": [
+                "this",
+                "renderer_"
+              ]
+            },
+            "length": 4,
+            "vocabulary": 4,
+            "difficulty": 1,
+            "volume": 8,
+            "effort": 8,
+            "bugs": 0.0026666666666666666,
+            "time": 0.4444444444444444
+          },
+          "params": 0
+        }
+      },
+      {
+        "name": "<anonymous>.handleMouseUp",
+        "line": 97,
+        "complexity": {
+          "sloc": {
+            "physical": 13,
+            "logical": 8
+          },
+          "cyclomatic": 4,
+          "halstead": {
+            "operators": {
+              "distinct": 6,
+              "total": 45,
+              "identifiers": [
+                "()",
+                ".",
+                "if",
+                "else",
+                "===",
+                "! (prefix)"
+              ]
+            },
+            "operands": {
+              "distinct": 20,
+              "total": 43,
+              "identifiers": [
+                "e",
+                "this",
+                "todomvc",
+                "view",
+                "ToDoItemControl",
+                "superClass_",
+                "handleMouseUp",
+                "call",
+                "isEnabled",
+                "target",
+                "getElement",
+                "getRenderer",
+                "getCheckboxElement",
+                "isChecked",
+                "setChecked",
+                "EventType",
+                "EDIT",
+                "dispatchEvent",
+                "getDestroyElement",
+                "DESTROY"
+              ]
+            },
+            "length": 88,
+            "vocabulary": 26,
+            "difficulty": 6.449999999999999,
+            "volume": 413.63869519641617,
+            "effort": 2667.969584016884,
+            "bugs": 0.13787956506547205,
+            "time": 148.22053244538245
+          },
+          "params": 1
+        }
+      },
+      {
+        "name": "<anonymous>.setFocused",
+        "line": 115,
+        "complexity": {
+          "sloc": {
+            "physical": 18,
+            "logical": 10
+          },
+          "cyclomatic": 3,
+          "halstead": {
+            "operators": {
+              "distinct": 9,
+              "total": 44,
+              "identifiers": [
+                "()",
+                ".",
+                "if",
+                "&&",
+                "! (prefix)",
+                "var",
+                "=",
+                "else",
+                "==="
+              ]
+            },
+            "operands": {
+              "distinct": 25,
+              "total": 46,
+              "identifiers": [
+                "focused",
+                "this",
+                "todomvc",
+                "view",
+                "ToDoItemControl",
+                "superClass_",
+                "setFocused",
+                "call",
+                "isSelected",
+                "inputElement",
+                "getElement",
+                "getRenderer",
+                "getInputElement",
+                "value",
+                "goog",
+                "string",
+                "trim",
+                "\"\"",
+                "EventType",
+                "DESTROY",
+                "dispatchEvent",
+                "setContent",
+                false,
+                "setSelected",
+                "EDIT"
+              ]
+            },
+            "length": 90,
+            "vocabulary": 34,
+            "difficulty": 8.280000000000001,
+            "volume": 457.8716557125306,
+            "effort": 3791.1773092997537,
+            "bugs": 0.1526238852375102,
+            "time": 210.6209616277641
+          },
+          "params": 1
+        }
+      },
+      {
+        "name": "<anonymous>.setSelected",
+        "line": 138,
+        "complexity": {
+          "sloc": {
+            "physical": 13,
+            "logical": 5
+          },
+          "cyclomatic": 2,
+          "halstead": {
+            "operators": {
+              "distinct": 5,
+              "total": 21,
+              "identifiers": [
+                "()",
+                ".",
+                "if",
+                "var",
+                "="
+              ]
+            },
+            "operands": {
+              "distinct": 15,
+              "total": 22,
+              "identifiers": [
+                "selected",
+                "this",
+                "todomvc",
+                "view",
+                "ToDoItemControl",
+                "superClass_",
+                "setSelected",
+                "call",
+                "inputElement",
+                "getElement",
+                "getRenderer",
+                "getInputElement",
+                "value",
+                "getContent",
+                "focus"
+              ]
+            },
+            "length": 43,
+            "vocabulary": 20,
+            "difficulty": 3.6666666666666665,
+            "volume": 185.8429080801566,
+            "effort": 681.4239962939075,
+            "bugs": 0.06194763602671887,
+            "time": 37.856888682994864
+          },
+          "params": 1
+        }
+      }
+    ],
+    "maintainability": 122.57133668545441,
+    "params": 0.7777777777777778,
+    "module": "/home/ramiro/repos/pub/todomvc-metrics/todomvc/architecture-examples/closure/js/todomvc/view/ToDoItemControl.js"
+  },
+  {
+    "aggregate": {
+      "line": 1,
+      "complexity": {
+        "sloc": {
+          "physical": 133,
+          "logical": 38
+        },
+        "cyclomatic": 9,
+        "halstead": {
+          "operators": {
+            "distinct": 13,
+            "total": 153,
+            "identifiers": [
+              "()",
+              ".",
+              "=",
+              "function",
+              "var",
+              "{}",
+              ":",
+              "return",
+              "if",
+              "switch",
+              "case",
+              "break",
+              ":?"
+            ]
+          },
+          "operands": {
+            "distinct": 53,
+            "total": 181,
+            "identifiers": [
+              "\"todomvc.view.ToDoItemControlRenderer\"",
+              "goog",
+              "provide",
+              "\"goog.ui.Component.State\"",
+              "require",
+              "\"goog.ui.ControlRenderer\"",
+              "todomvc",
+              "view",
+              "ToDoItemControlRenderer",
+              "<anonymous>",
+              "this",
+              "ui",
+              "ControlRenderer",
+              "call",
+              "inherits",
+              "addSingletonGetter",
+              "prototype",
+              "createDom",
+              "control",
+              "html",
+              "content",
+              "getContent",
+              "checked",
+              "isChecked",
+              "toDoItem",
+              "element",
+              "dom",
+              "htmlToDocumentFragment",
+              "setAriaStates",
+              "getState",
+              true,
+              "setState",
+              "state",
+              "enable",
+              "getElement",
+              "Component",
+              "State",
+              "CHECKED",
+              "getCheckboxElement",
+              "SELECTED",
+              "\"editing\"",
+              "enableClassName",
+              "updateAriaState",
+              "getKeyEventTarget",
+              "getInputElement",
+              "getDisplayElement",
+              "childNodes",
+              0,
+              null,
+              "getContentElement",
+              1,
+              "getDestroyElement",
+              2
+            ]
+          },
+          "length": 334,
+          "vocabulary": 66,
+          "difficulty": 22.19811320754717,
+          "volume": 2018.8276358657233,
+          "effort": 44814.16440747214,
+          "bugs": 0.6729425452885744,
+          "time": 2489.675800415119
+        },
+        "params": 10
+      }
+    },
+    "functions": [
+      {
+        "name": "<anonymous>.ToDoItemControlRenderer",
+        "line": 13,
+        "complexity": {
+          "sloc": {
+            "physical": 3,
+            "logical": 1
+          },
+          "cyclomatic": 1,
+          "halstead": {
+            "operators": {
+              "distinct": 2,
+              "total": 4,
+              "identifiers": [
+                "()",
+                "."
+              ]
+            },
+            "operands": {
+              "distinct": 5,
+              "total": 5,
+              "identifiers": [
+                "this",
+                "goog",
+                "ui",
+                "ControlRenderer",
+                "call"
+              ]
+            },
+            "length": 9,
+            "vocabulary": 7,
+            "difficulty": 1,
+            "volume": 25.26619429851844,
+            "effort": 25.26619429851844,
+            "bugs": 0.008422064766172813,
+            "time": 1.403677461028802
+          },
+          "params": 0
+        }
+      },
+      {
+        "name": "<anonymous>.createDom",
+        "line": 25,
+        "complexity": {
+          "sloc": {
+            "physical": 11,
+            "logical": 7
+          },
+          "cyclomatic": 1,
+          "halstead": {
+            "operators": {
+              "distinct": 7,
+              "total": 24,
+              "identifiers": [
+                "var",
+                "=",
+                "()",
+                "{}",
+                ":",
+                ".",
+                "return"
+              ]
+            },
+            "operands": {
+              "distinct": 19,
+              "total": 28,
+              "identifiers": [
+                "control",
+                "html",
+                "<anonymous>",
+                "content",
+                "getContent",
+                "checked",
+                "isChecked",
+                "todomvc",
+                "view",
+                "toDoItem",
+                "element",
+                "goog",
+                "dom",
+                "htmlToDocumentFragment",
+                "this",
+                "setAriaStates",
+                "getState",
+                true,
+                "setState"
+              ]
+            },
+            "length": 52,
+            "vocabulary": 26,
+            "difficulty": 5.157894736842105,
+            "volume": 244.4228653433368,
+            "effort": 1260.7074107182636,
+            "bugs": 0.08147428844777893,
+            "time": 70.0393005954591
+          },
+          "params": 1
+        }
+      },
+      {
+        "name": "<anonymous>.setState",
+        "line": 45,
+        "complexity": {
+          "sloc": {
+            "physical": 15,
+            "logical": 10
+          },
+          "cyclomatic": 4,
+          "halstead": {
+            "operators": {
+              "distinct": 8,
+              "total": 26,
+              "identifiers": [
+                "var",
+                "=",
+                "()",
+                ".",
+                "if",
+                "switch",
+                "case",
+                "break"
+              ]
+            },
+            "operands": {
+              "distinct": 17,
+              "total": 33,
+              "identifiers": [
+                "control",
+                "state",
+                "enable",
+                "element",
+                "getElement",
+                "goog",
+                "ui",
+                "Component",
+                "State",
+                "CHECKED",
+                "this",
+                "getCheckboxElement",
+                "checked",
+                "SELECTED",
+                "\"editing\"",
+                "enableClassName",
+                "updateAriaState"
+              ]
+            },
+            "length": 59,
+            "vocabulary": 25,
+            "difficulty": 7.764705882352941,
+            "volume": 273.9875151967087,
+            "effort": 2127.43247093915,
+            "bugs": 0.09132917173223624,
+            "time": 118.19069282995277
+          },
+          "params": 3
+        }
+      },
+      {
+        "name": "<anonymous>.getKeyEventTarget",
+        "line": 70,
+        "complexity": {
+          "sloc": {
+            "physical": 3,
+            "logical": 1
+          },
+          "cyclomatic": 1,
+          "halstead": {
+            "operators": {
+              "distinct": 3,
+              "total": 5,
+              "identifiers": [
+                "return",
+                "()",
+                "."
+              ]
+            },
+            "operands": {
+              "distinct": 4,
+              "total": 5,
+              "identifiers": [
+                "control",
+                "getElement",
+                "this",
+                "getInputElement"
+              ]
+            },
+            "length": 10,
+            "vocabulary": 7,
+            "difficulty": 1.875,
+            "volume": 28.07354922057604,
+            "effort": 52.63790478858007,
+            "bugs": 0.009357849740192013,
+            "time": 2.924328043810004
+          },
+          "params": 1
+        }
+      },
+      {
+        "name": "<anonymous>.getDisplayElement",
+        "line": 81,
+        "complexity": {
+          "sloc": {
+            "physical": 4,
+            "logical": 1
+          },
+          "cyclomatic": 2,
+          "halstead": {
+            "operators": {
+              "distinct": 3,
+              "total": 4,
+              "identifiers": [
+                "return",
+                ":?",
+                "."
+              ]
+            },
+            "operands": {
+              "distinct": 4,
+              "total": 6,
+              "identifiers": [
+                "element",
+                "childNodes",
+                0,
+                null
+              ]
+            },
+            "length": 10,
+            "vocabulary": 7,
+            "difficulty": 2.25,
+            "volume": 28.07354922057604,
+            "effort": 63.16548574629609,
+            "bugs": 0.009357849740192013,
+            "time": 3.509193652572005
+          },
+          "params": 1
+        }
+      },
+      {
+        "name": "<anonymous>.getContentElement",
+        "line": 94,
+        "complexity": {
+          "sloc": {
+            "physical": 4,
+            "logical": 1
+          },
+          "cyclomatic": 2,
+          "halstead": {
+            "operators": {
+              "distinct": 4,
+              "total": 6,
+              "identifiers": [
+                "return",
+                ":?",
+                ".",
+                "()"
+              ]
+            },
+            "operands": {
+              "distinct": 6,
+              "total": 8,
+              "identifiers": [
+                "element",
+                "this",
+                "getDisplayElement",
+                "childNodes",
+                1,
+                null
+              ]
+            },
+            "length": 14,
+            "vocabulary": 10,
+            "difficulty": 2.6666666666666665,
+            "volume": 46.50699332842308,
+            "effort": 124.01864887579487,
+            "bugs": 0.01550233110947436,
+            "time": 6.889924937544159
+          },
+          "params": 1
+        }
+      },
+      {
+        "name": "<anonymous>.getCheckboxElement",
+        "line": 106,
+        "complexity": {
+          "sloc": {
+            "physical": 4,
+            "logical": 1
+          },
+          "cyclomatic": 2,
+          "halstead": {
+            "operators": {
+              "distinct": 4,
+              "total": 6,
+              "identifiers": [
+                "return",
+                ":?",
+                ".",
+                "()"
+              ]
+            },
+            "operands": {
+              "distinct": 6,
+              "total": 8,
+              "identifiers": [
+                "element",
+                "this",
+                "getDisplayElement",
+                "childNodes",
+                0,
+                null
+              ]
+            },
+            "length": 14,
+            "vocabulary": 10,
+            "difficulty": 2.6666666666666665,
+            "volume": 46.50699332842308,
+            "effort": 124.01864887579487,
+            "bugs": 0.01550233110947436,
+            "time": 6.889924937544159
+          },
+          "params": 1
+        }
+      },
+      {
+        "name": "<anonymous>.getDestroyElement",
+        "line": 118,
+        "complexity": {
+          "sloc": {
+            "physical": 4,
+            "logical": 1
+          },
+          "cyclomatic": 2,
+          "halstead": {
+            "operators": {
+              "distinct": 4,
+              "total": 6,
+              "identifiers": [
+                "return",
+                ":?",
+                ".",
+                "()"
+              ]
+            },
+            "operands": {
+              "distinct": 6,
+              "total": 8,
+              "identifiers": [
+                "element",
+                "this",
+                "getDisplayElement",
+                "childNodes",
+                2,
+                null
+              ]
+            },
+            "length": 14,
+            "vocabulary": 10,
+            "difficulty": 2.6666666666666665,
+            "volume": 46.50699332842308,
+            "effort": 124.01864887579487,
+            "bugs": 0.01550233110947436,
+            "time": 6.889924937544159
+          },
+          "params": 1
+        }
+      },
+      {
+        "name": "<anonymous>.getInputElement",
+        "line": 130,
+        "complexity": {
+          "sloc": {
+            "physical": 4,
+            "logical": 1
+          },
+          "cyclomatic": 2,
+          "halstead": {
+            "operators": {
+              "distinct": 3,
+              "total": 4,
+              "identifiers": [
+                "return",
+                ":?",
+                "."
+              ]
+            },
+            "operands": {
+              "distinct": 4,
+              "total": 6,
+              "identifiers": [
+                "element",
+                "childNodes",
+                1,
+                null
+              ]
+            },
+            "length": 10,
+            "vocabulary": 7,
+            "difficulty": 2.25,
+            "volume": 28.07354922057604,
+            "effort": 63.16548574629609,
+            "bugs": 0.009357849740192013,
+            "time": 3.509193652572005
+          },
+          "params": 1
+        }
+      }
+    ],
+    "maintainability": 134.14369457271138,
+    "params": 1.1111111111111112,
+    "module": "/home/ramiro/repos/pub/todomvc-metrics/todomvc/architecture-examples/closure/js/todomvc/view/ToDoItemControlRenderer.js"
+  },
+  {
+    "aggregate": {
+      "line": 1,
+      "complexity": {
+        "sloc": {
+          "physical": 37,
+          "logical": 11
+        },
+        "cyclomatic": 2,
+        "halstead": {
+          "operators": {
+            "distinct": 5,
+            "total": 42,
+            "identifiers": [
+              "()",
+              ".",
+              "=",
+              "function",
+              "if"
+            ]
+          },
+          "operands": {
+            "distinct": 29,
+            "total": 55,
+            "identifiers": [
+              "\"todomvc.view.ToDoListContainer\"",
+              "goog",
+              "provide",
+              "\"goog.ui.Container\"",
+              "require",
+              "\"todomvc.view.ToDoListContainerRenderer\"",
+              "todomvc",
+              "view",
+              "ToDoListContainer",
+              "<anonymous>",
+              "opt_domHelper",
+              "this",
+              "ui",
+              "Container",
+              "Orientation",
+              "VERTICAL",
+              "ToDoListContainerRenderer",
+              "getInstance",
+              "call",
+              false,
+              "setFocusable",
+              true,
+              "setFocusableChildrenAllowed",
+              "inherits",
+              "prototype",
+              "handleMouseDown",
+              "e",
+              "enabled_",
+              "setMouseButtonPressed"
+            ]
+          },
+          "length": 97,
+          "vocabulary": 34,
+          "difficulty": 4.741379310344827,
+          "volume": 493.483895601283,
+          "effort": 2339.79433259229,
+          "bugs": 0.16449463186709434,
+          "time": 129.988574032905
+        },
+        "params": 2
+      }
+    },
+    "functions": [
+      {
+        "name": "<anonymous>.ToDoListContainer",
+        "line": 16,
+        "complexity": {
+          "sloc": {
+            "physical": 10,
+            "logical": 3
+          },
+          "cyclomatic": 1,
+          "halstead": {
+            "operators": {
+              "distinct": 2,
+              "total": 16,
+              "identifiers": [
+                "()",
+                "."
+              ]
+            },
+            "operands": {
+              "distinct": 16,
+              "total": 22,
+              "identifiers": [
+                "opt_domHelper",
+                "this",
+                "goog",
+                "ui",
+                "Container",
+                "Orientation",
+                "VERTICAL",
+                "todomvc",
+                "view",
+                "ToDoListContainerRenderer",
+                "getInstance",
+                "call",
+                false,
+                "setFocusable",
+                true,
+                "setFocusableChildrenAllowed"
+              ]
+            },
+            "length": 38,
+            "vocabulary": 18,
+            "difficulty": 1.375,
+            "volume": 158.45715005480787,
+            "effort": 217.8785813253608,
+            "bugs": 0.05281905001826929,
+            "time": 12.104365629186711
+          },
+          "params": 1
+        }
+      },
+      {
+        "name": "<anonymous>.handleMouseDown",
+        "line": 33,
+        "complexity": {
+          "sloc": {
+            "physical": 5,
+            "logical": 2
+          },
+          "cyclomatic": 2,
+          "halstead": {
+            "operators": {
+              "distinct": 3,
+              "total": 4,
+              "identifiers": [
+                "if",
+                ".",
+                "()"
+              ]
+            },
+            "operands": {
+              "distinct": 5,
+              "total": 6,
+              "identifiers": [
+                "e",
+                "this",
+                "enabled_",
+                true,
+                "setMouseButtonPressed"
+              ]
+            },
+            "length": 10,
+            "vocabulary": 8,
+            "difficulty": 1.7999999999999998,
+            "volume": 30,
+            "effort": 53.99999999999999,
+            "bugs": 0.01,
+            "time": 2.9999999999999996
+          },
+          "params": 1
+        }
+      }
+    ],
+    "maintainability": 139.2630804616795,
+    "params": 1,
+    "module": "/home/ramiro/repos/pub/todomvc-metrics/todomvc/architecture-examples/closure/js/todomvc/view/ToDoListContainer.js"
+  },
+  {
+    "aggregate": {
+      "line": 1,
+      "complexity": {
+        "sloc": {
+          "physical": 44,
+          "logical": 15
+        },
+        "cyclomatic": 2,
+        "halstead": {
+          "operators": {
+            "distinct": 8,
+            "total": 54,
+            "identifiers": [
+              "()",
+              ".",
+              "=",
+              "function",
+              "return",
+              "==",
+              "var",
+              "if"
+            ]
+          },
+          "operands": {
+            "distinct": 31,
+            "total": 64,
+            "identifiers": [
+              "\"todomvc.view.ToDoListContainerRenderer\"",
+              "goog",
+              "provide",
+              "\"goog.ui.Component.State\"",
+              "require",
+              "\"goog.ui.Container\"",
+              "\"goog.ui.ContainerRenderer\"",
+              "todomvc",
+              "view",
+              "ToDoListContainerRenderer",
+              "<anonymous>",
+              "this",
+              "ui",
+              "ContainerRenderer",
+              "call",
+              "inherits",
+              "addSingletonGetter",
+              "prototype",
+              "canDecorate",
+              "element",
+              "tagName",
+              "\"UL\"",
+              "initializeDom",
+              "container",
+              "elem",
+              "getElement",
+              "ariaRole",
+              "getAriaRole",
+              "dom",
+              "a11y",
+              "setRole"
+            ]
+          },
+          "length": 118,
+          "vocabulary": 39,
+          "difficulty": 8.258064516129032,
+          "volume": 623.6774618257454,
+          "effort": 5150.368717012607,
+          "bugs": 0.20789248727524845,
+          "time": 286.1315953895893
+        },
+        "params": 2
+      }
+    },
+    "functions": [
+      {
+        "name": "<anonymous>.ToDoListContainerRenderer",
+        "line": 13,
+        "complexity": {
+          "sloc": {
+            "physical": 3,
+            "logical": 1
+          },
+          "cyclomatic": 1,
+          "halstead": {
+            "operators": {
+              "distinct": 2,
+              "total": 4,
+              "identifiers": [
+                "()",
+                "."
+              ]
+            },
+            "operands": {
+              "distinct": 5,
+              "total": 5,
+              "identifiers": [
+                "this",
+                "goog",
+                "ui",
+                "ContainerRenderer",
+                "call"
+              ]
+            },
+            "length": 9,
+            "vocabulary": 7,
+            "difficulty": 1,
+            "volume": 25.26619429851844,
+            "effort": 25.26619429851844,
+            "bugs": 0.008422064766172813,
+            "time": 1.403677461028802
+          },
+          "params": 0
+        }
+      },
+      {
+        "name": "<anonymous>.canDecorate",
+        "line": 25,
+        "complexity": {
+          "sloc": {
+            "physical": 3,
+            "logical": 1
+          },
+          "cyclomatic": 1,
+          "halstead": {
+            "operators": {
+              "distinct": 3,
+              "total": 3,
+              "identifiers": [
+                "return",
+                "==",
+                "."
+              ]
+            },
+            "operands": {
+              "distinct": 3,
+              "total": 4,
+              "identifiers": [
+                "element",
+                "tagName",
+                "\"UL\""
+              ]
+            },
+            "length": 7,
+            "vocabulary": 6,
+            "difficulty": 2,
+            "volume": 18.094737505048094,
+            "effort": 36.18947501009619,
+            "bugs": 0.006031579168349364,
+            "time": 2.0105263894497885
+          },
+          "params": 1
+        }
+      },
+      {
+        "name": "<anonymous>.initializeDom",
+        "line": 36,
+        "complexity": {
+          "sloc": {
+            "physical": 9,
+            "logical": 4
+          },
+          "cyclomatic": 2,
+          "halstead": {
+            "operators": {
+              "distinct": 5,
+              "total": 13,
+              "identifiers": [
+                "var",
+                "=",
+                "()",
+                ".",
+                "if"
+              ]
+            },
+            "operands": {
+              "distinct": 10,
+              "total": 14,
+              "identifiers": [
+                "container",
+                "elem",
+                "getElement",
+                "ariaRole",
+                "this",
+                "getAriaRole",
+                "goog",
+                "dom",
+                "a11y",
+                "setRole"
+              ]
+            },
+            "length": 27,
+            "vocabulary": 15,
+            "difficulty": 3.5,
+            "volume": 105.48604608143,
+            "effort": 369.201161285005,
+            "bugs": 0.03516201536047667,
+            "time": 20.511175626944723
+          },
+          "params": 1
+        }
+      }
+    ],
+    "maintainability": 142.71873730318717,
+    "params": 0.6666666666666666,
+    "module": "/home/ramiro/repos/pub/todomvc-metrics/todomvc/architecture-examples/closure/js/todomvc/view/ToDoListContainerRenderer.js"
   }
 ]
