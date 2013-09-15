@@ -1,5 +1,6 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
+from __future__ import division
 import json
 import os
 
@@ -15,21 +16,25 @@ data_dir = os.path.join(root_dir, 'data')
 reports = glob(data_dir + '/*.json')
 
 metrics = (
-    'Sum Physical SLOC',
+    ('Sum Physical SLOC', ('aggregate', 'complexity', 'sloc', 'logical'),
     'Sum Logical SLOC',
     'Sum files',
     'Sum functions',
-    'Mean Maintainability index',
+    'Mean cyclomatic complexity',
+    'Mean maintainability index',
     'Mean parameter count',
-    #'Mean cyclomatic complexity',
-    #'Mean Halstead difficulty',
-    #'Mean Halstead volume',
-    #'Mean Halstead effort',
+    'Mean Halstead difficulty',
+    'Mean Halstead volume',
+    'Mean Halstead effort',
     #'Mean functions per file',
 )
 
 stats = defaultdict(dict)
 stats.fromkeys(metrics)
+
+
+def val_from_path(path, di):
+    return reduce(lambda d, key: d[key], path, di)
 
 
 for report in reports:
@@ -40,20 +45,23 @@ for report in reports:
         for project_file in project_files:
             stats['Sum Logical SLOC'][project] = stats['Sum Logical SLOC'].get(project, 0) + project_file['aggregate']['complexity']['sloc']['logical']
             stats['Sum Physical SLOC'][project] = stats['Sum Physical SLOC'].get(project, 0) + project_file['aggregate']['complexity']['sloc']['physical']
-            stats['Mean Maintainability index'][project] = stats['Mean Maintainability index'].get(project, 0) + project_file['maintainability']
-            stats['Mean parameter count'][project] = stats['Mean parameter count'].get(project, 0) + project_file['params']
             stats['Sum functions'][project] = stats['Sum functions'].get(project, 0) + len(project_file['functions'])
+            stats['Mean maintainability index'][project] = stats['Mean maintainability index'].get(project, 0) + project_file['maintainability']
+            stats['Mean cyclomatic complexity'][project] = stats['Mean cyclomatic complexity'].get(project, 0) + project_file['aggregate']['complexity']['cyclomatic']
+            stats['Mean Halstead difficulty'][project] = stats['Mean Halstead difficulty'].get(project, 0) + project_file['aggregate']['complexity']['halstead']['difficulty']
+            stats['Mean Halstead volume'][project] = stats['Mean Halstead volume'].get(project, 0) + project_file['aggregate']['complexity']['halstead']['volume']
+            stats['Mean Halstead effort'][project] = stats['Mean Halstead effort'].get(project, 0) + project_file['aggregate']['complexity']['halstead']['effort']
+            stats['Mean parameter count'][project] = stats['Mean parameter count'].get(project, 0) + project_file['params']
 
 
-#print [(k, v) for k, v in sorted(stats['Sum files'].items(), key=lambda x: x[1], reverse=True)]
+file_counts = list(stats['Sum files'].values())
+func_counts = list(stats['Sum functions'].values())
 for metric in stats:
     values = list(stats[metric].values())
-    if metric in ['Mean Maintainability index', 'Mean parameter count']:
-        try:
-            counts = list(stats['Sum files'].values())
-        except:
-            continue
-        values = [v / counts[i] for i, v in enumerate(values)]
+    if metric in ['Mean maintainability index', 'Mean parameter count']:
+        values = [v / file_counts[i] for i, v in enumerate(values)]
+    elif metric in ['Mean cyclomatic complexity', 'Mean Halstead difficulty', 'Mean Halstead volume', 'Mean Halstead effort']:
+        values = [v / func_counts[i] for i, v in enumerate(values)]
     stats[metric] = pd.Series(values, index=list(stats[metric].keys()))
 
 df = pd.DataFrame(stats)
