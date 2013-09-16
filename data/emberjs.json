@@ -634,6 +634,391 @@
       "line": 2,
       "complexity": {
         "sloc": {
+          "physical": 12,
+          "logical": 8
+        },
+        "cyclomatic": 1,
+        "halstead": {
+          "operators": {
+            "distinct": 6,
+            "total": 24,
+            "identifiers": [
+              "=",
+              ".",
+              "()",
+              "{}",
+              ":",
+              "function"
+            ]
+          },
+          "operands": {
+            "distinct": 23,
+            "total": 29,
+            "identifiers": [
+              "\"use strict\"",
+              "Todos",
+              "Todo",
+              "<anonymous>",
+              "title",
+              "\"string\"",
+              "DS",
+              "attr",
+              "isCompleted",
+              "\"boolean\"",
+              "todoDidChange",
+              "\"isCompleted\"",
+              "\"title\"",
+              "this",
+              "\"store\"",
+              "get",
+              "commit",
+              "Ember",
+              "run",
+              "once",
+              "observes",
+              "Model",
+              "extend"
+            ]
+          },
+          "length": 53,
+          "vocabulary": 29,
+          "difficulty": 3.782608695652174,
+          "volume": 257.47299274176135,
+          "effort": 973.9195812405756,
+          "bugs": 0.08582433091392044,
+          "time": 54.1066434022542
+        },
+        "params": 0
+      }
+    },
+    "functions": [
+      {
+        "name": "<anonymous>",
+        "line": 8,
+        "complexity": {
+          "sloc": {
+            "physical": 5,
+            "logical": 1
+          },
+          "cyclomatic": 1,
+          "halstead": {
+            "operators": {
+              "distinct": 3,
+              "total": 4,
+              "identifiers": [
+                "()",
+                "function",
+                "."
+              ]
+            },
+            "operands": {
+              "distinct": 5,
+              "total": 5,
+              "identifiers": [
+                "this",
+                "<anonymous>",
+                "Ember",
+                "run",
+                "once"
+              ]
+            },
+            "length": 9,
+            "vocabulary": 8,
+            "difficulty": 1.5,
+            "volume": 27,
+            "effort": 40.5,
+            "bugs": 0.009,
+            "time": 2.25
+          },
+          "params": 0
+        }
+      },
+      {
+        "name": "<anonymous>",
+        "line": 9,
+        "complexity": {
+          "sloc": {
+            "physical": 3,
+            "logical": 1
+          },
+          "cyclomatic": 1,
+          "halstead": {
+            "operators": {
+              "distinct": 2,
+              "total": 4,
+              "identifiers": [
+                "()",
+                "."
+              ]
+            },
+            "operands": {
+              "distinct": 4,
+              "total": 4,
+              "identifiers": [
+                "\"store\"",
+                "this",
+                "get",
+                "commit"
+              ]
+            },
+            "length": 8,
+            "vocabulary": 6,
+            "difficulty": 1,
+            "volume": 20.67970000576925,
+            "effort": 20.67970000576925,
+            "bugs": 0.006893233335256416,
+            "time": 1.1488722225427361
+          },
+          "params": 0
+        }
+      }
+    ],
+    "maintainability": 159.30131456898812,
+    "params": 0,
+    "module": "/home/ramiro/repos/pub/todomvc-metrics/todomvc/architecture-examples/emberjs/js/models/todo.js"
+  },
+  {
+    "aggregate": {
+      "line": 2,
+      "complexity": {
+        "sloc": {
+          "physical": 27,
+          "logical": 14
+        },
+        "cyclomatic": 2,
+        "halstead": {
+          "operators": {
+            "distinct": 9,
+            "total": 36,
+            "identifiers": [
+              "=",
+              ".",
+              "()",
+              "{}",
+              ":",
+              "[]",
+              "function",
+              "var",
+              "if"
+            ]
+          },
+          "operands": {
+            "distinct": 27,
+            "total": 42,
+            "identifiers": [
+              "\"use strict\"",
+              "Todos",
+              "EditTodoView",
+              "<anonymous>",
+              "classNames",
+              "\"edit\"",
+              "valueBinding",
+              "\"todo.title\"",
+              "change",
+              "value",
+              "\"value\"",
+              "this",
+              "get",
+              "Ember",
+              "isEmpty",
+              "\"controller\"",
+              "removeTodo",
+              "focusOut",
+              "\"controller.isEditing\"",
+              false,
+              "set",
+              "insertNewline",
+              "didInsertElement",
+              "$",
+              "focus",
+              "TextField",
+              "extend"
+            ]
+          },
+          "length": 78,
+          "vocabulary": 36,
+          "difficulty": 7,
+          "volume": 403.2541501125003,
+          "effort": 2822.7790507875025,
+          "bugs": 0.1344180500375001,
+          "time": 156.82105837708346
+        },
+        "params": 0
+      }
+    },
+    "functions": [
+      {
+        "name": "change",
+        "line": 9,
+        "complexity": {
+          "sloc": {
+            "physical": 7,
+            "logical": 3
+          },
+          "cyclomatic": 2,
+          "halstead": {
+            "operators": {
+              "distinct": 5,
+              "total": 11,
+              "identifiers": [
+                "var",
+                "=",
+                "()",
+                ".",
+                "if"
+              ]
+            },
+            "operands": {
+              "distinct": 8,
+              "total": 11,
+              "identifiers": [
+                "value",
+                "\"value\"",
+                "this",
+                "get",
+                "Ember",
+                "isEmpty",
+                "\"controller\"",
+                "removeTodo"
+              ]
+            },
+            "length": 22,
+            "vocabulary": 13,
+            "difficulty": 3.4375,
+            "volume": 81.40967379910403,
+            "effort": 279.8457536844201,
+            "bugs": 0.027136557933034676,
+            "time": 15.546986315801117
+          },
+          "params": 0
+        }
+      },
+      {
+        "name": "focusOut",
+        "line": 17,
+        "complexity": {
+          "sloc": {
+            "physical": 3,
+            "logical": 1
+          },
+          "cyclomatic": 1,
+          "halstead": {
+            "operators": {
+              "distinct": 2,
+              "total": 2,
+              "identifiers": [
+                "()",
+                "."
+              ]
+            },
+            "operands": {
+              "distinct": 4,
+              "total": 4,
+              "identifiers": [
+                "\"controller.isEditing\"",
+                false,
+                "this",
+                "set"
+              ]
+            },
+            "length": 6,
+            "vocabulary": 6,
+            "difficulty": 1,
+            "volume": 15.509775004326936,
+            "effort": 15.509775004326936,
+            "bugs": 0.005169925001442312,
+            "time": 0.861654166907052
+          },
+          "params": 0
+        }
+      },
+      {
+        "name": "insertNewline",
+        "line": 21,
+        "complexity": {
+          "sloc": {
+            "physical": 3,
+            "logical": 1
+          },
+          "cyclomatic": 1,
+          "halstead": {
+            "operators": {
+              "distinct": 2,
+              "total": 2,
+              "identifiers": [
+                "()",
+                "."
+              ]
+            },
+            "operands": {
+              "distinct": 4,
+              "total": 4,
+              "identifiers": [
+                "\"controller.isEditing\"",
+                false,
+                "this",
+                "set"
+              ]
+            },
+            "length": 6,
+            "vocabulary": 6,
+            "difficulty": 1,
+            "volume": 15.509775004326936,
+            "effort": 15.509775004326936,
+            "bugs": 0.005169925001442312,
+            "time": 0.861654166907052
+          },
+          "params": 0
+        }
+      },
+      {
+        "name": "didInsertElement",
+        "line": 25,
+        "complexity": {
+          "sloc": {
+            "physical": 3,
+            "logical": 1
+          },
+          "cyclomatic": 1,
+          "halstead": {
+            "operators": {
+              "distinct": 2,
+              "total": 4,
+              "identifiers": [
+                "()",
+                "."
+              ]
+            },
+            "operands": {
+              "distinct": 3,
+              "total": 3,
+              "identifiers": [
+                "this",
+                "$",
+                "focus"
+              ]
+            },
+            "length": 7,
+            "vocabulary": 5,
+            "difficulty": 1,
+            "volume": 16.253496664211536,
+            "effort": 16.253496664211536,
+            "bugs": 0.005417832221403845,
+            "time": 0.9029720369006409
+          },
+          "params": 0
+        }
+      }
+    ],
+    "maintainability": 149.318362888905,
+    "params": 0,
+    "module": "/home/ramiro/repos/pub/todomvc-metrics/todomvc/architecture-examples/emberjs/js/views/edit_todo_view.js"
+  },
+  {
+    "aggregate": {
+      "line": 2,
+      "complexity": {
+        "sloc": {
           "physical": 10,
           "logical": 6
         },
@@ -1113,390 +1498,5 @@
     "maintainability": 144.38827963773278,
     "params": 0.25,
     "module": "/home/ramiro/repos/pub/todomvc-metrics/todomvc/architecture-examples/emberjs/js/router.js"
-  },
-  {
-    "aggregate": {
-      "line": 2,
-      "complexity": {
-        "sloc": {
-          "physical": 12,
-          "logical": 8
-        },
-        "cyclomatic": 1,
-        "halstead": {
-          "operators": {
-            "distinct": 6,
-            "total": 24,
-            "identifiers": [
-              "=",
-              ".",
-              "()",
-              "{}",
-              ":",
-              "function"
-            ]
-          },
-          "operands": {
-            "distinct": 23,
-            "total": 29,
-            "identifiers": [
-              "\"use strict\"",
-              "Todos",
-              "Todo",
-              "<anonymous>",
-              "title",
-              "\"string\"",
-              "DS",
-              "attr",
-              "isCompleted",
-              "\"boolean\"",
-              "todoDidChange",
-              "\"isCompleted\"",
-              "\"title\"",
-              "this",
-              "\"store\"",
-              "get",
-              "commit",
-              "Ember",
-              "run",
-              "once",
-              "observes",
-              "Model",
-              "extend"
-            ]
-          },
-          "length": 53,
-          "vocabulary": 29,
-          "difficulty": 3.782608695652174,
-          "volume": 257.47299274176135,
-          "effort": 973.9195812405756,
-          "bugs": 0.08582433091392044,
-          "time": 54.1066434022542
-        },
-        "params": 0
-      }
-    },
-    "functions": [
-      {
-        "name": "<anonymous>",
-        "line": 8,
-        "complexity": {
-          "sloc": {
-            "physical": 5,
-            "logical": 1
-          },
-          "cyclomatic": 1,
-          "halstead": {
-            "operators": {
-              "distinct": 3,
-              "total": 4,
-              "identifiers": [
-                "()",
-                "function",
-                "."
-              ]
-            },
-            "operands": {
-              "distinct": 5,
-              "total": 5,
-              "identifiers": [
-                "this",
-                "<anonymous>",
-                "Ember",
-                "run",
-                "once"
-              ]
-            },
-            "length": 9,
-            "vocabulary": 8,
-            "difficulty": 1.5,
-            "volume": 27,
-            "effort": 40.5,
-            "bugs": 0.009,
-            "time": 2.25
-          },
-          "params": 0
-        }
-      },
-      {
-        "name": "<anonymous>",
-        "line": 9,
-        "complexity": {
-          "sloc": {
-            "physical": 3,
-            "logical": 1
-          },
-          "cyclomatic": 1,
-          "halstead": {
-            "operators": {
-              "distinct": 2,
-              "total": 4,
-              "identifiers": [
-                "()",
-                "."
-              ]
-            },
-            "operands": {
-              "distinct": 4,
-              "total": 4,
-              "identifiers": [
-                "\"store\"",
-                "this",
-                "get",
-                "commit"
-              ]
-            },
-            "length": 8,
-            "vocabulary": 6,
-            "difficulty": 1,
-            "volume": 20.67970000576925,
-            "effort": 20.67970000576925,
-            "bugs": 0.006893233335256416,
-            "time": 1.1488722225427361
-          },
-          "params": 0
-        }
-      }
-    ],
-    "maintainability": 159.30131456898812,
-    "params": 0,
-    "module": "/home/ramiro/repos/pub/todomvc-metrics/todomvc/architecture-examples/emberjs/js/models/todo.js"
-  },
-  {
-    "aggregate": {
-      "line": 2,
-      "complexity": {
-        "sloc": {
-          "physical": 27,
-          "logical": 14
-        },
-        "cyclomatic": 2,
-        "halstead": {
-          "operators": {
-            "distinct": 9,
-            "total": 36,
-            "identifiers": [
-              "=",
-              ".",
-              "()",
-              "{}",
-              ":",
-              "[]",
-              "function",
-              "var",
-              "if"
-            ]
-          },
-          "operands": {
-            "distinct": 27,
-            "total": 42,
-            "identifiers": [
-              "\"use strict\"",
-              "Todos",
-              "EditTodoView",
-              "<anonymous>",
-              "classNames",
-              "\"edit\"",
-              "valueBinding",
-              "\"todo.title\"",
-              "change",
-              "value",
-              "\"value\"",
-              "this",
-              "get",
-              "Ember",
-              "isEmpty",
-              "\"controller\"",
-              "removeTodo",
-              "focusOut",
-              "\"controller.isEditing\"",
-              false,
-              "set",
-              "insertNewline",
-              "didInsertElement",
-              "$",
-              "focus",
-              "TextField",
-              "extend"
-            ]
-          },
-          "length": 78,
-          "vocabulary": 36,
-          "difficulty": 7,
-          "volume": 403.2541501125003,
-          "effort": 2822.7790507875025,
-          "bugs": 0.1344180500375001,
-          "time": 156.82105837708346
-        },
-        "params": 0
-      }
-    },
-    "functions": [
-      {
-        "name": "change",
-        "line": 9,
-        "complexity": {
-          "sloc": {
-            "physical": 7,
-            "logical": 3
-          },
-          "cyclomatic": 2,
-          "halstead": {
-            "operators": {
-              "distinct": 5,
-              "total": 11,
-              "identifiers": [
-                "var",
-                "=",
-                "()",
-                ".",
-                "if"
-              ]
-            },
-            "operands": {
-              "distinct": 8,
-              "total": 11,
-              "identifiers": [
-                "value",
-                "\"value\"",
-                "this",
-                "get",
-                "Ember",
-                "isEmpty",
-                "\"controller\"",
-                "removeTodo"
-              ]
-            },
-            "length": 22,
-            "vocabulary": 13,
-            "difficulty": 3.4375,
-            "volume": 81.40967379910403,
-            "effort": 279.8457536844201,
-            "bugs": 0.027136557933034676,
-            "time": 15.546986315801117
-          },
-          "params": 0
-        }
-      },
-      {
-        "name": "focusOut",
-        "line": 17,
-        "complexity": {
-          "sloc": {
-            "physical": 3,
-            "logical": 1
-          },
-          "cyclomatic": 1,
-          "halstead": {
-            "operators": {
-              "distinct": 2,
-              "total": 2,
-              "identifiers": [
-                "()",
-                "."
-              ]
-            },
-            "operands": {
-              "distinct": 4,
-              "total": 4,
-              "identifiers": [
-                "\"controller.isEditing\"",
-                false,
-                "this",
-                "set"
-              ]
-            },
-            "length": 6,
-            "vocabulary": 6,
-            "difficulty": 1,
-            "volume": 15.509775004326936,
-            "effort": 15.509775004326936,
-            "bugs": 0.005169925001442312,
-            "time": 0.861654166907052
-          },
-          "params": 0
-        }
-      },
-      {
-        "name": "insertNewline",
-        "line": 21,
-        "complexity": {
-          "sloc": {
-            "physical": 3,
-            "logical": 1
-          },
-          "cyclomatic": 1,
-          "halstead": {
-            "operators": {
-              "distinct": 2,
-              "total": 2,
-              "identifiers": [
-                "()",
-                "."
-              ]
-            },
-            "operands": {
-              "distinct": 4,
-              "total": 4,
-              "identifiers": [
-                "\"controller.isEditing\"",
-                false,
-                "this",
-                "set"
-              ]
-            },
-            "length": 6,
-            "vocabulary": 6,
-            "difficulty": 1,
-            "volume": 15.509775004326936,
-            "effort": 15.509775004326936,
-            "bugs": 0.005169925001442312,
-            "time": 0.861654166907052
-          },
-          "params": 0
-        }
-      },
-      {
-        "name": "didInsertElement",
-        "line": 25,
-        "complexity": {
-          "sloc": {
-            "physical": 3,
-            "logical": 1
-          },
-          "cyclomatic": 1,
-          "halstead": {
-            "operators": {
-              "distinct": 2,
-              "total": 4,
-              "identifiers": [
-                "()",
-                "."
-              ]
-            },
-            "operands": {
-              "distinct": 3,
-              "total": 3,
-              "identifiers": [
-                "this",
-                "$",
-                "focus"
-              ]
-            },
-            "length": 7,
-            "vocabulary": 5,
-            "difficulty": 1,
-            "volume": 16.253496664211536,
-            "effort": 16.253496664211536,
-            "bugs": 0.005417832221403845,
-            "time": 0.9029720369006409
-          },
-          "params": 0
-        }
-      }
-    ],
-    "maintainability": 149.318362888905,
-    "params": 0,
-    "module": "/home/ramiro/repos/pub/todomvc-metrics/todomvc/architecture-examples/emberjs/js/views/edit_todo_view.js"
   }
 ]

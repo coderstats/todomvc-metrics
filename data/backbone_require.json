@@ -442,178 +442,6 @@
       "line": 2,
       "complexity": {
         "sloc": {
-          "physical": 25,
-          "logical": 9
-        },
-        "cyclomatic": 2,
-        "halstead": {
-          "operators": {
-            "distinct": 10,
-            "total": 22,
-            "identifiers": [
-              "()",
-              "[]",
-              "function",
-              "var",
-              "=",
-              "{}",
-              ":",
-              ".",
-              "||",
-              "return"
-            ]
-          },
-          "operands": {
-            "distinct": 24,
-            "total": 33,
-            "identifiers": [
-              "<anonymous>",
-              "\"jquery\"",
-              "\"backbone\"",
-              "\"collections/todos\"",
-              "\"common\"",
-              "$",
-              "Backbone",
-              "Todos",
-              "Common",
-              "\"use strict\"",
-              "Workspace",
-              "routes",
-              "\"*filter\"",
-              "\"setFilter\"",
-              "setFilter",
-              "param",
-              "TodoFilter",
-              "trim",
-              "\"\"",
-              "\"filter\"",
-              "trigger",
-              "Router",
-              "extend",
-              "define"
-            ]
-          },
-          "length": 55,
-          "vocabulary": 34,
-          "difficulty": 6.875,
-          "volume": 279.8104562687687,
-          "effort": 1923.6968868477848,
-          "bugs": 0.09327015208958957,
-          "time": 106.87204926932138
-        },
-        "params": 5
-      }
-    },
-    "functions": [
-      {
-        "name": "<anonymous>",
-        "line": 7,
-        "complexity": {
-          "sloc": {
-            "physical": 20,
-            "logical": 6
-          },
-          "cyclomatic": 1,
-          "halstead": {
-            "operators": {
-              "distinct": 8,
-              "total": 12,
-              "identifiers": [
-                "var",
-                "=",
-                "()",
-                "{}",
-                ":",
-                "function",
-                ".",
-                "return"
-              ]
-            },
-            "operands": {
-              "distinct": 13,
-              "total": 17,
-              "identifiers": [
-                "$",
-                "Backbone",
-                "Todos",
-                "Common",
-                "\"use strict\"",
-                "Workspace",
-                "<anonymous>",
-                "routes",
-                "\"*filter\"",
-                "\"setFilter\"",
-                "setFilter",
-                "Router",
-                "extend"
-              ]
-            },
-            "length": 29,
-            "vocabulary": 21,
-            "difficulty": 5.230769230769231,
-            "volume": 127.37720526058406,
-            "effort": 666.2807659784397,
-            "bugs": 0.04245906842019469,
-            "time": 37.01559810991332
-          },
-          "params": 4
-        }
-      },
-      {
-        "name": "setFilter",
-        "line": 15,
-        "complexity": {
-          "sloc": {
-            "physical": 8,
-            "logical": 2
-          },
-          "cyclomatic": 2,
-          "halstead": {
-            "operators": {
-              "distinct": 4,
-              "total": 7,
-              "identifiers": [
-                "=",
-                ".",
-                "||",
-                "()"
-              ]
-            },
-            "operands": {
-              "distinct": 8,
-              "total": 9,
-              "identifiers": [
-                "param",
-                "Common",
-                "TodoFilter",
-                "trim",
-                "\"\"",
-                "\"filter\"",
-                "Todos",
-                "trigger"
-              ]
-            },
-            "length": 16,
-            "vocabulary": 12,
-            "difficulty": 2.25,
-            "volume": 57.359400011538504,
-            "effort": 129.05865002596164,
-            "bugs": 0.01911980000384617,
-            "time": 7.169925001442313
-          },
-          "params": 1
-        }
-      }
-    ],
-    "maintainability": 127.97794788276752,
-    "params": 2.5,
-    "module": "/home/ramiro/repos/pub/todomvc-metrics/todomvc/dependency-examples/backbone_require/js/routers/router.js"
-  },
-  {
-    "aggregate": {
-      "line": 2,
-      "complexity": {
-        "sloc": {
           "physical": 24,
           "logical": 10
         },
@@ -775,6 +603,124 @@
     "maintainability": 126.01510775753793,
     "params": 1,
     "module": "/home/ramiro/repos/pub/todomvc-metrics/todomvc/dependency-examples/backbone_require/js/models/todo.js"
+  },
+  {
+    "aggregate": {
+      "line": 2,
+      "complexity": {
+        "sloc": {
+          "physical": 44,
+          "logical": 21
+        },
+        "cyclomatic": 1,
+        "halstead": {
+          "operators": {
+            "distinct": 7,
+            "total": 33,
+            "identifiers": [
+              "()",
+              "{}",
+              ":",
+              "[]",
+              ".",
+              "function",
+              "new"
+            ]
+          },
+          "operands": {
+            "distinct": 31,
+            "total": 51,
+            "identifiers": [
+              "\"use strict\"",
+              "<anonymous>",
+              "shim",
+              "underscore",
+              "exports",
+              "\"_\"",
+              "backbone",
+              "deps",
+              "\"underscore\"",
+              "\"jquery\"",
+              "\"Backbone\"",
+              "backboneLocalstorage",
+              "\"backbone\"",
+              "\"Store\"",
+              "paths",
+              "jquery",
+              "\"../bower_components/jquery/jquery\"",
+              "\"../bower_components/underscore/underscore\"",
+              "\"../bower_components/backbone/backbone\"",
+              "\"../bower_components/backbone.localStorage/backbone.localStorage\"",
+              "text",
+              "\"../bower_components/requirejs-text/text\"",
+              "require",
+              "config",
+              "\"views/app\"",
+              "\"routers/router\"",
+              "Backbone",
+              "AppView",
+              "Workspace",
+              "history",
+              "start"
+            ]
+          },
+          "length": 84,
+          "vocabulary": 38,
+          "difficulty": 5.758064516129033,
+          "volume": 440.82591112926116,
+          "effort": 2538.304036663649,
+          "bugs": 0.14694197037642037,
+          "time": 141.01689092575828
+        },
+        "params": 3
+      }
+    },
+    "functions": [
+      {
+        "name": "<anonymous>",
+        "line": 37,
+        "complexity": {
+          "sloc": {
+            "physical": 9,
+            "logical": 3
+          },
+          "cyclomatic": 1,
+          "halstead": {
+            "operators": {
+              "distinct": 3,
+              "total": 5,
+              "identifiers": [
+                "new",
+                "()",
+                "."
+              ]
+            },
+            "operands": {
+              "distinct": 5,
+              "total": 8,
+              "identifiers": [
+                "Backbone",
+                "AppView",
+                "Workspace",
+                "history",
+                "start"
+              ]
+            },
+            "length": 13,
+            "vocabulary": 8,
+            "difficulty": 2.4000000000000004,
+            "volume": 39,
+            "effort": 93.60000000000001,
+            "bugs": 0.013,
+            "time": 5.2
+          },
+          "params": 3
+        }
+      }
+    ],
+    "maintainability": 137.6789970120629,
+    "params": 3,
+    "module": "/home/ramiro/repos/pub/todomvc-metrics/todomvc/dependency-examples/backbone_require/js/main.js"
   },
   {
     "aggregate": {
@@ -1533,118 +1479,172 @@
       "line": 2,
       "complexity": {
         "sloc": {
-          "physical": 44,
-          "logical": 21
+          "physical": 25,
+          "logical": 9
         },
-        "cyclomatic": 1,
+        "cyclomatic": 2,
         "halstead": {
           "operators": {
-            "distinct": 7,
-            "total": 33,
+            "distinct": 10,
+            "total": 22,
             "identifiers": [
               "()",
+              "[]",
+              "function",
+              "var",
+              "=",
               "{}",
               ":",
-              "[]",
               ".",
-              "function",
-              "new"
+              "||",
+              "return"
             ]
           },
           "operands": {
-            "distinct": 31,
-            "total": 51,
+            "distinct": 24,
+            "total": 33,
             "identifiers": [
-              "\"use strict\"",
               "<anonymous>",
-              "shim",
-              "underscore",
-              "exports",
-              "\"_\"",
-              "backbone",
-              "deps",
-              "\"underscore\"",
               "\"jquery\"",
-              "\"Backbone\"",
-              "backboneLocalstorage",
               "\"backbone\"",
-              "\"Store\"",
-              "paths",
-              "jquery",
-              "\"../bower_components/jquery/jquery\"",
-              "\"../bower_components/underscore/underscore\"",
-              "\"../bower_components/backbone/backbone\"",
-              "\"../bower_components/backbone.localStorage/backbone.localStorage\"",
-              "text",
-              "\"../bower_components/requirejs-text/text\"",
-              "require",
-              "config",
-              "\"views/app\"",
-              "\"routers/router\"",
+              "\"collections/todos\"",
+              "\"common\"",
+              "$",
               "Backbone",
-              "AppView",
+              "Todos",
+              "Common",
+              "\"use strict\"",
               "Workspace",
-              "history",
-              "start"
+              "routes",
+              "\"*filter\"",
+              "\"setFilter\"",
+              "setFilter",
+              "param",
+              "TodoFilter",
+              "trim",
+              "\"\"",
+              "\"filter\"",
+              "trigger",
+              "Router",
+              "extend",
+              "define"
             ]
           },
-          "length": 84,
-          "vocabulary": 38,
-          "difficulty": 5.758064516129033,
-          "volume": 440.82591112926116,
-          "effort": 2538.304036663649,
-          "bugs": 0.14694197037642037,
-          "time": 141.01689092575828
+          "length": 55,
+          "vocabulary": 34,
+          "difficulty": 6.875,
+          "volume": 279.8104562687687,
+          "effort": 1923.6968868477848,
+          "bugs": 0.09327015208958957,
+          "time": 106.87204926932138
         },
-        "params": 3
+        "params": 5
       }
     },
     "functions": [
       {
         "name": "<anonymous>",
-        "line": 37,
+        "line": 7,
         "complexity": {
           "sloc": {
-            "physical": 9,
-            "logical": 3
+            "physical": 20,
+            "logical": 6
           },
           "cyclomatic": 1,
           "halstead": {
             "operators": {
-              "distinct": 3,
-              "total": 5,
+              "distinct": 8,
+              "total": 12,
               "identifiers": [
-                "new",
+                "var",
+                "=",
                 "()",
-                "."
+                "{}",
+                ":",
+                "function",
+                ".",
+                "return"
               ]
             },
             "operands": {
-              "distinct": 5,
-              "total": 8,
+              "distinct": 13,
+              "total": 17,
               "identifiers": [
+                "$",
                 "Backbone",
-                "AppView",
+                "Todos",
+                "Common",
+                "\"use strict\"",
                 "Workspace",
-                "history",
-                "start"
+                "<anonymous>",
+                "routes",
+                "\"*filter\"",
+                "\"setFilter\"",
+                "setFilter",
+                "Router",
+                "extend"
               ]
             },
-            "length": 13,
-            "vocabulary": 8,
-            "difficulty": 2.4000000000000004,
-            "volume": 39,
-            "effort": 93.60000000000001,
-            "bugs": 0.013,
-            "time": 5.2
+            "length": 29,
+            "vocabulary": 21,
+            "difficulty": 5.230769230769231,
+            "volume": 127.37720526058406,
+            "effort": 666.2807659784397,
+            "bugs": 0.04245906842019469,
+            "time": 37.01559810991332
           },
-          "params": 3
+          "params": 4
+        }
+      },
+      {
+        "name": "setFilter",
+        "line": 15,
+        "complexity": {
+          "sloc": {
+            "physical": 8,
+            "logical": 2
+          },
+          "cyclomatic": 2,
+          "halstead": {
+            "operators": {
+              "distinct": 4,
+              "total": 7,
+              "identifiers": [
+                "=",
+                ".",
+                "||",
+                "()"
+              ]
+            },
+            "operands": {
+              "distinct": 8,
+              "total": 9,
+              "identifiers": [
+                "param",
+                "Common",
+                "TodoFilter",
+                "trim",
+                "\"\"",
+                "\"filter\"",
+                "Todos",
+                "trigger"
+              ]
+            },
+            "length": 16,
+            "vocabulary": 12,
+            "difficulty": 2.25,
+            "volume": 57.359400011538504,
+            "effort": 129.05865002596164,
+            "bugs": 0.01911980000384617,
+            "time": 7.169925001442313
+          },
+          "params": 1
         }
       }
     ],
-    "maintainability": 137.6789970120629,
-    "params": 3,
-    "module": "/home/ramiro/repos/pub/todomvc-metrics/todomvc/dependency-examples/backbone_require/js/main.js"
+    "maintainability": 127.97794788276752,
+    "params": 2.5,
+    "module": "/home/ramiro/repos/pub/todomvc-metrics/todomvc/dependency-examples/backbone_require/js/routers/router.js"
   },
   {
     "aggregate": {

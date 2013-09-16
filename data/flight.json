@@ -1242,6 +1242,101 @@
   },
   {
     "aggregate": {
+      "line": 3,
+      "complexity": {
+        "sloc": {
+          "physical": 7,
+          "logical": 4
+        },
+        "cyclomatic": 1,
+        "halstead": {
+          "operators": {
+            "distinct": 6,
+            "total": 7,
+            "identifiers": [
+              "()",
+              "[]",
+              "function",
+              "return",
+              "{}",
+              ":"
+            ]
+          },
+          "operands": {
+            "distinct": 8,
+            "total": 11,
+            "identifiers": [
+              "\"use strict\"",
+              "<anonymous>",
+              "\"depot\"",
+              "depot",
+              "\"todos\"",
+              "idAttribute",
+              "\"id\"",
+              "define"
+            ]
+          },
+          "length": 18,
+          "vocabulary": 14,
+          "difficulty": 4.125,
+          "volume": 68.53238859703687,
+          "effort": 282.6961029627771,
+          "bugs": 0.022844129532345624,
+          "time": 15.705339053487616
+        },
+        "params": 1
+      }
+    },
+    "functions": [
+      {
+        "name": "<anonymous>",
+        "line": 7,
+        "complexity": {
+          "sloc": {
+            "physical": 3,
+            "logical": 2
+          },
+          "cyclomatic": 1,
+          "halstead": {
+            "operators": {
+              "distinct": 4,
+              "total": 4,
+              "identifiers": [
+                "return",
+                "()",
+                "{}",
+                ":"
+              ]
+            },
+            "operands": {
+              "distinct": 5,
+              "total": 6,
+              "identifiers": [
+                "depot",
+                "\"todos\"",
+                "<anonymous>",
+                "idAttribute",
+                "\"id\""
+              ]
+            },
+            "length": 10,
+            "vocabulary": 9,
+            "difficulty": 2.4,
+            "volume": 31.699250014423125,
+            "effort": 76.07820003461549,
+            "bugs": 0.010566416671474375,
+            "time": 4.22656666858975
+          },
+          "params": 1
+        }
+      }
+    ],
+    "maintainability": 144.9563904587855,
+    "params": 1,
+    "module": "/home/ramiro/repos/pub/todomvc-metrics/todomvc/dependency-examples/flight/app/js/store.js"
+  },
+  {
+    "aggregate": {
       "line": 1,
       "complexity": {
         "sloc": {
@@ -1348,101 +1443,6 @@
     "maintainability": 161.73846831223045,
     "params": 1,
     "module": "/home/ramiro/repos/pub/todomvc-metrics/todomvc/dependency-examples/flight/app/js/main.js"
-  },
-  {
-    "aggregate": {
-      "line": 3,
-      "complexity": {
-        "sloc": {
-          "physical": 7,
-          "logical": 4
-        },
-        "cyclomatic": 1,
-        "halstead": {
-          "operators": {
-            "distinct": 6,
-            "total": 7,
-            "identifiers": [
-              "()",
-              "[]",
-              "function",
-              "return",
-              "{}",
-              ":"
-            ]
-          },
-          "operands": {
-            "distinct": 8,
-            "total": 11,
-            "identifiers": [
-              "\"use strict\"",
-              "<anonymous>",
-              "\"depot\"",
-              "depot",
-              "\"todos\"",
-              "idAttribute",
-              "\"id\"",
-              "define"
-            ]
-          },
-          "length": 18,
-          "vocabulary": 14,
-          "difficulty": 4.125,
-          "volume": 68.53238859703687,
-          "effort": 282.6961029627771,
-          "bugs": 0.022844129532345624,
-          "time": 15.705339053487616
-        },
-        "params": 1
-      }
-    },
-    "functions": [
-      {
-        "name": "<anonymous>",
-        "line": 7,
-        "complexity": {
-          "sloc": {
-            "physical": 3,
-            "logical": 2
-          },
-          "cyclomatic": 1,
-          "halstead": {
-            "operators": {
-              "distinct": 4,
-              "total": 4,
-              "identifiers": [
-                "return",
-                "()",
-                "{}",
-                ":"
-              ]
-            },
-            "operands": {
-              "distinct": 5,
-              "total": 6,
-              "identifiers": [
-                "depot",
-                "\"todos\"",
-                "<anonymous>",
-                "idAttribute",
-                "\"id\""
-              ]
-            },
-            "length": 10,
-            "vocabulary": 9,
-            "difficulty": 2.4,
-            "volume": 31.699250014423125,
-            "effort": 76.07820003461549,
-            "bugs": 0.010566416671474375,
-            "time": 4.22656666858975
-          },
-          "params": 1
-        }
-      }
-    ],
-    "maintainability": 144.9563904587855,
-    "params": 1,
-    "module": "/home/ramiro/repos/pub/todomvc-metrics/todomvc/dependency-examples/flight/app/js/store.js"
   },
   {
     "aggregate": {
@@ -3026,291 +3026,6 @@
       "line": 2,
       "complexity": {
         "sloc": {
-          "physical": 24,
-          "logical": 12
-        },
-        "cyclomatic": 1,
-        "halstead": {
-          "operators": {
-            "distinct": 9,
-            "total": 34,
-            "identifiers": [
-              "()",
-              "[]",
-              "function",
-              "=",
-              ".",
-              "{}",
-              ":",
-              "! (prefix)",
-              "return"
-            ]
-          },
-          "operands": {
-            "distinct": 26,
-            "total": 47,
-            "identifiers": [
-              "\"use strict\"",
-              "<anonymous>",
-              "\"flight/lib/component\"",
-              "defineComponent",
-              "toggleAll",
-              "this",
-              "toggleAllComplete",
-              "\"uiToggleAllRequested\"",
-              "completed",
-              "\":checked\"",
-              "$node",
-              "is",
-              "trigger",
-              "toggleCheckbox",
-              "e",
-              "data",
-              0,
-              "checked",
-              "remaining",
-              "\"initialize\"",
-              "\"click\"",
-              "on",
-              "document",
-              "\"dataStatsCounted\"",
-              "after",
-              "define"
-            ]
-          },
-          "length": 81,
-          "vocabulary": 35,
-          "difficulty": 8.134615384615385,
-          "volume": 415.4719243725423,
-          "effort": 3379.7043078766424,
-          "bugs": 0.13849064145751408,
-          "time": 187.76135043759123
-        },
-        "params": 3
-      }
-    },
-    "functions": [
-      {
-        "name": "<anonymous>",
-        "line": 6,
-        "complexity": {
-          "sloc": {
-            "physical": 20,
-            "logical": 2
-          },
-          "cyclomatic": 1,
-          "halstead": {
-            "operators": {
-              "distinct": 3,
-              "total": 3,
-              "identifiers": [
-                "function",
-                "return",
-                "()"
-              ]
-            },
-            "operands": {
-              "distinct": 2,
-              "total": 4,
-              "identifiers": [
-                "defineComponent",
-                "toggleAll"
-              ]
-            },
-            "length": 7,
-            "vocabulary": 5,
-            "difficulty": 3,
-            "volume": 16.253496664211536,
-            "effort": 48.760489992634604,
-            "bugs": 0.005417832221403845,
-            "time": 2.7089161107019226
-          },
-          "params": 1
-        }
-      },
-      {
-        "name": "toggleAll",
-        "line": 7,
-        "complexity": {
-          "sloc": {
-            "physical": 16,
-            "logical": 3
-          },
-          "cyclomatic": 1,
-          "halstead": {
-            "operators": {
-              "distinct": 4,
-              "total": 9,
-              "identifiers": [
-                "=",
-                ".",
-                "function",
-                "()"
-              ]
-            },
-            "operands": {
-              "distinct": 6,
-              "total": 10,
-              "identifiers": [
-                "this",
-                "toggleAllComplete",
-                "<anonymous>",
-                "toggleCheckbox",
-                "\"initialize\"",
-                "after"
-              ]
-            },
-            "length": 19,
-            "vocabulary": 10,
-            "difficulty": 3.3333333333333335,
-            "volume": 63.11663380285989,
-            "effort": 210.3887793428663,
-            "bugs": 0.021038877934286628,
-            "time": 11.688265519048127
-          },
-          "params": 0
-        }
-      },
-      {
-        "name": "<anonymous>.toggleAllComplete",
-        "line": 8,
-        "complexity": {
-          "sloc": {
-            "physical": 5,
-            "logical": 2
-          },
-          "cyclomatic": 1,
-          "halstead": {
-            "operators": {
-              "distinct": 4,
-              "total": 7,
-              "identifiers": [
-                "()",
-                "{}",
-                ":",
-                "."
-              ]
-            },
-            "operands": {
-              "distinct": 8,
-              "total": 9,
-              "identifiers": [
-                "\"uiToggleAllRequested\"",
-                "<anonymous>",
-                "completed",
-                "\":checked\"",
-                "this",
-                "$node",
-                "is",
-                "trigger"
-              ]
-            },
-            "length": 16,
-            "vocabulary": 12,
-            "difficulty": 2.25,
-            "volume": 57.359400011538504,
-            "effort": 129.05865002596164,
-            "bugs": 0.01911980000384617,
-            "time": 7.169925001442313
-          },
-          "params": 0
-        }
-      },
-      {
-        "name": "<anonymous>.toggleCheckbox",
-        "line": 14,
-        "complexity": {
-          "sloc": {
-            "physical": 3,
-            "logical": 1
-          },
-          "cyclomatic": 1,
-          "halstead": {
-            "operators": {
-              "distinct": 3,
-              "total": 6,
-              "identifiers": [
-                "=",
-                ".",
-                "! (prefix)"
-              ]
-            },
-            "operands": {
-              "distinct": 7,
-              "total": 8,
-              "identifiers": [
-                "e",
-                "data",
-                "this",
-                "$node",
-                0,
-                "checked",
-                "remaining"
-              ]
-            },
-            "length": 14,
-            "vocabulary": 10,
-            "difficulty": 1.7142857142857142,
-            "volume": 46.50699332842308,
-            "effort": 79.7262742772967,
-            "bugs": 0.01550233110947436,
-            "time": 4.4292374598498165
-          },
-          "params": 2
-        }
-      },
-      {
-        "name": "<anonymous>",
-        "line": 18,
-        "complexity": {
-          "sloc": {
-            "physical": 4,
-            "logical": 2
-          },
-          "cyclomatic": 1,
-          "halstead": {
-            "operators": {
-              "distinct": 2,
-              "total": 6,
-              "identifiers": [
-                "()",
-                "."
-              ]
-            },
-            "operands": {
-              "distinct": 7,
-              "total": 11,
-              "identifiers": [
-                "\"click\"",
-                "this",
-                "toggleAllComplete",
-                "on",
-                "document",
-                "\"dataStatsCounted\"",
-                "toggleCheckbox"
-              ]
-            },
-            "length": 17,
-            "vocabulary": 9,
-            "difficulty": 1.5714285714285714,
-            "volume": 53.88872502451932,
-            "effort": 84.68228218138749,
-            "bugs": 0.017962908341506437,
-            "time": 4.704571232299305
-          },
-          "params": 0
-        }
-      }
-    ],
-    "maintainability": 143.67914167864356,
-    "params": 0.6,
-    "module": "/home/ramiro/repos/pub/todomvc-metrics/todomvc/dependency-examples/flight/app/js/ui/toggle_all.js"
-  },
-  {
-    "aggregate": {
-      "line": 2,
-      "complexity": {
-        "sloc": {
           "physical": 25,
           "logical": 16
         },
@@ -3613,6 +3328,291 @@
     "maintainability": 134.71701152472974,
     "params": 0.6,
     "module": "/home/ramiro/repos/pub/todomvc-metrics/todomvc/dependency-examples/flight/app/js/ui/with_filters.js"
+  },
+  {
+    "aggregate": {
+      "line": 2,
+      "complexity": {
+        "sloc": {
+          "physical": 24,
+          "logical": 12
+        },
+        "cyclomatic": 1,
+        "halstead": {
+          "operators": {
+            "distinct": 9,
+            "total": 34,
+            "identifiers": [
+              "()",
+              "[]",
+              "function",
+              "=",
+              ".",
+              "{}",
+              ":",
+              "! (prefix)",
+              "return"
+            ]
+          },
+          "operands": {
+            "distinct": 26,
+            "total": 47,
+            "identifiers": [
+              "\"use strict\"",
+              "<anonymous>",
+              "\"flight/lib/component\"",
+              "defineComponent",
+              "toggleAll",
+              "this",
+              "toggleAllComplete",
+              "\"uiToggleAllRequested\"",
+              "completed",
+              "\":checked\"",
+              "$node",
+              "is",
+              "trigger",
+              "toggleCheckbox",
+              "e",
+              "data",
+              0,
+              "checked",
+              "remaining",
+              "\"initialize\"",
+              "\"click\"",
+              "on",
+              "document",
+              "\"dataStatsCounted\"",
+              "after",
+              "define"
+            ]
+          },
+          "length": 81,
+          "vocabulary": 35,
+          "difficulty": 8.134615384615385,
+          "volume": 415.4719243725423,
+          "effort": 3379.7043078766424,
+          "bugs": 0.13849064145751408,
+          "time": 187.76135043759123
+        },
+        "params": 3
+      }
+    },
+    "functions": [
+      {
+        "name": "<anonymous>",
+        "line": 6,
+        "complexity": {
+          "sloc": {
+            "physical": 20,
+            "logical": 2
+          },
+          "cyclomatic": 1,
+          "halstead": {
+            "operators": {
+              "distinct": 3,
+              "total": 3,
+              "identifiers": [
+                "function",
+                "return",
+                "()"
+              ]
+            },
+            "operands": {
+              "distinct": 2,
+              "total": 4,
+              "identifiers": [
+                "defineComponent",
+                "toggleAll"
+              ]
+            },
+            "length": 7,
+            "vocabulary": 5,
+            "difficulty": 3,
+            "volume": 16.253496664211536,
+            "effort": 48.760489992634604,
+            "bugs": 0.005417832221403845,
+            "time": 2.7089161107019226
+          },
+          "params": 1
+        }
+      },
+      {
+        "name": "toggleAll",
+        "line": 7,
+        "complexity": {
+          "sloc": {
+            "physical": 16,
+            "logical": 3
+          },
+          "cyclomatic": 1,
+          "halstead": {
+            "operators": {
+              "distinct": 4,
+              "total": 9,
+              "identifiers": [
+                "=",
+                ".",
+                "function",
+                "()"
+              ]
+            },
+            "operands": {
+              "distinct": 6,
+              "total": 10,
+              "identifiers": [
+                "this",
+                "toggleAllComplete",
+                "<anonymous>",
+                "toggleCheckbox",
+                "\"initialize\"",
+                "after"
+              ]
+            },
+            "length": 19,
+            "vocabulary": 10,
+            "difficulty": 3.3333333333333335,
+            "volume": 63.11663380285989,
+            "effort": 210.3887793428663,
+            "bugs": 0.021038877934286628,
+            "time": 11.688265519048127
+          },
+          "params": 0
+        }
+      },
+      {
+        "name": "<anonymous>.toggleAllComplete",
+        "line": 8,
+        "complexity": {
+          "sloc": {
+            "physical": 5,
+            "logical": 2
+          },
+          "cyclomatic": 1,
+          "halstead": {
+            "operators": {
+              "distinct": 4,
+              "total": 7,
+              "identifiers": [
+                "()",
+                "{}",
+                ":",
+                "."
+              ]
+            },
+            "operands": {
+              "distinct": 8,
+              "total": 9,
+              "identifiers": [
+                "\"uiToggleAllRequested\"",
+                "<anonymous>",
+                "completed",
+                "\":checked\"",
+                "this",
+                "$node",
+                "is",
+                "trigger"
+              ]
+            },
+            "length": 16,
+            "vocabulary": 12,
+            "difficulty": 2.25,
+            "volume": 57.359400011538504,
+            "effort": 129.05865002596164,
+            "bugs": 0.01911980000384617,
+            "time": 7.169925001442313
+          },
+          "params": 0
+        }
+      },
+      {
+        "name": "<anonymous>.toggleCheckbox",
+        "line": 14,
+        "complexity": {
+          "sloc": {
+            "physical": 3,
+            "logical": 1
+          },
+          "cyclomatic": 1,
+          "halstead": {
+            "operators": {
+              "distinct": 3,
+              "total": 6,
+              "identifiers": [
+                "=",
+                ".",
+                "! (prefix)"
+              ]
+            },
+            "operands": {
+              "distinct": 7,
+              "total": 8,
+              "identifiers": [
+                "e",
+                "data",
+                "this",
+                "$node",
+                0,
+                "checked",
+                "remaining"
+              ]
+            },
+            "length": 14,
+            "vocabulary": 10,
+            "difficulty": 1.7142857142857142,
+            "volume": 46.50699332842308,
+            "effort": 79.7262742772967,
+            "bugs": 0.01550233110947436,
+            "time": 4.4292374598498165
+          },
+          "params": 2
+        }
+      },
+      {
+        "name": "<anonymous>",
+        "line": 18,
+        "complexity": {
+          "sloc": {
+            "physical": 4,
+            "logical": 2
+          },
+          "cyclomatic": 1,
+          "halstead": {
+            "operators": {
+              "distinct": 2,
+              "total": 6,
+              "identifiers": [
+                "()",
+                "."
+              ]
+            },
+            "operands": {
+              "distinct": 7,
+              "total": 11,
+              "identifiers": [
+                "\"click\"",
+                "this",
+                "toggleAllComplete",
+                "on",
+                "document",
+                "\"dataStatsCounted\"",
+                "toggleCheckbox"
+              ]
+            },
+            "length": 17,
+            "vocabulary": 9,
+            "difficulty": 1.5714285714285714,
+            "volume": 53.88872502451932,
+            "effort": 84.68228218138749,
+            "bugs": 0.017962908341506437,
+            "time": 4.704571232299305
+          },
+          "params": 0
+        }
+      }
+    ],
+    "maintainability": 143.67914167864356,
+    "params": 0.6,
+    "module": "/home/ramiro/repos/pub/todomvc-metrics/todomvc/dependency-examples/flight/app/js/ui/toggle_all.js"
   },
   {
     "aggregate": {
