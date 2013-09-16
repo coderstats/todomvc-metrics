@@ -18,14 +18,13 @@ reports = glob(data_dir + '/*.json')
 metrics_map = {
     'Sum Physical SLOC': ('aggregate', 'complexity', 'sloc', 'physical'),
     'Sum Logical SLOC': ('aggregate', 'complexity', 'sloc', 'logical'),
-    'Mean cyclomatic complexity': ('aggregate', 'complexity', 'cyclomatic'),
-    'Mean maintainability index': ('maintainability',),
-    'Mean parameter count': ('params',),
-    'Mean Halstead difficulty': (
+    'Mean Cyclomatic Complexity': ('aggregate', 'complexity', 'cyclomatic'),
+    'Mean Maintainability Index': ('maintainability',),
+    'Mean Parameter Count': ('params',),
+    'Mean Halstead Difficulty': (
         'aggregate', 'complexity', 'halstead', 'difficulty'),
-    'Mean Halstead volume': ('aggregate', 'complexity', 'halstead', 'volume'),
-    'Mean Halstead effort': ('aggregate', 'complexity', 'halstead', 'effort'),
-    #'Mean functions per file',
+    'Mean Halstead Volume': ('aggregate', 'complexity', 'halstead', 'volume'),
+    'Mean Halstead Effort': ('aggregate', 'complexity', 'halstead', 'effort')
 }
 
 metrics = list(metrics_map.keys())
@@ -42,9 +41,9 @@ for report in reports:
     project = os.path.splitext(os.path.basename(report))[0]
     with open(report, 'r') as f:
         project_files = json.load(f)
-        stats['Sum files'][project] = len(project_files)
+        stats['Sum Files'][project] = len(project_files)
         for project_file in project_files:
-            stats['Sum functions'][project] = stats['Sum functions'].get(
+            stats['Sum Functions'][project] = stats['Sum Functions'].get(
                 project, 0) + len(project_file['functions'])
 
             for metric, path in list(metrics_map.items()):
@@ -52,22 +51,28 @@ for report in reports:
                     project, 0) + val_from_path(path, project_file)
 
 
-file_counts = list(stats['Sum files'].values())
-func_counts = list(stats['Sum functions'].values())
 for metric in stats:
-    values = list(stats[metric].values())
-    if metric in ['Mean maintainability index', 'Mean parameter count']:
-        values = [v / file_counts[i] for i, v in enumerate(values)]
-    elif metric in [
-        'Mean cyclomatic complexity',
-        'Mean Halstead difficulty',
-        'Mean Halstead volume',
-        'Mean Halstead effort']:
-        values = [v / func_counts[i] for i, v in enumerate(values)]
-    stats[metric] = pd.Series(values, index=list(stats[metric].keys()))
+    items = list(stats[metric].items())
+    projects = []
+    values = []
+
+    # convert to lists so projects and values are aligned correctly
+    for project, value in items:
+        projects.append(project)
+        values.append(value)
+
+    if metric.startswith('Mean'):
+        values = [
+            value / stats['Sum Files'][projects[index]]
+                for index, value in enumerate(values)
+        ]
+
+    stats[metric] = pd.Series(values, index=projects)
+
 
 df = pd.DataFrame(stats)
 
+# create a plot for each metric
 for metric in stats:
     df = df.sort(metric, ascending=True)
     fig = plt.figure()
@@ -77,3 +82,22 @@ for metric in stats:
 
     df[metric].plot(kind='barh', title=metric, alpha=0.7)
     plt.savefig('images/' + metric.replace(' ', '-'))
+
+
+# create csv
+df.to_csv('todomvc-metrics.csv')
+
+# create radviz
+from pandas.tools.plotting import radviz
+
+df_rad = df[
+    ['Sum Logical SLOC',
+    'Mean Cyclomatic Complexity',
+    'Mean Halstead Difficulty',
+    'Mean Halstead Effort',
+    'Mean Maintainability Index']]
+df_rad['Name'] = df_rad.index.tolist()
+
+fig = plt.figure()
+radviz(df_rad, 'Name')
+plt.savefig('images/radviz')
