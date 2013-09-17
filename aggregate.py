@@ -21,10 +21,12 @@ metrics_map = {
     'Mean Cyclomatic Complexity': ('aggregate', 'complexity', 'cyclomatic'),
     'Mean Maintainability Index': ('maintainability',),
     'Mean Parameter Count': ('params',),
-    'Mean Halstead Difficulty': (
+    'Sum Halstead Difficulty': (
         'aggregate', 'complexity', 'halstead', 'difficulty'),
-    'Mean Halstead Volume': ('aggregate', 'complexity', 'halstead', 'volume'),
-    'Mean Halstead Effort': ('aggregate', 'complexity', 'halstead', 'effort')
+    'Sum Halstead Volume': ('aggregate', 'complexity', 'halstead', 'volume'),
+    'Sum Halstead Effort': ('aggregate', 'complexity', 'halstead', 'effort'),
+    'Sum Halstead Bugs': ('aggregate', 'complexity', 'halstead', 'bugs'),
+    'Sum Halstead Time': ('aggregate', 'complexity', 'halstead', 'time'),
 }
 
 metrics = list(metrics_map.keys())
@@ -85,7 +87,7 @@ for metric in stats:
 
 
 # create csv
-df.to_csv('todomvc-metrics.csv')
+df.to_csv('data/todomvc-metrics.csv')
 
 # create radviz
 from pandas.tools.plotting import radviz
@@ -93,8 +95,7 @@ from pandas.tools.plotting import radviz
 df_rad = df[
     ['Sum Logical SLOC',
     'Mean Cyclomatic Complexity',
-    'Mean Halstead Difficulty',
-    'Mean Halstead Effort',
+    'Sum Halstead Time',
     'Mean Maintainability Index']]
 df_rad['Name'] = df_rad.index.tolist()
 
