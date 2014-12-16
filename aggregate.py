@@ -100,6 +100,8 @@ df_rad = df[
     'Mean Maintainability Index']]
 df_rad['Name'] = df_rad.index.tolist()
 
-fig = plt.figure()
-radviz(df_rad, 'Name')
+fig = plt.figure(figsize=(18, 18))
+ax = radviz(df_rad, 'Name')
+legend = ax.legend(fontsize='xx-small', fancybox=True, ncol=3 )
+plt.setp(legend.get_title(),fontsize='xx-small')
 plt.savefig('images/radviz')
