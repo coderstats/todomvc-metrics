@@ -1,0 +1,1431 @@
+{
+    "reports": [
+        {
+            "aggregate": {
+                "sloc": {
+                    "logical": 8,
+                    "physical": 12
+                },
+                "cyclomatic": 1,
+                "halstead": {
+                    "operators": {
+                        "distinct": 5,
+                        "total": 13,
+                        "identifiers": [
+                            "()",
+                            "{}",
+                            ":",
+                            "function",
+                            "."
+                        ]
+                    },
+                    "operands": {
+                        "distinct": 14,
+                        "total": 18,
+                        "identifiers": [
+                            "\"use strict\"",
+                            "<anonymous>",
+                            "$classpath",
+                            "\"js.ITodoCtrl\"",
+                            "$extends",
+                            "\"aria.templates.IModuleCtrl\"",
+                            "$interface",
+                            "saveTasks",
+                            "addTask",
+                            "description",
+                            "deleteTask",
+                            "idx",
+                            "Aria",
+                            "interfaceDefinition"
+                        ]
+                    },
+                    "length": 31,
+                    "vocabulary": 19,
+                    "difficulty": 3.2142857142857144,
+                    "volume": 131.68575291675114,
+                    "effort": 423.2756343752715,
+                    "bugs": 0.04389525097225038,
+                    "time": 23.515313020848417
+                },
+                "params": 2,
+                "line": 2,
+                "cyclomaticDensity": 12.5
+            },
+            "functions": [
+                {
+                    "name": "saveTasks",
+                    "sloc": {
+                        "logical": 0,
+                        "physical": 1
+                    },
+                    "cyclomatic": 1,
+                    "halstead": {
+                        "operators": {
+                            "distinct": 0,
+                            "total": 0,
+                            "identifiers": []
+                        },
+                        "operands": {
+                            "distinct": 0,
+                            "total": 0,
+                            "identifiers": []
+                        },
+                        "length": 0,
+                        "time": 0,
+                        "bugs": 0,
+                        "effort": 0,
+                        "volume": 0,
+                        "difficulty": 0,
+                        "vocabulary": 0
+                    },
+                    "params": 0,
+                    "line": 9,
+                    "cyclomaticDensity": null
+                },
+                {
+                    "name": "addTask",
+                    "sloc": {
+                        "logical": 0,
+                        "physical": 1
+                    },
+                    "cyclomatic": 1,
+                    "halstead": {
+                        "operators": {
+                            "distinct": 0,
+                            "total": 0,
+                            "identifiers": []
+                        },
+                        "operands": {
+                            "distinct": 1,
+                            "total": 1,
+                            "identifiers": [
+                                "description"
+                            ]
+                        },
+                        "length": 1,
+                        "vocabulary": 1,
+                        "difficulty": 0,
+                        "volume": 0,
+                        "effort": 0,
+                        "bugs": 0,
+                        "time": 0
+                    },
+                    "params": 1,
+                    "line": 10,
+                    "cyclomaticDensity": null
+                },
+                {
+                    "name": "deleteTask",
+                    "sloc": {
+                        "logical": 0,
+                        "physical": 1
+                    },
+                    "cyclomatic": 1,
+                    "halstead": {
+                        "operators": {
+                            "distinct": 0,
+                            "total": 0,
+                            "identifiers": []
+                        },
+                        "operands": {
+                            "distinct": 1,
+                            "total": 1,
+                            "identifiers": [
+                                "idx"
+                            ]
+                        },
+                        "length": 1,
+                        "vocabulary": 1,
+                        "difficulty": 0,
+                        "volume": 0,
+                        "effort": 0,
+                        "bugs": 0,
+                        "time": 0
+                    },
+                    "params": 1,
+                    "line": 11,
+                    "cyclomaticDensity": null
+                }
+            ],
+            "dependencies": [],
+            "maintainability": 171,
+            "params": 0.6666666666666666,
+            "path": "/home/ramiro/repos/pub/todomvc-metrics/todomvc/examples/ariatemplates/js/ITodoCtrl.js"
+        },
+        {
+            "aggregate": {
+                "sloc": {
+                    "logical": 26,
+                    "physical": 39
+                },
+                "cyclomatic": 3,
+                "halstead": {
+                    "operators": {
+                        "distinct": 11,
+                        "total": 67,
+                        "identifiers": [
+                            "()",
+                            "{}",
+                            ":",
+                            "[]",
+                            "function",
+                            "var",
+                            ".",
+                            "=",
+                            "new",
+                            "||",
+                            ":?"
+                        ]
+                    },
+                    "operands": {
+                        "distinct": 45,
+                        "total": 88,
+                        "identifiers": [
+                            "\"use strict\"",
+                            "<anonymous>",
+                            "$classpath",
+                            "\"js.TodoCtrl\"",
+                            "$extends",
+                            "\"aria.templates.ModuleCtrl\"",
+                            "$implements",
+                            "\"js.ITodoCtrl\"",
+                            "$dependencies",
+                            "\"aria.storage.LocalStorage\"",
+                            "$statics",
+                            "STORAGE_NAME",
+                            "\"todos-ariatemplates\"",
+                            "$constructor",
+                            "storagename",
+                            "tasklist",
+                            "this",
+                            "$ModuleCtrl",
+                            "_constructor",
+                            "call",
+                            "_storage",
+                            "aria",
+                            "storage",
+                            "LocalStorage",
+                            "__storagename",
+                            "getItem",
+                            "todolist",
+                            "setData",
+                            "$prototype",
+                            "$publicInterfaceName",
+                            "saveTasks",
+                            "_data",
+                            "setItem",
+                            "addTask",
+                            "description",
+                            "title",
+                            "completed",
+                            false,
+                            "json",
+                            "add",
+                            "deleteTask",
+                            "idx",
+                            "removeAt",
+                            "Aria",
+                            "classDefinition"
+                        ]
+                    },
+                    "length": 155,
+                    "vocabulary": 56,
+                    "difficulty": 10.755555555555555,
+                    "volume": 900.1400129189287,
+                    "effort": 9681.505916728032,
+                    "bugs": 0.30004667097297627,
+                    "time": 537.861439818224
+                },
+                "params": 3,
+                "line": 2,
+                "cyclomaticDensity": 11.538461538461538
+            },
+            "functions": [
+                {
+                    "name": "$constructor",
+                    "sloc": {
+                        "logical": 7,
+                        "physical": 10
+                    },
+                    "cyclomatic": 3,
+                    "halstead": {
+                        "operators": {
+                            "distinct": 10,
+                            "total": 25,
+                            "identifiers": [
+                                "var",
+                                "()",
+                                ".",
+                                "=",
+                                "new",
+                                "||",
+                                "{}",
+                                ":",
+                                ":?",
+                                "[]"
+                            ]
+                        },
+                        "operands": {
+                            "distinct": 16,
+                            "total": 30,
+                            "identifiers": [
+                                "storagename",
+                                "tasklist",
+                                "this",
+                                "$ModuleCtrl",
+                                "_constructor",
+                                "call",
+                                "_storage",
+                                "aria",
+                                "storage",
+                                "LocalStorage",
+                                "__storagename",
+                                "STORAGE_NAME",
+                                "getItem",
+                                "<anonymous>",
+                                "todolist",
+                                "setData"
+                            ]
+                        },
+                        "length": 55,
+                        "vocabulary": 26,
+                        "difficulty": 9.375,
+                        "volume": 258.5241844977601,
+                        "effort": 2423.664229666501,
+                        "bugs": 0.08617472816592002,
+                        "time": 134.64801275925004
+                    },
+                    "params": 1,
+                    "line": 14,
+                    "cyclomaticDensity": 42.857142857142854
+                },
+                {
+                    "name": "saveTasks",
+                    "sloc": {
+                        "logical": 1,
+                        "physical": 3
+                    },
+                    "cyclomatic": 1,
+                    "halstead": {
+                        "operators": {
+                            "distinct": 2,
+                            "total": 6,
+                            "identifiers": [
+                                "()",
+                                "."
+                            ]
+                        },
+                        "operands": {
+                            "distinct": 6,
+                            "total": 8,
+                            "identifiers": [
+                                "this",
+                                "__storagename",
+                                "_data",
+                                "todolist",
+                                "_storage",
+                                "setItem"
+                            ]
+                        },
+                        "length": 14,
+                        "vocabulary": 8,
+                        "difficulty": 1.3333333333333333,
+                        "volume": 42,
+                        "effort": 56,
+                        "bugs": 0.014,
+                        "time": 3.111111111111111
+                    },
+                    "params": 0,
+                    "line": 28,
+                    "cyclomaticDensity": 100
+                },
+                {
+                    "name": "addTask",
+                    "sloc": {
+                        "logical": 3,
+                        "physical": 3
+                    },
+                    "cyclomatic": 1,
+                    "halstead": {
+                        "operators": {
+                            "distinct": 4,
+                            "total": 8,
+                            "identifiers": [
+                                "()",
+                                ".",
+                                "{}",
+                                ":"
+                            ]
+                        },
+                        "operands": {
+                            "distinct": 10,
+                            "total": 12,
+                            "identifiers": [
+                                "description",
+                                "this",
+                                "_data",
+                                "todolist",
+                                "<anonymous>",
+                                "title",
+                                "completed",
+                                false,
+                                "json",
+                                "add"
+                            ]
+                        },
+                        "length": 20,
+                        "vocabulary": 14,
+                        "difficulty": 2.4,
+                        "volume": 76.14709844115208,
+                        "effort": 182.75303625876498,
+                        "bugs": 0.025382366147050694,
+                        "time": 10.152946458820276
+                    },
+                    "params": 1,
+                    "line": 32,
+                    "cyclomaticDensity": 33.33333333333333
+                },
+                {
+                    "name": "deleteTask",
+                    "sloc": {
+                        "logical": 1,
+                        "physical": 3
+                    },
+                    "cyclomatic": 1,
+                    "halstead": {
+                        "operators": {
+                            "distinct": 2,
+                            "total": 5,
+                            "identifiers": [
+                                "()",
+                                "."
+                            ]
+                        },
+                        "operands": {
+                            "distinct": 6,
+                            "total": 8,
+                            "identifiers": [
+                                "idx",
+                                "this",
+                                "_data",
+                                "todolist",
+                                "json",
+                                "removeAt"
+                            ]
+                        },
+                        "length": 13,
+                        "vocabulary": 8,
+                        "difficulty": 1.3333333333333333,
+                        "volume": 39,
+                        "effort": 52,
+                        "bugs": 0.013,
+                        "time": 2.888888888888889
+                    },
+                    "params": 1,
+                    "line": 36,
+                    "cyclomaticDensity": 100
+                }
+            ],
+            "dependencies": [],
+            "maintainability": 130.8106932595936,
+            "params": 0.75,
+            "path": "/home/ramiro/repos/pub/todomvc-metrics/todomvc/examples/ariatemplates/js/TodoCtrl.js"
+        },
+        {
+            "aggregate": {
+                "sloc": {
+                    "logical": 110,
+                    "physical": 132
+                },
+                "cyclomatic": 18,
+                "halstead": {
+                    "operators": {
+                        "distinct": 22,
+                        "total": 333,
+                        "identifiers": [
+                            "()",
+                            "{}",
+                            ":",
+                            "[]",
+                            "function",
+                            ".",
+                            "=",
+                            "var",
+                            ":?",
+                            "===",
+                            "+",
+                            ">",
+                            "if",
+                            "return",
+                            "for",
+                            "<",
+                            "++ (postfix)",
+                            "-",
+                            ">=",
+                            "-- (postfix)",
+                            "else",
+                            "! (prefix)"
+                        ]
+                    },
+                    "operands": {
+                        "distinct": 103,
+                        "total": 416,
+                        "identifiers": [
+                            "\"use strict\"",
+                            "<anonymous>",
+                            "$classpath",
+                            "\"js.view.TodoScript\"",
+                            "$dependencies",
+                            "\"aria.utils.HashManager\"",
+                            "$prototype",
+                            "$dataReady",
+                            "this",
+                            "getRoute",
+                            "data",
+                            "editedTask",
+                            null,
+                            "pauselistener",
+                            false,
+                            "todolistUpdateHandler",
+                            "\"todolist\"",
+                            "fn",
+                            "scope",
+                            true,
+                            "$json",
+                            "addListener",
+                            "\"routeManager\"",
+                            "aria",
+                            "utils",
+                            "HashManager",
+                            "addCallback",
+                            "$viewReady",
+                            "\"new-todo\"",
+                            "document",
+                            "getElementById",
+                            "focus",
+                            "route",
+                            "getHashString",
+                            "\"route\"",
+                            0,
+                            "\"/\"",
+                            1,
+                            "substr",
+                            "setValue",
+                            "routeManager",
+                            "el",
+                            "\"tasklist\"",
+                            "$getElementById",
+                            "\"todo-list\"",
+                            "length",
+                            "\" filter-\"",
+                            "\"\"",
+                            "classList",
+                            "setClassName",
+                            "changeTaskStyle",
+                            "val",
+                            "where",
+                            "\"completed\"",
+                            "newTaskOnEnter",
+                            "evt",
+                            "keyCode",
+                            "KC_ENTER",
+                            "target",
+                            "getValue",
+                            "String",
+                            "trim",
+                            "moduleCtrl",
+                            "addTask",
+                            "deleteTask",
+                            "e",
+                            "index",
+                            "toggleAll",
+                            "i",
+                            "todolist",
+                            "clearCompleted",
+                            "templates",
+                            "RefreshManager",
+                            "stop",
+                            "completed",
+                            "resume",
+                            "editTask",
+                            "sectionId",
+                            "\"editing\"",
+                            "add",
+                            "outputSection",
+                            "$refresh",
+                            "\"editbox\"",
+                            "$focus",
+                            "confirmOrRevertEdit",
+                            "stopEdit",
+                            "KC_ESCAPE",
+                            "revertEdit",
+                            "remove",
+                            "item",
+                            "title",
+                            "\"title\"",
+                            "size",
+                            "\"emptylist\"",
+                            "\"itemsleft\"",
+                            "filter",
+                            "\"itemscompleted\"",
+                            "itemsleft",
+                            "\"toggleall\"",
+                            "itemscompleted",
+                            "saveTasks",
+                            "Aria",
+                            "tplScriptDefinition"
+                        ]
+                    },
+                    "length": 749,
+                    "vocabulary": 125,
+                    "difficulty": 44.42718446601942,
+                    "volume": 5217.372429211904,
+                    "effort": 231793.16734052112,
+                    "bugs": 1.7391241430706348,
+                    "time": 12877.398185584507
+                },
+                "params": 15,
+                "line": 2,
+                "cyclomaticDensity": 16.363636363636363
+            },
+            "functions": [
+                {
+                    "name": "$dataReady",
+                    "sloc": {
+                        "logical": 10,
+                        "physical": 8
+                    },
+                    "cyclomatic": 1,
+                    "halstead": {
+                        "operators": {
+                            "distinct": 5,
+                            "total": 24,
+                            "identifiers": [
+                                "()",
+                                ".",
+                                "=",
+                                "{}",
+                                ":"
+                            ]
+                        },
+                        "operands": {
+                            "distinct": 20,
+                            "total": 34,
+                            "identifiers": [
+                                "this",
+                                "getRoute",
+                                "data",
+                                "editedTask",
+                                null,
+                                "pauselistener",
+                                false,
+                                "todolistUpdateHandler",
+                                "\"todolist\"",
+                                "<anonymous>",
+                                "fn",
+                                "scope",
+                                true,
+                                "$json",
+                                "addListener",
+                                "\"routeManager\"",
+                                "aria",
+                                "utils",
+                                "HashManager",
+                                "addCallback"
+                            ]
+                        },
+                        "length": 58,
+                        "vocabulary": 25,
+                        "difficulty": 4.25,
+                        "volume": 269.343659006934,
+                        "effort": 1144.7105507794695,
+                        "bugs": 0.089781219668978,
+                        "time": 63.59503059885942
+                    },
+                    "params": 0,
+                    "line": 9,
+                    "cyclomaticDensity": 10
+                },
+                {
+                    "name": "$viewReady",
+                    "sloc": {
+                        "logical": 1,
+                        "physical": 3
+                    },
+                    "cyclomatic": 1,
+                    "halstead": {
+                        "operators": {
+                            "distinct": 2,
+                            "total": 4,
+                            "identifiers": [
+                                "()",
+                                "."
+                            ]
+                        },
+                        "operands": {
+                            "distinct": 4,
+                            "total": 4,
+                            "identifiers": [
+                                "\"new-todo\"",
+                                "document",
+                                "getElementById",
+                                "focus"
+                            ]
+                        },
+                        "length": 8,
+                        "vocabulary": 6,
+                        "difficulty": 1,
+                        "volume": 20.67970000576925,
+                        "effort": 20.67970000576925,
+                        "bugs": 0.006893233335256416,
+                        "time": 1.1488722225427361
+                    },
+                    "params": 0,
+                    "line": 18,
+                    "cyclomaticDensity": 100
+                },
+                {
+                    "name": "getRoute",
+                    "sloc": {
+                        "logical": 2,
+                        "physical": 4
+                    },
+                    "cyclomatic": 2,
+                    "halstead": {
+                        "operators": {
+                            "distinct": 6,
+                            "total": 15,
+                            "identifiers": [
+                                "var",
+                                "=",
+                                "()",
+                                ".",
+                                ":?",
+                                "==="
+                            ]
+                        },
+                        "operands": {
+                            "distinct": 14,
+                            "total": 18,
+                            "identifiers": [
+                                "route",
+                                "aria",
+                                "utils",
+                                "HashManager",
+                                "getHashString",
+                                "this",
+                                "data",
+                                "\"route\"",
+                                0,
+                                "\"/\"",
+                                1,
+                                "substr",
+                                "$json",
+                                "setValue"
+                            ]
+                        },
+                        "length": 33,
+                        "vocabulary": 20,
+                        "difficulty": 3.8571428571428577,
+                        "volume": 142.62362713128297,
+                        "effort": 550.1197046492344,
+                        "bugs": 0.04754120904376099,
+                        "time": 30.562205813846358
+                    },
+                    "params": 0,
+                    "line": 22,
+                    "cyclomaticDensity": 100
+                },
+                {
+                    "name": "routeManager",
+                    "sloc": {
+                        "logical": 3,
+                        "physical": 5
+                    },
+                    "cyclomatic": 2,
+                    "halstead": {
+                        "operators": {
+                            "distinct": 7,
+                            "total": 18,
+                            "identifiers": [
+                                "var",
+                                "=",
+                                "()",
+                                ".",
+                                "+",
+                                ":?",
+                                ">"
+                            ]
+                        },
+                        "operands": {
+                            "distinct": 14,
+                            "total": 20,
+                            "identifiers": [
+                                "el",
+                                "\"tasklist\"",
+                                "this",
+                                "$getElementById",
+                                "getRoute",
+                                "\"todo-list\"",
+                                "data",
+                                "route",
+                                "length",
+                                0,
+                                "\" filter-\"",
+                                "\"\"",
+                                "classList",
+                                "setClassName"
+                            ]
+                        },
+                        "length": 38,
+                        "vocabulary": 21,
+                        "difficulty": 5,
+                        "volume": 166.9080620655929,
+                        "effort": 834.5403103279646,
+                        "bugs": 0.05563602068853097,
+                        "time": 46.36335057377581
+                    },
+                    "params": 0,
+                    "line": 27,
+                    "cyclomaticDensity": 66.66666666666666
+                },
+                {
+                    "name": "changeTaskStyle",
+                    "sloc": {
+                        "logical": 4,
+                        "physical": 5
+                    },
+                    "cyclomatic": 3,
+                    "halstead": {
+                        "operators": {
+                            "distinct": 7,
+                            "total": 10,
+                            "identifiers": [
+                                "var",
+                                "=",
+                                "()",
+                                ".",
+                                "if",
+                                ":?",
+                                "return"
+                            ]
+                        },
+                        "operands": {
+                            "distinct": 9,
+                            "total": 14,
+                            "identifiers": [
+                                "val",
+                                "where",
+                                "el",
+                                "this",
+                                "$getElementById",
+                                "\"completed\"",
+                                "\"\"",
+                                "classList",
+                                "setClassName"
+                            ]
+                        },
+                        "length": 24,
+                        "vocabulary": 16,
+                        "difficulty": 5.444444444444445,
+                        "volume": 96,
+                        "effort": 522.6666666666667,
+                        "bugs": 0.032,
+                        "time": 29.03703703703704
+                    },
+                    "params": 2,
+                    "line": 33,
+                    "cyclomaticDensity": 75
+                },
+                {
+                    "name": "newTaskOnEnter",
+                    "sloc": {
+                        "logical": 6,
+                        "physical": 10
+                    },
+                    "cyclomatic": 3,
+                    "halstead": {
+                        "operators": {
+                            "distinct": 7,
+                            "total": 22,
+                            "identifiers": [
+                                "var",
+                                "if",
+                                "===",
+                                ".",
+                                "=",
+                                "()",
+                                ">"
+                            ]
+                        },
+                        "operands": {
+                            "distinct": 17,
+                            "total": 25,
+                            "identifiers": [
+                                "evt",
+                                "val",
+                                "keyCode",
+                                "KC_ENTER",
+                                "target",
+                                "getValue",
+                                "aria",
+                                "utils",
+                                "String",
+                                "trim",
+                                "length",
+                                0,
+                                "this",
+                                "moduleCtrl",
+                                "addTask",
+                                "\"\"",
+                                "setValue"
+                            ]
+                        },
+                        "length": 47,
+                        "vocabulary": 24,
+                        "difficulty": 5.147058823529412,
+                        "volume": 215.4932375338944,
+                        "effort": 1109.1563696597507,
+                        "bugs": 0.0718310791779648,
+                        "time": 61.6197983144306
+                    },
+                    "params": 1,
+                    "line": 39,
+                    "cyclomaticDensity": 50
+                },
+                {
+                    "name": "deleteTask",
+                    "sloc": {
+                        "logical": 1,
+                        "physical": 3
+                    },
+                    "cyclomatic": 1,
+                    "halstead": {
+                        "operators": {
+                            "distinct": 2,
+                            "total": 4,
+                            "identifiers": [
+                                "()",
+                                "."
+                            ]
+                        },
+                        "operands": {
+                            "distinct": 6,
+                            "total": 7,
+                            "identifiers": [
+                                "evt",
+                                "e",
+                                "index",
+                                "this",
+                                "moduleCtrl",
+                                "deleteTask"
+                            ]
+                        },
+                        "length": 11,
+                        "vocabulary": 8,
+                        "difficulty": 1.1666666666666667,
+                        "volume": 33,
+                        "effort": 38.5,
+                        "bugs": 0.011,
+                        "time": 2.138888888888889
+                    },
+                    "params": 2,
+                    "line": 50,
+                    "cyclomaticDensity": 100
+                },
+                {
+                    "name": "toggleAll",
+                    "sloc": {
+                        "logical": 7,
+                        "physical": 10
+                    },
+                    "cyclomatic": 2,
+                    "halstead": {
+                        "operators": {
+                            "distinct": 8,
+                            "total": 21,
+                            "identifiers": [
+                                "var",
+                                "=",
+                                ".",
+                                "for",
+                                "<",
+                                "++ (postfix)",
+                                "()",
+                                "return"
+                            ]
+                        },
+                        "operands": {
+                            "distinct": 14,
+                            "total": 28,
+                            "identifiers": [
+                                "val",
+                                "i",
+                                "this",
+                                "pauselistener",
+                                true,
+                                0,
+                                "data",
+                                "todolist",
+                                "length",
+                                "\"completed\"",
+                                "$json",
+                                "setValue",
+                                false,
+                                "todolistUpdateHandler"
+                            ]
+                        },
+                        "length": 49,
+                        "vocabulary": 22,
+                        "difficulty": 8,
+                        "volume": 218.51214931322758,
+                        "effort": 1748.0971945058207,
+                        "bugs": 0.0728373831044092,
+                        "time": 97.11651080587893
+                    },
+                    "params": 1,
+                    "line": 54,
+                    "cyclomaticDensity": 28.57142857142857
+                },
+                {
+                    "name": "clearCompleted",
+                    "sloc": {
+                        "logical": 10,
+                        "physical": 11
+                    },
+                    "cyclomatic": 3,
+                    "halstead": {
+                        "operators": {
+                            "distinct": 11,
+                            "total": 32,
+                            "identifiers": [
+                                "var",
+                                "()",
+                                ".",
+                                "=",
+                                "for",
+                                "-",
+                                ">=",
+                                "-- (postfix)",
+                                "if",
+                                "{}",
+                                ":"
+                            ]
+                        },
+                        "operands": {
+                            "distinct": 21,
+                            "total": 37,
+                            "identifiers": [
+                                "i",
+                                "aria",
+                                "templates",
+                                "RefreshManager",
+                                "stop",
+                                "this",
+                                "pauselistener",
+                                true,
+                                "data",
+                                "todolist",
+                                "length",
+                                1,
+                                0,
+                                "completed",
+                                null,
+                                "<anonymous>",
+                                "index",
+                                "deleteTask",
+                                false,
+                                "todolistUpdateHandler",
+                                "resume"
+                            ]
+                        },
+                        "length": 69,
+                        "vocabulary": 32,
+                        "difficulty": 9.69047619047619,
+                        "volume": 345,
+                        "effort": 3343.2142857142853,
+                        "bugs": 0.115,
+                        "time": 185.73412698412696
+                    },
+                    "params": 0,
+                    "line": 65,
+                    "cyclomaticDensity": 30
+                },
+                {
+                    "name": "editTask",
+                    "sloc": {
+                        "logical": 8,
+                        "physical": 8
+                    },
+                    "cyclomatic": 2,
+                    "halstead": {
+                        "operators": {
+                            "distinct": 7,
+                            "total": 21,
+                            "identifiers": [
+                                "var",
+                                "=",
+                                ".",
+                                "()",
+                                "if",
+                                "{}",
+                                ":"
+                            ]
+                        },
+                        "operands": {
+                            "distinct": 17,
+                            "total": 28,
+                            "identifiers": [
+                                "evt",
+                                "e",
+                                "el",
+                                null,
+                                "this",
+                                "data",
+                                "editedTask",
+                                "sectionId",
+                                "$getElementById",
+                                "\"editing\"",
+                                "classList",
+                                "add",
+                                "<anonymous>",
+                                "outputSection",
+                                "$refresh",
+                                "\"editbox\"",
+                                "$focus"
+                            ]
+                        },
+                        "length": 49,
+                        "vocabulary": 24,
+                        "difficulty": 5.764705882352941,
+                        "volume": 224.66316253533668,
+                        "effort": 1295.1170546154704,
+                        "bugs": 0.07488772084511222,
+                        "time": 71.95094747863725
+                    },
+                    "params": 2,
+                    "line": 77,
+                    "cyclomaticDensity": 25
+                },
+                {
+                    "name": "confirmOrRevertEdit",
+                    "sloc": {
+                        "logical": 4,
+                        "physical": 4
+                    },
+                    "cyclomatic": 3,
+                    "halstead": {
+                        "operators": {
+                            "distinct": 4,
+                            "total": 12,
+                            "identifiers": [
+                                "if",
+                                "===",
+                                ".",
+                                "()"
+                            ]
+                        },
+                        "operands": {
+                            "distinct": 8,
+                            "total": 18,
+                            "identifiers": [
+                                "evt",
+                                "e",
+                                "keyCode",
+                                "KC_ENTER",
+                                "this",
+                                "stopEdit",
+                                "KC_ESCAPE",
+                                "revertEdit"
+                            ]
+                        },
+                        "length": 30,
+                        "vocabulary": 12,
+                        "difficulty": 4.5,
+                        "volume": 107.5488750216347,
+                        "effort": 483.96993759735614,
+                        "bugs": 0.03584962500721157,
+                        "time": 26.887218755408675
+                    },
+                    "params": 2,
+                    "line": 86,
+                    "cyclomaticDensity": 75
+                },
+                {
+                    "name": "stopEdit",
+                    "sloc": {
+                        "logical": 15,
+                        "physical": 18
+                    },
+                    "cyclomatic": 4,
+                    "halstead": {
+                        "operators": {
+                            "distinct": 10,
+                            "total": 40,
+                            "identifiers": [
+                                "var",
+                                "=",
+                                ".",
+                                "()",
+                                "if",
+                                "else",
+                                ">",
+                                "===",
+                                "{}",
+                                ":"
+                            ]
+                        },
+                        "operands": {
+                            "distinct": 30,
+                            "total": 50,
+                            "identifiers": [
+                                "evt",
+                                "e",
+                                "el",
+                                "val",
+                                "this",
+                                "data",
+                                "editedTask",
+                                null,
+                                "sectionId",
+                                "$getElementById",
+                                "\"editing\"",
+                                "classList",
+                                "remove",
+                                "target",
+                                "getValue",
+                                "aria",
+                                "utils",
+                                "String",
+                                "trim",
+                                "length",
+                                0,
+                                "item",
+                                "title",
+                                "<anonymous>",
+                                "outputSection",
+                                "$refresh",
+                                "\"title\"",
+                                "$json",
+                                "setValue",
+                                "deleteTask"
+                            ]
+                        },
+                        "length": 90,
+                        "vocabulary": 40,
+                        "difficulty": 8.333333333333334,
+                        "volume": 478.9735285398626,
+                        "effort": 3991.446071165522,
+                        "bugs": 0.15965784284662088,
+                        "time": 221.7470039536401
+                    },
+                    "params": 2,
+                    "line": 91,
+                    "cyclomaticDensity": 26.666666666666668
+                },
+                {
+                    "name": "revertEdit",
+                    "sloc": {
+                        "logical": 8,
+                        "physical": 8
+                    },
+                    "cyclomatic": 2,
+                    "halstead": {
+                        "operators": {
+                            "distinct": 7,
+                            "total": 23,
+                            "identifiers": [
+                                "var",
+                                "=",
+                                ".",
+                                "()",
+                                "if",
+                                "{}",
+                                ":"
+                            ]
+                        },
+                        "operands": {
+                            "distinct": 20,
+                            "total": 32,
+                            "identifiers": [
+                                "evt",
+                                "e",
+                                "el",
+                                "this",
+                                "data",
+                                "editedTask",
+                                null,
+                                "sectionId",
+                                "$getElementById",
+                                "\"editing\"",
+                                "classList",
+                                "remove",
+                                "<anonymous>",
+                                "outputSection",
+                                "$refresh",
+                                "item",
+                                "\"title\"",
+                                "title",
+                                "$json",
+                                "setValue"
+                            ]
+                        },
+                        "length": 55,
+                        "vocabulary": 27,
+                        "difficulty": 5.6000000000000005,
+                        "volume": 261.5188126189908,
+                        "effort": 1464.5053506663487,
+                        "bugs": 0.0871729375396636,
+                        "time": 81.3614083703527
+                    },
+                    "params": 2,
+                    "line": 110,
+                    "cyclomaticDensity": 25
+                },
+                {
+                    "name": "todolistUpdateHandler",
+                    "sloc": {
+                        "logical": 11,
+                        "physical": 12
+                    },
+                    "cyclomatic": 2,
+                    "halstead": {
+                        "operators": {
+                            "distinct": 9,
+                            "total": 48,
+                            "identifiers": [
+                                "var",
+                                "if",
+                                ".",
+                                "return",
+                                "()",
+                                "=",
+                                "===",
+                                "function",
+                                "-"
+                            ]
+                        },
+                        "operands": {
+                            "distinct": 24,
+                            "total": 59,
+                            "identifiers": [
+                                "size",
+                                "this",
+                                "pauselistener",
+                                "aria",
+                                "templates",
+                                "RefreshManager",
+                                "stop",
+                                "data",
+                                "todolist",
+                                "length",
+                                "\"emptylist\"",
+                                0,
+                                "$json",
+                                "setValue",
+                                "\"itemsleft\"",
+                                "<anonymous>",
+                                "filter",
+                                "\"itemscompleted\"",
+                                "itemsleft",
+                                "\"toggleall\"",
+                                "itemscompleted",
+                                "resume",
+                                "moduleCtrl",
+                                "saveTasks"
+                            ]
+                        },
+                        "length": 107,
+                        "vocabulary": 33,
+                        "difficulty": 11.0625,
+                        "volume": 539.7501707713545,
+                        "effort": 5970.986264158109,
+                        "bugs": 0.17991672359045152,
+                        "time": 331.721459119895
+                    },
+                    "params": 0,
+                    "line": 119,
+                    "cyclomaticDensity": 18.181818181818183
+                },
+                {
+                    "name": "<anonymous>",
+                    "sloc": {
+                        "logical": 1,
+                        "physical": 1
+                    },
+                    "cyclomatic": 1,
+                    "halstead": {
+                        "operators": {
+                            "distinct": 3,
+                            "total": 3,
+                            "identifiers": [
+                                "return",
+                                "! (prefix)",
+                                "."
+                            ]
+                        },
+                        "operands": {
+                            "distinct": 2,
+                            "total": 3,
+                            "identifiers": [
+                                "e",
+                                "completed"
+                            ]
+                        },
+                        "length": 6,
+                        "vocabulary": 5,
+                        "difficulty": 2.25,
+                        "volume": 13.931568569324174,
+                        "effort": 31.34602928097939,
+                        "bugs": 0.004643856189774725,
+                        "time": 1.7414460711655217
+                    },
+                    "params": 1,
+                    "line": 125,
+                    "cyclomaticDensity": 100
+                }
+            ],
+            "dependencies": [],
+            "maintainability": 116.60155949922293,
+            "params": 1,
+            "path": "/home/ramiro/repos/pub/todomvc-metrics/todomvc/examples/ariatemplates/js/view/TodoScript.js"
+        }
+    ],
+    "adjacencyMatrix": [
+        [
+            0,
+            0,
+            0
+        ],
+        [
+            0,
+            0,
+            0
+        ],
+        [
+            0,
+            0,
+            0
+        ]
+    ],
+    "firstOrderDensity": 0,
+    "visibilityMatrix": [
+        [
+            0,
+            0,
+            0
+        ],
+        [
+            0,
+            0,
+            0
+        ],
+        [
+            0,
+            0,
+            0
+        ]
+    ],
+    "changeCost": 33.33333333333333,
+    "coreSize": 0
+}

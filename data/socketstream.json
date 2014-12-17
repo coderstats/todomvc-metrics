@@ -145,7 +145,7 @@
             ],
             "maintainability": 160.33382472007025,
             "params": 2,
-            "path": "/Users/maurice_schoenmakers/Documents/workspace/todomvc/examples/socketstream/app.js"
+            "path": "/home/ramiro/repos/pub/todomvc-metrics/todomvc/examples/socketstream/app.js"
         },
         {
             "aggregate": {
@@ -324,7 +324,7 @@
             "dependencies": [],
             "maintainability": 145.3659734861293,
             "params": 1.3333333333333333,
-            "path": "/Users/maurice_schoenmakers/Documents/workspace/todomvc/examples/socketstream/server/rpc/todos.js"
+            "path": "/home/ramiro/repos/pub/todomvc-metrics/todomvc/examples/socketstream/server/rpc/todos.js"
         },
         {
             "aggregate": {
@@ -1835,7 +1835,7 @@
             "dependencies": [],
             "maintainability": 119.9475917744297,
             "params": 0.7037037037037037,
-            "path": "/Users/maurice_schoenmakers/Documents/workspace/todomvc/examples/socketstream/client/code/app/app.js"
+            "path": "/home/ramiro/repos/pub/todomvc-metrics/todomvc/examples/socketstream/client/code/app/app.js"
         },
         {
             "aggregate": {
@@ -2098,7 +2098,7 @@
             ],
             "maintainability": 145.5234953392411,
             "params": 0,
-            "path": "/Users/maurice_schoenmakers/Documents/workspace/todomvc/examples/socketstream/client/code/app/entry.js"
+            "path": "/home/ramiro/repos/pub/todomvc-metrics/todomvc/examples/socketstream/client/code/app/entry.js"
         }
     ],
     "adjacencyMatrix": [

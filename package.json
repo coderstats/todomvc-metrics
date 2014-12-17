@@ -1,0 +1,23 @@
+{
+  "name": "todomvc-metrics",
+  "version": "0.0.0",
+  "description": "Code for aggregating metrics and creating graphs to compare TodoMVC example applications based on code complexity measures.",
+  "main": "index.js",
+  "dependencies": {
+    "complexity-report": "^1.0.6"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/coderstats/todomvc-metrics.git"
+  },
+  "author": "Ramiro Gómez",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/coderstats/todomvc-metrics/issues"
+  },
+  "homepage": "https://github.com/coderstats/todomvc-metrics"
+}

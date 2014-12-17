@@ -1,4 +1,4 @@
-##  !/usr/bin/env python
+#!/usr/bin/env python
 # -*- coding: utf-8 -*-
 from __future__ import division
 import json
@@ -43,7 +43,7 @@ for report in reports:
     project = os.path.splitext(os.path.basename(report))[0]
     with open(report, 'r') as f:
         project_files = json.load(f)['reports']
-        print len(project_files)
+        print('Calculate aggreagtes for project: %s' % project)
         stats['Sum Files'][project] = len(project_files)
         for project_file in project_files:
             stats['Sum Functions'][project] = stats['Sum Functions'].get(
@@ -77,6 +77,7 @@ df = pd.DataFrame(stats)
 
 # create a plot for each metric
 for metric in stats:
+    print('Plotting metric: %s' % metric)
     df = df.sort(metric, ascending=True)
     fig = plt.figure(figsize=(18, 18))
 
@@ -93,15 +94,14 @@ df.to_csv('data/todomvc-metrics.csv')
 # create radviz
 from pandas.tools.plotting import radviz
 
-df_rad = df[
-    ['Sum Logical SLOC',
-    'Mean Cyclomatic Complexity',
-    'Sum Halstead Time',
-    'Mean Maintainability Index']]
+df_rad = df[['Sum Logical SLOC',
+            'Mean Cyclomatic Complexity',
+            'Sum Halstead Time',
+            'Mean Maintainability Index']]
 df_rad['Name'] = df_rad.index.tolist()
 
 fig = plt.figure(figsize=(18, 18))
 ax = radviz(df_rad, 'Name')
-legend = ax.legend(fontsize='xx-small', fancybox=True, ncol=3 )
-plt.setp(legend.get_title(),fontsize='xx-small')
+legend = ax.legend(fontsize='xx-small', fancybox=True, ncol=3)
+plt.setp(legend.get_title(), fontsize='xx-small')
 plt.savefig('images/radviz')
