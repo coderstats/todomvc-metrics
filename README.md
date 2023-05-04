@@ -3,7 +3,7 @@
 Code for aggregating metrics and creating graphs to compare TodoMVC example
 applications based on code complexity measures.
 
-Related article: [How Complex are TodoMVC Implementations](http://blog.coderstats.net/todomvc-complexity/)
+Related article: [How Complex are TodoMVC Implementations](https://geeksta.net/geeklog/todomvc-complexity/)
 
 ## How to reproduce the reports
 
